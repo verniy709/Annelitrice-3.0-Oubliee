@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_3" ParentName="Anneli_3" Abstract="True">
+		<equippedStatOffsets>
+			<RestFallRateFactor>-0.2</RestFallRateFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_BlazerA-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_BlazerA</defName>
+		<description>Dyeable.</description>
+		<label>(NeoY)3_BlazerA</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_BlazerA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_BlazerA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Oubliee_Salaryperson</li>
+				<li>Anneli_Oubliee_Cop</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+				<li>Anneli_SleeveB_Left</li>
+				<li>Anneli_SleeveB_Right</li>
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(60,80,130,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.7</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

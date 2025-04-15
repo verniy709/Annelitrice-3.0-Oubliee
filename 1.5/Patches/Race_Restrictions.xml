@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--  Annelitrice 3.0 -->
+  <Operation Class="PatchOperationFindMod">
+    <mods><li>Annelitrice 3.0</li></mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="Anneli_BasePawn"]/alienRace/raceRestriction/apparelList</xpath>        
+      <value>
+        
+      </value>
+    </match>
+  </Operation>
+
+</Patch>

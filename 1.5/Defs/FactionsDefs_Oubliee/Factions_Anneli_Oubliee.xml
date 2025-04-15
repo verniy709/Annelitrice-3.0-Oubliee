@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="Anneli_FactionBase">
+		<defName>Anneli_Faction_Oubliee</defName>
+		<label>Anneli Faction Legion Oubliee</label>
+		<description>ToDo.</description>
+		<colorSpectrum>
+			<!-- ToDo -->
+			<li>(1.00, 0.06, 0.09)</li>
+		</colorSpectrum>
+		<pawnSingular>Annelitrice</pawnSingular>
+		<pawnsPlural>Annelitrice</pawnsPlural>
+		<fixedName>Forged Legion</fixedName>
+		<requiredMemes>
+			<!-- ToDo -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+		</requiredMemes>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<naturalEnemy>false</naturalEnemy>
+		<techLevel>Industrial</techLevel>
+		<allowedCultures>
+			<li>Anneli_Cultures_Sophian</li>
+		</allowedCultures>
+		<settlementTexturePath>Anneli_Factions/Anneli_Oubliee</settlementTexturePath><!-- ToDo -->
+		<factionIconPath>Anneli_Factions/Anneli_Oubliee</factionIconPath><!-- ToDo -->
+		<listOrderPriority>30</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>True</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Marechale</leaderTitle>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Anneli_Childhood</li>
+					<li>Anneli_Story_Oubliee</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 200)</li> 
+				<li>(500, 300)</li> 
+				<li>(2000, 500)</li>
+				<li>(4000, 800)</li>
+				<li>(10000, 1000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-75</min>
+			<max>75</max>
+		</allowedArrivalTemperatureRange>
+		<pawnGroupMakers>
+			<!-- ToDo -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</traders>
+				<carriers>
+					<Muffalo>3</Muffalo>
+					<Dromedary>3</Dromedary>
+					<Alpaca>3</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+
+</Defs>

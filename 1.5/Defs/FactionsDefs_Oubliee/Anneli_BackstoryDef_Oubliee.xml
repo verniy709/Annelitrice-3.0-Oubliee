@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Adulthood-->
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Oubliee</defName>
+		<title>Oubliee</title>
+		<titleShort>Oubliee</titleShort>
+		<baseDesc>Oubliee.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+
+</Defs>

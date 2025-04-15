@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_8A" ParentName="Anneli_8A" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Anneli_ElectricGuitarA-->
+	<SoundDef>
+		<defName>Anneli_ElectricGuitarA</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_ElectricGuitarA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!-- Anneli_ElectricGuitarB-->
+	<SoundDef>
+		<defName>Anneli_ElectricGuitarB</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_ElectricGuitarB</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!--Anneli_Oubliee_ElectricGuitar-->
+	<ThingDef ParentName="Anneli_Oubliee_8A">
+		<defName>Anneli_Oubliee_ElectricGuitar</defName>
+		<description>Dyeable.</description>
+		<label>(NeoY)8A_ElectricGuitar</label>
+		<graphicData>
+			<texPath>8A/Anneli_Oubliee_ElectricGuitar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Oubliee_ElectricGuitar</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(75,80,100,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.0</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelCauseHediff_AoE">
+				<hediff>Anneli_Music_Aggressive</hediff>
+				<range>21.9</range>
+				<canTargetSelf>true</canTargetSelf>
+				<drawLines>false</drawLines>
+				<ignoreMechs>true</ignoreMechs>
+				<checkInterval>500</checkInterval>
+			</li>
+			<li Class="Annelitrice.CompProperties_PlayMusic">
+				<soundDefs>
+					<li>Anneli_ElectricGuitarA</li>
+					<li>Anneli_ElectricGuitarB</li>
+				</soundDefs>
+				<effecters>
+					<li>Anneli_Effecter_Note1</li>
+					<li>Anneli_Effecter_Note2</li>
+					<li>Anneli_Effecter_Note3</li>
+				</effecters>
+			</li>
+		</comps>
+	</ThingDef>	
+
+
+	<!--Anneli_Oubliee_SashimonoA-->
+	<ThingDef ParentName="Anneli_Oubliee_8A">
+		<defName>Anneli_Oubliee_SashimonoA</defName>
+		<description>Dyeable.</description>
+		<label>(NeoY)8A_SashimonoA</label>
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.01</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>8A/Anneli_Oubliee_SashimonoA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Oubliee_SashimonoA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Oubliee_SamuraiA</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.3</generateAllowChance><!--Less Spawn-->
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelCauseHediff_AoE">
+				<hediff>Anneli_Aura_Honor</hediff>
+				<range>21.9</range>
+				<canTargetSelf>true</canTargetSelf>
+				<drawLines>false</drawLines>
+				<ignoreMechs>true</ignoreMechs>
+				<checkInterval>500</checkInterval>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_SashimonoB-->
+	<ThingDef ParentName="Anneli_Oubliee_8A">
+		<defName>Anneli_Oubliee_SashimonoB</defName>
+		<description>Dyeable.</description>
+		<label>(NeoY)8A_SashimonoB</label>
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.01</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>8A/Anneli_Oubliee_SashimonoB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Oubliee_SashimonoB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Oubliee_SamuraiB</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.3</generateAllowChance><!--Less Spawn-->
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelCauseHediff_AoE">
+				<hediff>Anneli_Aura_Honor</hediff>
+				<range>21.9</range>
+				<canTargetSelf>true</canTargetSelf>
+				<drawLines>false</drawLines>
+				<ignoreMechs>true</ignoreMechs>
+				<checkInterval>500</checkInterval>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

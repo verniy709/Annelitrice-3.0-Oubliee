@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="Anneli_Oubliee_KindBase" ParentName="Anneli_KindBase" Abstract="True">
+		<label>Anneli_Oubliee_KindBase</label>
+		<itemQuality>Masterwork</itemQuality>
+		<defaultFactionType>Anneli_Faction_Oubliee</defaultFactionType>
+		<isFighter>true</isFighter>
+		<combatPower>180</combatPower><!-- ToDo -->
+		<canBeSapper>true</canBeSapper>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Anneli_Childhood</li>
+					<li>Anneli_Story_Oubliee</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>3000</weaponMoney>
+		<techHediffsChance>1.0</techHediffsChance>
+		<techHediffsMoney>1000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>1.0</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<inventoryOptions>
+			<skipChance>0.1</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>300</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<xenotypeSet>
+			<xenotypeChances>
+				<!-- ToDo -->
+				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1.5</Anneli_Xenotype>
+				<Anneli_Xenotype_Abomination MayRequire="Ludeon.RimWorld.Biotech">0.15</Anneli_Xenotype_Abomination>
+				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Dragonkin>
+				<Anneli_Xenotype_Elf MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Elf>
+				<Anneli_Xenotype_Fairy MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Fairy>
+				<Anneli_Xenotype_Hellion MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Hellion>
+				<Anneli_Xenotype_Kitsune MayRequire="Ludeon.RimWorld.Biotech">0.15</Anneli_Xenotype_Kitsune>
+				<Anneli_Xenotype_Loong MayRequire="Ludeon.RimWorld.Biotech">0.15</Anneli_Xenotype_Loong>
+				<Anneli_Xenotype_Messenger MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Messenger>
+				<Anneli_Xenotype_Nekojin MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Nekojin>
+				<Anneli_Xenotype_Oni MayRequire="Ludeon.RimWorld.Biotech">0.2</Anneli_Xenotype_Oni>
+				<Anneli_Xenotype_Succubus MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Succubus>
+				<Anneli_Xenotype_Usagi MayRequire="Ludeon.RimWorld.Biotech">0.15</Anneli_Xenotype_Usagi>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- PawnKindList -->
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Leader</defName>
+		<label>Marechale</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<factionLeader>true</factionLeader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+</Defs>

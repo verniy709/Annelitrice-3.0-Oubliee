@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_2A" ParentName="Anneli_2A" Abstract="True">
+		<equippedStatOffsets>
+			<ResearchSpeed>0.2</ResearchSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_DutyShirt-->
+	<ThingDef ParentName="Anneli_Oubliee_2A">
+		<defName>Anneli_Oubliee_DutyShirt</defName>
+		<description>Dyeable.</description>
+		<label>(NeoY)2A_DutyShirt</label>
+		<graphicData>
+			<texPath>2A/Anneli_Oubliee_DutyShirt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2A/Anneli_Oubliee_DutyShirt</wornGraphicPath>
+			<tags>
+				<li>Anneli_Oubliee_Cop</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+				<li>Anneli_Underwear</li>
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(175,200,240,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

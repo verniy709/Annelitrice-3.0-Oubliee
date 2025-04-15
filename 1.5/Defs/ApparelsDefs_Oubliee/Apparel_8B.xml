@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_8B" ParentName="Anneli_8B" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Anneli_Oubliee_CyborgWing_Bullet-->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Anneli_Oubliee_CyborgWing_Bullet</defName>
+		<label>cyborg wing bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_8B">
+		<defName>Anneli_Oubliee_CyborgWing</defName>
+		<description>Dyeable.</description>
+		<label>(NeoY)8B_CyborgWing</label>
+		<graphicData>
+			<texPath>8B/Anneli_Oubliee_CyborgWing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8B/Anneli_Oubliee_CyborgWing</wornGraphicPath>
+			<tags>
+				<li>Anneli_Oubliee_CyborgCombatantB</li>
+				<li>Anneli_Oubliee_CyborgCombatantC</li>
+				<li>Anneli_ExcludeShambler</li>
+				<li>Anneli_SkipWing</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+			<AccuracyTouch>0.6</AccuracyTouch>
+			<AccuracyShort>0.7</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.5</AccuracyLong>
+			<RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+		</statBases>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<label>Wing</label>
+				<defaultProjectile>Anneli_Oubliee_CyborgWing_Bullet</defaultProjectile>
+				<warmupTime>2.0</warmupTime>
+				<range>31.9</range>
+				<burstShotCount>20</burstShotCount>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<soundCast>Shot_ChargeRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<hasStandardCommand>true</hasStandardCommand>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_VerbGiver">
+				<verbProps>
+					<li>
+						<label>Wing</label>
+						<draw>false</draw>
+						<description>Wing.</description>
+						<canBeToggled>true</canBeToggled>
+						<comps>
+							<li Class="MVCF.VerbComps.VerbCompProperties_Turret">
+								<compClass>MVCF.VerbComps.VerbComp_Turret</compClass>
+								<graphic>
+									<texPath>Anneli_Null/Anneli_Null</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+								</graphic>
+							</li>
+						</comps>
+					</li>
+				</verbProps>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

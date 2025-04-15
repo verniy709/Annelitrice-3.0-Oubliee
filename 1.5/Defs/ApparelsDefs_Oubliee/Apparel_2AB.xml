@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_2AB" ParentName="Anneli_2AB" Abstract="True">
+		<equippedStatOffsets>
+			<ResearchSpeed>0.4</ResearchSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_BunnySuitA-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_BunnySuitA</defName>
+		<description>Dyeable.</description>
+		<label>(NeoY)2AB_BunnySuitA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_BunnySuitA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_BunnySuitA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Oubliee_BunnyGirl</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+				<li>Anneli_Underwear</li>
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>
