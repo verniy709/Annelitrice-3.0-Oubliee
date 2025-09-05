@@ -245,6 +245,20 @@
 				<meshType>Head</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_StrawBonnet</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.250, 0)</drawOffsetWest>
+				<renderSwitch>(0, 1, 0)</renderSwitch>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
