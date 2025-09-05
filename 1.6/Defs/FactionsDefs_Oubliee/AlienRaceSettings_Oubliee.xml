@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.RaceSettings>
+		<defName>Anneli_Oubliee_Settings</defName>
+		<pawnKindSettings>		
+			<alienslavekinds>
+				
+			</alienslavekinds>
+			<alienwandererkinds>
+
+			</alienwandererkinds>
+			<alienrefugeekinds>
+				
+			</alienrefugeekinds>
+			<startingColonists>
+
+			</startingColonists>
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
+
+</Defs>

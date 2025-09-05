@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_6A_NonMetal" ParentName="Anneli_6A_NonMetal" Abstract="True">
+		<equippedStatOffsets>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Oubliee_6A_Metal" ParentName="Anneli_6A_Metal" Abstract="True">
+		<equippedStatOffsets>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Bearskin-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_Bearskin</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_Bearskin</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_Bearskin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_Bearskin</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_BicorneA-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_BicorneA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_BicorneA</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_BicorneA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_BicorneA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_BicorneB-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_BicorneB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_BicorneB</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_BicorneB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_BicorneB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Bonnet-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_Bonnet</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_Bonnet</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_Bonnet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_Bonnet</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_CuirassierHelmet-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_CuirassierHelmet</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_CuirassierHelmet</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_CuirassierHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_CuirassierHelmet</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Flower-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_Flower</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_Flower</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_Flower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_Flower</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Kerchief-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_Kerchief</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_Kerchief</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_Kerchief</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_Kerchief</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_ShakoA-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_ShakoA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_ShakoA</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_ShakoA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_ShakoA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_ShakoB-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_ShakoB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_ShakoB</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_ShakoB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_ShakoB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_StrawBonnet-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_StrawBonnet</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_StrawBonnet</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_StrawBonnet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_StrawBonnet</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_TopHat-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_TopHat</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_TopHat</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_TopHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_TopHat</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Tricorne-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_Tricorne</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_Tricorne</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_Tricorne</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_Tricorne</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>

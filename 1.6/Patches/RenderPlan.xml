@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--  Annelitrice 3.0 -->
+  <Operation Class="PatchOperationFindMod">
+    <mods><li>Annelitrice 3.0</li></mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/NareisLib.RenderPlanDef[defName="Anneli_RenderPlanBase"]/plans</xpath>         
+      <value>
+
+        <li>Anneli_Oubliee_Bearskin</li>
+        <li>Anneli_Oubliee_BicorneA</li>
+        <li>Anneli_Oubliee_BicorneB</li>
+        <li>Anneli_Oubliee_Bonnet</li>
+        <li>Anneli_Oubliee_CuirassierHelmet</li>
+        <li>Anneli_Oubliee_Flower</li>
+        <li>Anneli_Oubliee_Kerchief</li>
+        <li>Anneli_Oubliee_ShakoA</li>
+        <li>Anneli_Oubliee_ShakoB</li>
+        <li>Anneli_Oubliee_StrawBonnet</li>
+        <li>Anneli_Oubliee_TopHat</li>
+        <li>Anneli_Oubliee_Tricorne</li>
+
+      </value>
+    </match>
+  </Operation>
+</Patch>
