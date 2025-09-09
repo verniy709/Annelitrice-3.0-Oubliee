@@ -232,6 +232,93 @@
 		</colorGenerator>
 	</ThingDef>
 
+	<!--Anneli_Oubliee_LaceVeil-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_LaceVeil</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_LaceVeil</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_LaceVeil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_LaceVeil</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_NunVeil-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_NunVeil</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_NunVeil</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_NunVeil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_NunVeil</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_PictureHat-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_PictureHat</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_PictureHat</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_PictureHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_PictureHat</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
 	<!--Anneli_Oubliee_ShakoA-->
 	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
 		<defName>Anneli_Oubliee_ShakoA</defName>
