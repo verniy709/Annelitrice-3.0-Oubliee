@@ -406,6 +406,64 @@
 		</colorGenerator>
 	</ThingDef>
 
+	<!--Anneli_Oubliee_TiaraA-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_TiaraA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_TiaraA</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_TiaraA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_TiaraA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_TiaraB-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_TiaraB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_TiaraB</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_TiaraB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_TiaraB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
 	<!--Anneli_Oubliee_TopHat-->
 	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
 		<defName>Anneli_Oubliee_TopHat</defName>

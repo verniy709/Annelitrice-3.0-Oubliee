@@ -198,6 +198,20 @@
 				<meshType>Head</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_LaceVeil</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.250, 0)</drawOffsetWest>
+				<renderSwitch>(1, 0, 0)</renderSwitch>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
@@ -353,6 +367,52 @@
 				<drawOffsetNorth>(0, 0.250, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.250, 0)</drawOffsetWest>
 				<renderSwitch>(0, 1, 0)</renderSwitch>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_TiaraA</defName>
+		<originalDef>Anneli_Oubliee_TiaraA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_TiaraA</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
+				<drawOffsetSouth>(0, 2.615, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.615, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.615, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.615, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_TiaraB</defName>
+		<originalDef>Anneli_Oubliee_TiaraB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_TiaraB</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
+				<drawOffsetSouth>(0, 2.615, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.615, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.615, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.615, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 			</li>
