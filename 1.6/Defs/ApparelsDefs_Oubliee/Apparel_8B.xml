@@ -234,7 +234,7 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_Bombardment</verbClass>
-				<label>"Tactic: Grand Battery"</label>
+				<label>Tactic: Grand Battery</label>
 				<description>"Nothing remains but wreckage and smoke."</description>
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>9.5</warmupTime>
