@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_8B" ParentName="Anneli_8B" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_8B">
+		<defName>Anneli_Oubliee_SpyglassA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)8B_SpyglassA</label>
+		<graphicData>
+			<texPath>8B/Anneli_Oubliee_SpyglassA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+
+		</colorGenerator>
+		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>1</Mass>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Annelitrice.Verb_CastTargetEffectLances_AoE</verbClass>
+				<label>Tactic: Overwhelming Force</label>
+				<description>"Sir, you have crushed us utterly. We lay down our arms and beg your mercy."</description>
+				<hasStandardCommand>true</hasStandardCommand>
+				<targetable>true</targetable>
+				<onlyManualCast>True</onlyManualCast>
+				<range>41.9</range>
+				<warmupTime>2.2</warmupTime>
+				<invalidTargetPawn>psychic shock immune</invalidTargetPawn>
+				<targetParams>
+					<canTargetBuildings>false</canTargetBuildings>
+					<neverTargetIncapacitated>true</neverTargetIncapacitated>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>PsychicShockLanceCast</soundCast>
+				<soundAiming>PsychicArtifactWarmupSustained</soundAiming>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>2</maxCharges>
+				<destroyOnEmpty>true</destroyOnEmpty>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>charge</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+			<li>
+				<compClass>CompTargetEffect_PsychicShock</compClass>
+			</li>
+			<li Class="CompProperties_TargetEffect_GoodwillImpact">
+				<goodwillImpact>-200</goodwillImpact>
+			</li>
+			<li Class="CompProperties_TargetEffect_FleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+			<li Class="CompProperties_TargetEffect_FleckConnecting">
+				<fleckDef>PsycastPsychicLine</fleckDef>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_8B">
+		<defName>Anneli_Oubliee_SpyglassB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)8B_SpyglassB</label>
+		<graphicData>
+			<texPath>8B/Anneli_Oubliee_SpyglassB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+
+		</colorGenerator>
+		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>1</Mass>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Annelitrice.Verb_CastTargetEffectLances_AoE</verbClass>
+				<label>Tactic: Shattered Command</label>
+				<description>"The couriers report our left wing is retreating… but sir, we are the left wing."</description>
+				<hasStandardCommand>true</hasStandardCommand>
+				<targetable>true</targetable>
+				<onlyManualCast>True</onlyManualCast>
+				<range>41.9</range>
+				<warmupTime>2.2</warmupTime>
+				<invalidTargetPawn>psychic insanity immune</invalidTargetPawn>
+				<targetParams>
+					<canTargetBuildings>false</canTargetBuildings>
+					<neverTargetIncapacitated>true</neverTargetIncapacitated>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>PsychicInsanityLanceCast</soundCast>
+				<soundAiming>PsychicArtifactWarmupSustained</soundAiming>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>2</maxCharges>
+				<destroyOnEmpty>true</destroyOnEmpty>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>charge</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+			<li>
+				<compClass>CompTargetEffect_Berserk</compClass>
+			</li>
+			<li Class="CompProperties_TargetEffect_GoodwillImpact">
+				<goodwillImpact>-200</goodwillImpact>
+			</li>
+			<li Class="CompProperties_TargetEffect_FleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+			</li>
+			<li Class="CompProperties_TargetEffect_FleckConnecting">
+				<fleckDef>PsycastPsychicLine</fleckDef>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_Anneli_Oubliee_SpyglassC_Aim</defName>
+		<thingClass>MoteDualAttached</thingClass>
+		<altitudeLayer>MoteLow</altitudeLayer>
+		<mote>
+			<fadeInTime>0.15</fadeInTime>
+			<fadeOutTime>0.3</fadeOutTime>
+			<solidTime>999999</solidTime>
+			<needsMaintenance>True</needsMaintenance>
+			<rotateTowardsTarget>True</rotateTowardsTarget>
+			<scaleToConnectTargets>True</scaleToConnectTargets>
+			<fadeOutUnmaintained>True</fadeOutUnmaintained>
+		</mote>
+		<graphicData>
+			<texPath>Effects/Mote_Anneli_Oubliee_SpyglassC_Aim</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<drawSize>(1, 1)</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_Anneli_Oubliee_SpyglassC_Target</defName>
+		<thingClass>MoteAttached</thingClass>
+		<altitudeLayer>MoteLow</altitudeLayer>
+		<mote>
+			<fadeInTime>0.5</fadeInTime>
+			<fadeOutTime>5.0</fadeOutTime>
+			<solidTime>999999</solidTime>
+			<growthRate>0.05</growthRate>
+			<needsMaintenance>True</needsMaintenance>
+		</mote>
+		<graphicData>
+			<texPath>Effects/Mote_Anneli_Oubliee_SpyglassC_Target</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<drawSize>(6, 6)</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_8B">
+		<defName>Anneli_Oubliee_SpyglassC</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)8B_SpyglassC</label>
+		<graphicData>
+			<texPath>8B/Anneli_Oubliee_SpyglassC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(145,165,110,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
+		<costList>
+			<Steel>360</Steel>
+		</costList>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>1</Mass>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Verb_Bombardment</verbClass>
+				<label>"Tactic: Grand Battery"</label>
+				<description>"Nothing remains but wreckage and smoke."</description>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>9.5</warmupTime>
+				<ai_AvoidFriendlyFireRadius>23</ai_AvoidFriendlyFireRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<range>44.9</range>
+				<burstShotCount>1</burstShotCount>
+				<soundAiming>OrbitalTargeter_Aiming</soundAiming>
+				<soundCast>OrbitalTargeter_Fire</soundCast>
+				<onlyManualCast>true</onlyManualCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<aimingLineMote>Mote_Anneli_Oubliee_SpyglassC_Aim</aimingLineMote>
+				<aimingTargetMote>Mote_Anneli_Oubliee_SpyglassC_Target</aimingTargetMote>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>2</maxCharges>
+				<destroyOnEmpty>true</destroyOnEmpty>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>charge</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
