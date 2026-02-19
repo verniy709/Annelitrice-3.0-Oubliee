@@ -3,7 +3,7 @@
 
 	<ThingDef Name="Anneli_Oubliee_6A_NonMetal" ParentName="Anneli_6A_NonMetal" Abstract="True">
 		<equippedStatOffsets>
-			<GlobalLearningFactor>0.2</GlobalLearningFactor>
+
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Oubliee</li>
@@ -17,7 +17,7 @@
 
 	<ThingDef Name="Anneli_Oubliee_6A_Metal" ParentName="Anneli_6A_Metal" Abstract="True">
 		<equippedStatOffsets>
-			<GlobalLearningFactor>0.2</GlobalLearningFactor>
+
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Oubliee</li>
@@ -116,6 +116,35 @@
 		</colorGenerator>
 	</ThingDef>
 
+	<!--Anneli_Oubliee_BicorneC-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
+		<defName>Anneli_Oubliee_BicorneC</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_BicorneC</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_BicorneC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_BicorneC</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
 	<!--Anneli_Oubliee_Bonnet-->
 	<ThingDef ParentName="Anneli_Oubliee_6A_NonMetal">
 		<defName>Anneli_Oubliee_Bonnet</defName>
@@ -127,6 +156,35 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>6A/Anneli_Oubliee_Bonnet</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_CarabinierHelmet-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_CarabinierHelmet</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_CarabinierHelmet</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_CarabinierHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_CarabinierHelmet</wornGraphicPath>
 			<tags>
 
 			</tags>
@@ -504,6 +562,64 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>6A/Anneli_Oubliee_Tricorne</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_ValkyrieHeadpieceA-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_ValkyrieHeadpieceA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_ValkyrieHeadpieceA</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_ValkyrieHeadpieceA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_ValkyrieHeadpieceA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_ValkyrieHeadpieceB-->
+	<ThingDef ParentName="Anneli_Oubliee_6A_Metal">
+		<defName>Anneli_Oubliee_ValkyrieHeadpieceB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)6A_ValkyrieHeadpieceB</label>
+		<graphicData>
+			<texPath>6A/Anneli_Oubliee_ValkyrieHeadpieceB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Oubliee_ValkyrieHeadpieceB</wornGraphicPath>
 			<tags>
 
 			</tags>

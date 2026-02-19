@@ -14,7 +14,7 @@
 
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_SpyglassA</defName>
-		<description>Dyeable.</description>
+		<description>"Sir, you have crushed us utterly. We lay down our arms and beg your mercy."</description>
 		<label>(Oubliee)8B_SpyglassA</label>
 		<graphicData>
 			<texPath>8B/Anneli_Oubliee_SpyglassA</texPath>
@@ -46,7 +46,6 @@
 			<li>
 				<verbClass>Annelitrice.Verb_CastTargetEffectLances_AoE</verbClass>
 				<label>Tactic: Overwhelming Force</label>
-				<description>"Sir, you have crushed us utterly. We lay down our arms and beg your mercy."</description>
 				<hasStandardCommand>true</hasStandardCommand>
 				<targetable>true</targetable>
 				<onlyManualCast>True</onlyManualCast>
@@ -87,7 +86,7 @@
 
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_SpyglassB</defName>
-		<description>Dyeable.</description>
+		<description>"The couriers report our left wing is retreating… but sir, we are the left wing."</description>
 		<label>(Oubliee)8B_SpyglassB</label>
 		<graphicData>
 			<texPath>8B/Anneli_Oubliee_SpyglassB</texPath>
@@ -119,7 +118,6 @@
 			<li>
 				<verbClass>Annelitrice.Verb_CastTargetEffectLances_AoE</verbClass>
 				<label>Tactic: Shattered Command</label>
-				<description>"The couriers report our left wing is retreating… but sir, we are the left wing."</description>
 				<hasStandardCommand>true</hasStandardCommand>
 				<targetable>true</targetable>
 				<onlyManualCast>True</onlyManualCast>
@@ -198,7 +196,7 @@
 
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_SpyglassC</defName>
-		<description>Dyeable.</description>
+		<description>"Nothing remains but wreckage and smoke."</description>
 		<label>(Oubliee)8B_SpyglassC</label>
 		<graphicData>
 			<texPath>8B/Anneli_Oubliee_SpyglassC</texPath>
@@ -235,7 +233,6 @@
 			<li>
 				<verbClass>Verb_Bombardment</verbClass>
 				<label>"Tactic: Grand Battery"</label>
-				<description>"Nothing remains but wreckage and smoke."</description>
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>9.5</warmupTime>
 				<ai_AvoidFriendlyFireRadius>23</ai_AvoidFriendlyFireRadius>
