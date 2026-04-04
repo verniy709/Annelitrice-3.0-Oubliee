@@ -71,6 +71,30 @@
 	</NareisLib.MultiTexDef>
 
 	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_BicorneC</defName>
+		<originalDef>Anneli_Oubliee_BicorneC</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_BicorneC</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
+				<drawOffsetSouth>(0, 2.615, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.615, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.615, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.615, 0)</drawOffsetWest>
+				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*(0.737, 0.759)(head) -->
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
 		<defName>Anneli_Oubliee_Bonnet</defName>
 		<originalDef>Anneli_Oubliee_Bonnet</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
@@ -87,6 +111,30 @@
 				<drawOffsetEast>(0, 2.615, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.615, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.615, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_CarabinierHelmet</defName>
+		<originalDef>Anneli_Oubliee_CarabinierHelmet</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_CarabinierHelmet</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
+				<drawOffsetSouth>(0, 2.615, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.615, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.615, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.615, 0)</drawOffsetWest>
+				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*(0.737, 0.759)(head) -->
 				<meshType>Head</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 			</li>
@@ -459,6 +507,80 @@
 				<drawOffsetEast>(0, 2.615, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.615, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.615, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_ValkyrieHeadpieceA</defName>
+		<originalDef>Anneli_Oubliee_ValkyrieHeadpieceA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_ValkyrieHeadpieceA</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
+				<drawOffsetSouth>(0, 2.615, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.615, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.615, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.615, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_ValkyrieHeadpieceA</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.250, 0)</drawOffsetWest>
+				<renderSwitch>(0, 0, 1)</renderSwitch>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_ValkyrieHeadpieceB</defName>
+		<originalDef>Anneli_Oubliee_ValkyrieHeadpieceB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_ValkyrieHeadpieceB</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
+				<drawOffsetSouth>(0, 2.615, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.615, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.615, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.615, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_ValkyrieHeadpieceB</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.250, 0)</drawOffsetWest>
+				<renderSwitch>(0, 0, 1)</renderSwitch>
 				<meshType>Head</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 			</li>
