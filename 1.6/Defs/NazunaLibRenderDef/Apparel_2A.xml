@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_Blouse</defName>
+		<originalDef>Anneli_Oubliee_Blouse</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_Blouse</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2A</textureLevelsName>
+				<drawOffsetSouth>(0, 1.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.250, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_CravatShirtA</defName>
+		<originalDef>Anneli_Oubliee_CravatShirtA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_CravatShirt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2A</textureLevelsName>
+				<drawOffsetSouth>(0, 1.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.250, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_CravatA</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Necktie_High</textureLevelsName>
+				<drawOffsetSouth>(0, 1.462, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.462, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.462, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.462, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_CravatShirtB</defName>
+		<originalDef>Anneli_Oubliee_CravatShirtB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_CravatShirt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2A</textureLevelsName>
+				<drawOffsetSouth>(0, 1.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.250, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_CravatB</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Necktie_High</textureLevelsName>
+				<drawOffsetSouth>(0, 1.462, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.462, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.462, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.462, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_Shirt</defName>
+		<originalDef>Anneli_Oubliee_Shirt</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_Shirt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2A</textureLevelsName>
+				<drawOffsetSouth>(0, 1.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.250, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_ShortChemise</defName>
+		<originalDef>Anneli_Oubliee_ShortChemise</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_ShortChemise</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2A</textureLevelsName>
+				<drawOffsetSouth>(0, 1.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.250, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.250, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.250, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>
