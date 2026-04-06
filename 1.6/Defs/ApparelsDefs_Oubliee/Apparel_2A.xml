@@ -47,11 +47,11 @@
 		<description>Dyeable.</description>
 		<label>(Oubliee)2A_CravatShirtA</label>
 		<graphicData>
-			<texPath>2A/Anneli_Oubliee_CravatShirtA</texPath>
+			<texPath>2A/Anneli_Oubliee_ShirtB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>2A/Anneli_Oubliee_CravatShirt</wornGraphicPath>
+			<wornGraphicPath>2A/Anneli_Oubliee_ShirtB</wornGraphicPath>
 			<tags>
 
 			</tags>
@@ -73,11 +73,11 @@
 		<description>Dyeable.</description>
 		<label>(Oubliee)2A_CravatShirtB</label>
 		<graphicData>
-			<texPath>2A/Anneli_Oubliee_CravatShirtB</texPath>
+			<texPath>2A/Anneli_Oubliee_ShirtC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>2A/Anneli_Oubliee_CravatShirt</wornGraphicPath>
+			<wornGraphicPath>2A/Anneli_Oubliee_ShirtB</wornGraphicPath>
 			<tags>
 
 			</tags>
@@ -99,11 +99,11 @@
 		<description>Dyeable.</description>
 		<label>(Oubliee)2A_Shirt</label>
 		<graphicData>
-			<texPath>2A/Anneli_Oubliee_Shirt</texPath>
+			<texPath>2A/Anneli_Oubliee_ShirtA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>2A/Anneli_Oubliee_Shirt</wornGraphicPath>
+			<wornGraphicPath>2A/Anneli_Oubliee_ShirtA</wornGraphicPath>
 			<tags>
 
 			</tags>

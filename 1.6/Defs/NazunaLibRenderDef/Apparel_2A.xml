@@ -34,7 +34,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Oubliee_CravatShirt</li>
+					<li>Anneli_Oubliee_ShirtB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2A</textureLevelsName>
@@ -72,7 +72,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Oubliee_CravatShirt</li>
+					<li>Anneli_Oubliee_ShirtB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2A</textureLevelsName>
@@ -110,7 +110,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Oubliee_Shirt</li>
+					<li>Anneli_Oubliee_ShirtA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2A</textureLevelsName>
