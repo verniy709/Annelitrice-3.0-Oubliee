@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_2C_NonMetal" ParentName="Anneli_2C_NonMetal" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Oubliee_2C_Metal" ParentName="Anneli_2C_Metal" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Boots-->
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_Boots</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_Boots</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_Boots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_Boots</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_BuckleShoesA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_BuckleShoesA</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_BuckleShoesA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_BuckleShoesA</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_BuckleShoesB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_BuckleShoesB</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_BuckleShoesB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_BuckleShoesB</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_HeelsA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_HeelsA</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_HeelsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_HeelsA</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_HeelsB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_HeelsB</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_HeelsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_HeelsB</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_LeatherShoes</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_LeatherShoes</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_LeatherShoes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_LeatherShoes</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_LongBoots</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_LongBoots</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_LongBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_LongBoots</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_Metal">
+		<defName>Anneli_Oubliee_LongSollerets</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_LongSollerets</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_LongSollerets</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_LongSollerets</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_RidingBootsA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_RidingBootsA</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_RidingBootsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_RidingBootsA</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_RidingBootsB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_RidingBootsB</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_RidingBootsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_RidingBootsB</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_NonMetal">
+		<defName>Anneli_Oubliee_RidingBootsC</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_RidingBootsC</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_RidingBootsC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_RidingBootsC</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Oubliee_2C_Metal">
+		<defName>Anneli_Oubliee_Sollerets</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2C_Sollerets</label>
+		<graphicData>
+			<texPath>2C/Anneli_Oubliee_Sollerets</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Oubliee_Sollerets</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	
+
+</Defs>
