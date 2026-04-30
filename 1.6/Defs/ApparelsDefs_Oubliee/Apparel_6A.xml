@@ -2,9 +2,6 @@
 <Defs>
 
 	<ThingDef Name="Anneli_Oubliee_6A_NonMetal" ParentName="Anneli_6A_NonMetal" Abstract="True">
-		<equippedStatOffsets>
-
-		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Oubliee</li>
 		</thingCategories>

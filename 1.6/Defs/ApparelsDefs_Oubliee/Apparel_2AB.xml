@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_2AB" ParentName="Anneli_2AB" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_DressA-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_DressA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2AB_DressA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_DressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_DressA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_DressB-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_DressB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2AB_DressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_DressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_DressB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_DressC-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_DressC</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2AB_DressC</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_DressC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_DressC</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_LongDressA-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_LongDressA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2AB_LongDressA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_LongDressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_LongDressA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_LongDressB-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_LongDressB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2AB_LongDressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_LongDressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_LongDressB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_LongDressC-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_LongDressC</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2AB_LongDressC</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_LongDressC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_LongDressC</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_NunDressA-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_NunDressA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2AB_NunDressA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_NunDressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_NunDressA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_NunDressB-->
+	<ThingDef ParentName="Anneli_Oubliee_2AB">
+		<defName>Anneli_Oubliee_NunDressB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)2AB_NunDressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Oubliee_NunDressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Oubliee_NunDressB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

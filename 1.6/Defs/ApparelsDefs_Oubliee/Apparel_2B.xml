@@ -2,9 +2,6 @@
 <Defs>
 
 	<ThingDef Name="Anneli_Oubliee_2B" ParentName="Anneli_2B" Abstract="True">
-		<equippedStatOffsets>
-
-		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Oubliee</li>
 		</thingCategories>
@@ -19,7 +16,7 @@
 	<ThingDef ParentName="Anneli_Oubliee_2B">
 		<defName>Anneli_Oubliee_Breeches</defName>
 		<description>Dyeable.</description>
-		<label>(NeoY)2B_Breeches</label>
+		<label>(Oubliee)2B_Breeches</label>
 		<graphicData>
 			<texPath>2B/Anneli_Oubliee_Breeches</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -45,7 +42,7 @@
 	<ThingDef ParentName="Anneli_Oubliee_2B">
 		<defName>Anneli_Oubliee_SkirtA</defName>
 		<description>Dyeable.</description>
-		<label>(NeoY)2B_SkirtA</label>
+		<label>(Oubliee)2B_SkirtA</label>
 		<graphicData>
 			<texPath>2B/Anneli_Oubliee_SkirtA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -71,7 +68,7 @@
 	<ThingDef ParentName="Anneli_Oubliee_2B">
 		<defName>Anneli_Oubliee_SkirtB</defName>
 		<description>Dyeable.</description>
-		<label>(NeoY)2B_SkirtB</label>
+		<label>(Oubliee)2B_SkirtB</label>
 		<graphicData>
 			<texPath>2B/Anneli_Oubliee_SkirtB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -97,7 +94,7 @@
 	<ThingDef ParentName="Anneli_Oubliee_2B">
 		<defName>Anneli_Oubliee_Trousers</defName>
 		<description>Dyeable.</description>
-		<label>(NeoY)2B_Trousers</label>
+		<label>(Oubliee)2B_Trousers</label>
 		<graphicData>
 			<texPath>2B/Anneli_Oubliee_Trousers</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

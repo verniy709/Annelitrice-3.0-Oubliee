@@ -4,16 +4,14 @@
 	<FactionDef ParentName="Anneli_FactionBase">
 		<defName>Anneli_Faction_Oubliee</defName>
 		<label>Anneli Faction Legion Oubliee</label>
-		<description>ToDo.</description>
+		<description>The Legion Oubliee trudges across the world. In their own eyes, their uniforms are splendid, their banners held high, their bayonets gleaming—they are the greatest and most glorious force upon this land. Yet to those in the civilized world who delight in recording curiosities, they are nothing more than a band of ragged vagrants, surviving on rainwater and baked flour, with a penchant for violence.\n\nThe Legion venerates a legendary figure known as Napoleon. Although a few stubborn historians remain skeptical of such claims, the oral traditions of the Legion remember Napoleon as the greatest pastry chef in the world. He won multiple “Austerlitz Culinary Championship” with original desserts bearing his name. Not only that, he was also a master of fashion, having compiled a canonical work titled Napoleon Magazine. The original text has long been lost, but surviving fragments describe fashionable epaulettes, tight trousers, and hats made of animal fur.\n\nDuring periods of rest, the marshals would often gesture toward the hazy horizon and solemnly declare: “In his later years, Napoleon retired to a place called ‘Muskou,’ where he concealed the candies, wisdom, and wealth he had amassed over a lifetime. To join the Legion is to share in this treasure one day.” While the promise of riches has indeed drawn a few recruits, most care little for it. Instead, they are captivated by the Legion’s inexplicable sense of pride and its peculiar attire, striding with heads held high along muddy paths.</description>
 		<colorSpectrum>
-			<!-- ToDo -->
-			<li>(0.15, 0.45, 0.95)</li>
+			<li>(0.96, 0.75, 0.05)</li>
 		</colorSpectrum>
 		<pawnSingular>Annelitrice</pawnSingular>
 		<pawnsPlural>Annelitrice</pawnsPlural>
 		<fixedName>Forged Legion</fixedName>
 		<requiredMemes>
-			<!-- ToDo -->
 			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
@@ -21,12 +19,12 @@
 		</requiredMemes>
 		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<naturalEnemy>false</naturalEnemy>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Medieval</techLevel>
 		<allowedCultures>
 			<li>Anneli_Cultures_Sophian</li>
 		</allowedCultures>
-		<settlementTexturePath>Anneli_Factions/Anneli_Oubliee</settlementTexturePath><!-- ToDo -->
-		<factionIconPath>Anneli_Factions/Anneli_Oubliee</factionIconPath><!-- ToDo -->
+		<settlementTexturePath>Anneli_Factions/Anneli_Oubliee</settlementTexturePath>
+		<factionIconPath>Anneli_Factions/Anneli_Oubliee</factionIconPath>
 		<listOrderPriority>30</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -55,16 +53,16 @@
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<caravanTraderKinds>
-			<li>Caravan_Outlander_Exotic</li>
-			<li>Caravan_Outlander_BulkGoods</li>
-			<li>Caravan_Outlander_CombatSupplier</li>
-			<li>Caravan_Outlander_PirateMerchant</li>
+			<li>Caravan_Neolithic_BulkGoods</li>
+			<li>Caravan_Neolithic_WarMerchant</li>
+			<li>Caravan_Neolithic_Slaver</li>
+			<li>Caravan_Neolithic_ShamanMerchant</li>
 		</caravanTraderKinds>
 		<visitorTraderKinds>
-			<li>Visitor_Outlander_Standard</li>
+			<li>Visitor_Neolithic_Standard</li>
 		</visitorTraderKinds>
 		<baseTraderKinds>
-			<li>Base_Outlander_Standard</li>
+			<li>Base_Neolithic_Standard</li>
 		</baseTraderKinds>
 		<allowedArrivalTemperatureRange>
 			<min>-75</min>
