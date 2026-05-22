@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="Anneli_Oubliee_3" ParentName="Anneli_3" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Apron-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_Apron</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_Apron</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_Apron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_Apron</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Dolman-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_Dolman</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_Dolman</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_Dolman</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_Dolman</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_GreatCoat-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_GreatCoat</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_GreatCoat</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_GreatCoat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_GreatCoat</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_HabitCourt-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_HabitCourt</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_HabitCourt</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_HabitCourt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_HabitCourt</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_HabitLongeA-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_HabitLongeA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_HabitLongeA</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_HabitLongeA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_HabitLongeA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_HabitLongeB-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_HabitLongeB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_HabitLongeB</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_HabitLongeB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_HabitLongeB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_HabitLongeC-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_HabitLongeC</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_HabitLongeC</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_HabitLongeC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_HabitLongeC</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_HabitLongeD-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_HabitLongeD</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_HabitLongeD</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_HabitLongeD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_HabitLongeD</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_HabitVesteA-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_HabitVesteA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_HabitVesteA</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_HabitVesteA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_HabitVesteA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_HabitVesteB-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_HabitVesteB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_HabitVesteB</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_HabitVesteB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_HabitVesteB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_OverdressA-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_OverdressA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_OverdressA</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_OverdressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_OverdressA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_OverdressB-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_OverdressB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_OverdressB</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_OverdressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_OverdressB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_SpencerA-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_SpencerA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_SpencerA</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_SpencerA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_SpencerA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_SpencerB-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_SpencerB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_SpencerB</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_SpencerB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_SpencerB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_WaistcoatA-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_WaistcoatA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_WaistcoatA</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_WaistcoatA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_WaistcoatA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_WaistcoatB-->
+	<ThingDef ParentName="Anneli_Oubliee_3">
+		<defName>Anneli_Oubliee_WaistcoatB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)3_WaistcoatB</label>
+		<graphicData>
+			<texPath>3/Anneli_Oubliee_WaistcoatB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Oubliee_WaistcoatB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+</Defs>

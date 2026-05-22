@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!--Adulthood-->
-
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
-		<defName>Anneli_Oubliee_Oubliee</defName>
-		<title>Oubliee</title>
-		<titleShort>Oubliee</titleShort>
-		<baseDesc>Oubliee.</baseDesc>
+		<defName>Anneli_Oubliee_Sergeant</defName>
+		<title>Ruthless Sergeant</title>
+		<titleShort>Sergeant</titleShort>
+		<baseDesc>[PAWN_nameDef] would dispatch her least capable subordinates to swift deaths, like tossing a piece of deadwood into a bonfire.</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains>
-			
+			<Shooting>4</Shooting>
+			<Social>2</Social>
+			<Intellectual>2</Intellectual>
 		</skillGains>
 		<spawnCategories>
 			<li>Anneli_Story_Oubliee</li>
@@ -18,5 +18,183 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Cavalrywoman</defName>
+		<title>Outworld Cavalrywoman</title>
+		<titleShort>Cavalrywoman</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as an alien ecologist. What she rides is no 'horse,' but an extraterrestrial beast that happens to look like one.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>4</Melee>
+			<Animals>4</Animals>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
 
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Infantrywoman</defName>
+		<title>Death-Seeking Infantrywoman</title>
+		<titleShort>Infantrywoman</titleShort>
+		<baseDesc>[PAWN_nameDef] is the most reckless soul anyone could ever imagine. She will respawn at the rally point 5 seconds after the battle begins.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>2</Melee>
+			<Cooking>2</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Drummer</defName>
+		<title>Ostracized Drummer</title>
+		<titleShort>Drummer</titleShort>
+		<baseDesc>[PAWN_nameDef] is left to handle all the chores that everyone else is too lazy to bother with. After all, only the uncoolest misfits in the regiment carry an instrument instead of a rifle or a saber.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Artistic>4</Artistic>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Gunner</defName>
+		<title>Obsessive Gunner</title>
+		<titleShort>Gunner</titleShort>
+		<baseDesc>[PAWN_nameDef] dreams of trajectories, eyes her dinner pot as potential ammunition, and plots firing positions while marching.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>8</Shooting>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Sapper</defName>
+		<title>Indefatigable Sapper</title>
+		<titleShort>Sapper</titleShort>
+		<baseDesc>[PAWN_nameDef] mines saltpeter, clears paths, and constructs fortifications. She does not love the labor; she does it because only sappers are allowed to wear funny fake beards.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Construction>2</Construction>
+			<Mining>4</Mining>
+			<Plants>2</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Aristocrat</defName>
+		<title>Mooching Aristocrat</title>
+		<titleShort>Aristocrat</titleShort>
+		<baseDesc>[PAWN_nameDef] brags that her aunt’s servant's dog trainer’s sister’s boss is an officer in the General Staff.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Artistic>2</Artistic>
+			<Social>2</Social>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Nun</defName>
+		<title>Benevolent Nun</title>
+		<titleShort>Nun</titleShort>
+		<baseDesc>[PAWN_nameDef] insists on providing medical aid to annelitrice who absolutely do not need it. Frontline troops would kill themselves to respawn than risk falling into her clutches.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>6</Medicine>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Gunsmith</defName>
+		<title>Dependable Gunsmith</title>
+		<titleShort>Gunsmith</titleShort>
+		<baseDesc>In an army made up of vagrants and lunatics, the gunsmith must be at least calm, honest, and reliable, if they want the cannons to cook off a few less times.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Mining>2</Mining>
+			<Crafting>4</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Merchant</defName>
+		<title>New Vivandière</title>
+		<titleShort>Vivandière</titleShort>
+		<baseDesc>[PAWN_nameDef]'s predecessor was reassigned to clean the stables after refusing to supply alcohol to the frontline troops.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Social>6</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Chef</defName>
+		<title>Dutiful Chef</title>
+		<titleShort>Chef</titleShort>
+		<baseDesc>[PAWN_nameDef] does her utmost to scavenge anything that can be thrown into the cauldron, occasionally pushing her luck in the infirmary. Yes, it’s exactly what you’re thinking.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>6</Cooking>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Oubliee_Peasant</defName>
+		<title>Misplaced Peasant</title>
+		<titleShort>Peasant</titleShort>
+		<baseDesc>[PAWN_nameDef] remains under the impression that this is the Ahmislan medieval fantasy theme, mistaking the firearm for a magic staff that casts fire.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>6</Plants>
+			<Animals>2</Animals>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Story_Oubliee</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
 </Defs>
