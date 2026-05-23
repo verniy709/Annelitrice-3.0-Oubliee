@@ -45,6 +45,44 @@
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
@@ -68,6 +106,44 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -124,6 +200,44 @@
 				<useStaticColor>true</useStaticColor>
 				<color>RGBA(255,220,65,255)</color>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
@@ -178,6 +292,44 @@
 				<useBodyType>true</useBodyType>
 				<useStaticColor>true</useStaticColor>
 				<color>RGBA(255,220,65,255)</color>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -234,6 +386,44 @@
 				<useStaticColor>true</useStaticColor>
 				<color>RGBA(220,55,45,255)</color>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
@@ -288,6 +478,44 @@
 				<useBodyType>true</useBodyType>
 				<useStaticColor>true</useStaticColor>
 				<color>RGBA(255,220,65,255)</color>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -344,6 +572,44 @@
 				<useStaticColor>true</useStaticColor>
 				<color>RGBA(255,220,65,255)</color>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
@@ -367,6 +633,44 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -408,6 +712,44 @@
 				<useStaticColor>true</useStaticColor>
 				<color>RGBA(220,55,45,255)</color>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
@@ -431,6 +773,59 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_OverdressB</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.788, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.788, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.788, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.788, 0)</drawOffsetWest>
+				<renderSwitch>(1, 0, 0)</renderSwitch>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LBS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve3_LBS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.769, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LBS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LBS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve3_LBS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.769, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.596, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LBS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -458,18 +853,41 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Back_Oubliee_OverdressB</li>
+					<li>Anneli_Arm_LBS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel3_Back</textureLevelsName>
-				<drawOffsetSouth>(0, 0.788, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.788, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.788, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.788, 0)</drawOffsetWest>
-				<renderSwitch>(1, 0, 0)</renderSwitch>
-				<meshType>Body</meshType>
+				<textureLevelsName>Anneli_Sleeve3_LBS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
-				<useBodyType>true</useBodyType>
+				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.769, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LBS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LBS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve3_LBS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.769, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.596, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LBS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -510,6 +928,44 @@
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
@@ -533,6 +989,44 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -581,6 +1075,44 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.731, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_LCS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve2_LCS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.731, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.731, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LCS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>

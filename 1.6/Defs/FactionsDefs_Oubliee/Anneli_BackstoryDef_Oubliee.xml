@@ -137,7 +137,7 @@
 		<defName>Anneli_Oubliee_Gunsmith</defName>
 		<title>Dependable Gunsmith</title>
 		<titleShort>Gunsmith</titleShort>
-		<baseDesc>In an army made up of vagrants and lunatics, the gunsmith must be at least calm, honest, and reliable, if they want the cannons to cook off a few less times.</baseDesc>
+		<baseDesc>In an army made up of vagrants and lunatics, the gunsmith must be at least calm and honest,  if they want the cannons to cook off a few less times.</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<Mining>2</Mining>
