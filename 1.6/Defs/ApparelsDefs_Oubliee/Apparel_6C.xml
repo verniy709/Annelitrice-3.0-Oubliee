@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_6C" ParentName="Anneli_6C" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_FakeBeard-->
+	<ThingDef ParentName="Anneli_Oubliee_6C">
+		<defName>Anneli_Oubliee_FakeBeard</defName>
+		<description>This apparel uses hair color.</description>
+		<label>(Oubliee)6C_FakeBeard</label>
+		<graphicData>
+			<texPath>6C/Anneli_Oubliee_FakeBeard</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6C/Anneli_Oubliee_FakeBeard</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_FakeMoustache-->
+	<ThingDef ParentName="Anneli_Oubliee_6C">
+		<defName>Anneli_Oubliee_FakeMoustache</defName>
+		<description>This apparel uses hair color.</description>
+		<label>(Oubliee)6C_FakeMoustache</label>
+		<graphicData>
+			<texPath>6C/Anneli_Oubliee_FakeMoustache</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6C/Anneli_Oubliee_FakeMoustache</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>

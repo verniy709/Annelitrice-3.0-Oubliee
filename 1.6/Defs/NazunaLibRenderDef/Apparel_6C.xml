@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_FakeBeard</defName>
+		<originalDef>Anneli_Oubliee_FakeBeard</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_FakeBeard</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_Hat6C</textureLevelsName>
+				<drawOffsetSouth>(0, 2.385, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.385, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.385, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.385, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_FakeMoustache</defName>
+		<originalDef>Anneli_Oubliee_FakeMoustache</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_FakeMoustache</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_Hat6C</textureLevelsName>
+				<drawOffsetSouth>(0, 2.385, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.385, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.385, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.385, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

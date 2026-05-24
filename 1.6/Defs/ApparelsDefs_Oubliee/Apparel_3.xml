@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
 	<ThingDef Name="Anneli_Oubliee_3" ParentName="Anneli_3" Abstract="True">
 		<thingCategories>
 			<li>Anneli_Category_Oubliee</li>
@@ -474,4 +475,5 @@
 			</options>
 		</colorGenerator>
 	</ThingDef>
+
 </Defs>
