@@ -152,9 +152,9 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_Oubliee_Merchant</defName>
-		<title>New Vivandière</title>
+		<title>Piquette Vivandière</title>
 		<titleShort>Vivandière</titleShort>
-		<baseDesc>[PAWN_nameDef]'s predecessor was reassigned to clean the stables after refusing to supply alcohol to the frontline troops.</baseDesc>
+		<baseDesc>[PAWN_nameDef]'s predecessor was reassigned to clean the stables after refusing to supply the frontline troops with their only viable ration.</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<Crafting>2</Crafting>

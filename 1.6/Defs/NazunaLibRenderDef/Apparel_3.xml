@@ -22,6 +22,21 @@
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_Apron</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.788, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.788, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.788, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.788, 0)</drawOffsetWest>
+				<renderSwitch>(0, 0, 1)</renderSwitch>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
