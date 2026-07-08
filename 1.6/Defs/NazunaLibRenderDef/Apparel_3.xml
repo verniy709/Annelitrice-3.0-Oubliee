@@ -32,7 +32,7 @@
 				<drawOffsetEast>(0, 0.788, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.788, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.788, 0)</drawOffsetWest>
-				<renderSwitch>(0, 1, 0)</renderSwitch>
+				<renderSwitch>(0, 0, 1)</renderSwitch>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
@@ -863,6 +863,21 @@
 				<drawOffsetEast>(0, 1.462, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 1.462, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 1.462, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_OverdressA</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.788, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.788, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.788, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.788, 0)</drawOffsetWest>
+				<renderSwitch>(0, 1, 0)</renderSwitch>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
