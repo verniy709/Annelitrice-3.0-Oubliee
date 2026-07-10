@@ -128,4 +128,61 @@
 		</colorGenerator>
 	</ThingDef>
 
+	<!--Anneli_Oubliee_CuirassA-->
+	<ThingDef ParentName="Anneli_Oubliee_4">
+		<defName>Anneli_Oubliee_CuirassA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)4_CuirassA</label>
+		<graphicData>
+			<texPath>4/Anneli_Oubliee_CuirassA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Oubliee_CuirassA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_CuirassB-->
+	<ThingDef ParentName="Anneli_Oubliee_4">
+		<defName>Anneli_Oubliee_CuirassB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)4_CuirassB</label>
+		<graphicData>
+			<texPath>4/Anneli_Oubliee_CuirassB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Oubliee_CuirassB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<renderSkipFlags>
+
+			</renderSkipFlags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
 </Defs>

@@ -96,4 +96,51 @@
 		</levels>
 	</NareisLib.MultiTexDef>
 
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_CuirassA</defName>
+		<originalDef>Anneli_Oubliee_CuirassA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>4/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_CuirassA</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel4</textureLevelsName>
+				<drawOffsetSouth>(0, 1.500, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.500, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.500, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.500, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_CuirassB</defName>
+		<originalDef>Anneli_Oubliee_CuirassB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>4/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_CuirassB</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel4</textureLevelsName>
+				<drawOffsetSouth>(0, 1.500, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.500, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.500, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.500, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
 </Defs>
