@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_34" ParentName="Anneli_34" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_ArmorA-->
+	<ThingDef ParentName="Anneli_Oubliee_34">
+		<defName>Anneli_Oubliee_ArmorA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)34_ArmorA</label>
+		<graphicData>
+			<texPath>34/Anneli_Oubliee_ArmorA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Oubliee_ArmorA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_ArmorB-->
+	<ThingDef ParentName="Anneli_Oubliee_34">
+		<defName>Anneli_Oubliee_ArmorB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)34_ArmorB</label>
+		<graphicData>
+			<texPath>34/Anneli_Oubliee_ArmorB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Oubliee_ArmorB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>
