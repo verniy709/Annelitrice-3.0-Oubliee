@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_Gaiters</defName>
+		<originalDef>Anneli_Oubliee_Gaiters</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_Gaiters</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5B</textureLevelsName>
+				<drawOffsetSouth>(0, 1.346, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.346, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.346, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.346, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_LongGaiters</defName>
+		<originalDef>Anneli_Oubliee_LongGaiters</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_LongGaiters</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5B</textureLevelsName>
+				<drawOffsetSouth>(0, 1.346, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.346, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.346, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.346, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+</Defs>
