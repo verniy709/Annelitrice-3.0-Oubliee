@@ -250,22 +250,6 @@
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
 			</li>
-			<li>
-				<prefix>
-					<li>Anneli_Oubliee_NunShawl</li>
-				</prefix>
-				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Necktie_High</textureLevelsName>
-				<drawOffsetSouth>(0, 1.481, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1.481, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.481, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1.481, 0)</drawOffsetWest>
-				<meshType>Body</meshType>
-				<useStaticYOffset>true</useStaticYOffset>
-				<useBodyType>true</useBodyType>
-				<useStaticColor>true</useStaticColor>
-				<color>RGBA(0.999,0.999,0.999,1)</color>
-			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
