@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_CrossBelt</defName>
+		<originalDef>Anneli_Oubliee_CrossBelt</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_CrossBelt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 1.558, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.558, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_CrossBelt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.692, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.692, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.692, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.692, 0)</drawOffsetWest>
+				<renderSwitch>(1, 0, 0)</renderSwitch>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_GeneralSash</defName>
+		<originalDef>Anneli_Oubliee_GeneralSash</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_GeneralSash</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 1.558, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.558, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_ShoulderBelt</defName>
+		<originalDef>Anneli_Oubliee_ShoulderBelt</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_ShoulderBelt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 1.558, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.558, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_ShoulderBelt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.692, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.692, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.692, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.692, 0)</drawOffsetWest>
+				<renderSwitch>(1, 0, 0)</renderSwitch>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>
