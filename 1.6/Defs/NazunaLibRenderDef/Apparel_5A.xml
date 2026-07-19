@@ -206,6 +206,23 @@
 				<drawOffsetEast>(0, 1.827, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 1.827, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 1.827, 0)</drawOffsetWest>
+				<meshSize>(3.33,3.69)</meshSize><!-- mesh size 1.5*2(canvas size)*(1.11, 1.23)(body) -->
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_RoyalCloak</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.385, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.385, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.385, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.385, 0)</drawOffsetWest>
+				<meshSize>(3.33,3.69)</meshSize><!-- mesh size 1.5*2(canvas size)*(1.11, 1.23)(body) -->
+				<renderSwitch>(1, 0, 0)</renderSwitch>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
