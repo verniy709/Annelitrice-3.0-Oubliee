@@ -4,7 +4,7 @@
 	<ResearchProjectDef>
 		<defName>Anneli_Oubliee_Apparels</defName>
 		<label>Annelitrice Oubliee Apparels</label>
-		<description>ToDo.</description>
+		<description>Annelitrice Oubliee Apparels.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
