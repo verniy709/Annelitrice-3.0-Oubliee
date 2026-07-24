@@ -418,17 +418,17 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<!--Anneli_Oubliee_WaistcoatA-->
+	<!--Anneli_Oubliee_SpencerC-->
 	<ThingDef ParentName="Anneli_Oubliee_3">
-		<defName>Anneli_Oubliee_WaistcoatA</defName>
+		<defName>Anneli_Oubliee_SpencerC</defName>
 		<description>Dyeable.</description>
-		<label>(Oubliee)3_WaistcoatA</label>
+		<label>(Oubliee)3_SpencerC</label>
 		<graphicData>
-			<texPath>3/Anneli_Oubliee_WaistcoatA</texPath>
+			<texPath>3/Anneli_Oubliee_SpencerC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>3/Anneli_Oubliee_WaistcoatA</wornGraphicPath>
+			<wornGraphicPath>3/Anneli_Oubliee_SpencerC</wornGraphicPath>
 			<tags>
 
 			</tags>
@@ -447,17 +447,17 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<!--Anneli_Oubliee_WaistcoatB-->
+	<!--Anneli_Oubliee_Vest-->
 	<ThingDef ParentName="Anneli_Oubliee_3">
-		<defName>Anneli_Oubliee_WaistcoatB</defName>
+		<defName>Anneli_Oubliee_Vest</defName>
 		<description>Dyeable.</description>
-		<label>(Oubliee)3_WaistcoatB</label>
+		<label>(Oubliee)3_VestA</label>
 		<graphicData>
-			<texPath>3/Anneli_Oubliee_WaistcoatB</texPath>
+			<texPath>3/Anneli_Oubliee_Vest</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>3/Anneli_Oubliee_WaistcoatB</wornGraphicPath>
+			<wornGraphicPath>3/Anneli_Oubliee_Vest</wornGraphicPath>
 			<tags>
 
 			</tags>
@@ -475,5 +475,4 @@
 			</options>
 		</colorGenerator>
 	</ThingDef>
-
 </Defs>

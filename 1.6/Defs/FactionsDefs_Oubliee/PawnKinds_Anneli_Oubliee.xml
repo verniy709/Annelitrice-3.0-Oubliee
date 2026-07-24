@@ -6,7 +6,7 @@
 		<itemQuality>Masterwork</itemQuality>
 		<defaultFactionType>Anneli_Faction_Oubliee</defaultFactionType>
 		<isFighter>true</isFighter>
-		<combatPower>180</combatPower><!-- ToDo -->
+		<combatPower>160</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<backstoryFiltersOverride>
 			<li>
@@ -71,6 +71,9 @@
 		<apparelRequired>
 
 		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
 		<apparelTags>
 
 		</apparelTags>
@@ -80,4 +83,403 @@
 		</weaponTags>
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_General</defName>
+		<label>General</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Officer</defName>
+		<label>Staff Officer</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_MaidenA</defName>
+		<label>Maiden</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_MaidenB</defName>
+		<label>Maiden</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Sergeant</defName>
+		<label>Sergeant</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Guard</defName>
+		<label>Imperial Guard</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Private</defName>
+		<label>Private</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Militia</defName>
+		<label>Militia</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Hussar</defName>
+		<label>Hussar</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Cuirassier</defName>
+		<label>Cuirassier</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Carabinier</defName>
+		<label>Carabinier</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_FollowerA</defName>
+		<label>Camp Follower</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_FollowerB</defName>
+		<label>Camp Follower</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_FollowerC</defName>
+		<label>Camp Follower</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_FollowerD</defName>
+		<label>Camp Follower</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_NunA</defName>
+		<label>Nursing Nun</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_NunB</defName>
+		<label>Nursing Nun</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_AristocratA</defName>
+		<label>Aristocrat</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_AristocratB</defName>
+		<label>Aristocrat</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_AristocratC</defName>
+		<label>Aristocrat</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
 </Defs>
