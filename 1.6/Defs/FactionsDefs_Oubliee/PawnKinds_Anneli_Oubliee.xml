@@ -224,6 +224,26 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_Drummer</defName>
+		<label>Drummer</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+
+		</apparelRequired>
+		<specificApparelRequirements>
+
+		</specificApparelRequirements>
+		<apparelTags>
+
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
 		<defName>Anneli_Oubliee_Militia</defName>
 		<label>Militia</label>
 		<isFighter>True</isFighter>

@@ -69,24 +69,96 @@
 			<max>75</max>
 		</allowedArrivalTemperatureRange>
 		<pawnGroupMakers>
-			<!-- ToDo -->
+			<!-- The Column -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>2</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>2</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>2</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>2</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>2</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>3</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>5</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>2</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>2</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>2</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>2</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>2</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB>2</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerC>2</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>2</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>2</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>2</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA>2</Anneli_Oubliee_AristocratA>
+					<Anneli_Oubliee_AristocratB>2</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratC>2</Anneli_Oubliee_AristocratC>
+				</options>
+			</li>
+			<!-- Infantry Battalion -->
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>2</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>3</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_Sergeant>5</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>5</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>10</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>5</Anneli_Oubliee_Militia>
+				</options>
+			</li>
+			<!-- Calvalry Battalion -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<Anneli_Oubliee_General>2</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>3</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>3</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>3</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Hussar>5</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>5</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>5</Anneli_Oubliee_Carabinier>
 				</options>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>1</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>1</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>1</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
+					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>1</Anneli_Oubliee_General>
+					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
+					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</traders>
 				<carriers>
 					<Muffalo>3</Muffalo>
@@ -95,44 +167,160 @@
 					<Elephant>2</Elephant>
 				</carriers>
 				<guards>
-					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_Officer>1</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>1</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
 					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>1</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>1</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>1</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
+					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Miners</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>1</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>1</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>1</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
+					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Hunters</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>1</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>1</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>1</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
+					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Loggers</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>1</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>1</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>1</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
+					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Farmers</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
+					<Anneli_Oubliee_General>1</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>1</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>1</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
+					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
 		</pawnGroupMakers>
 	</FactionDef>
-
 </Defs>
