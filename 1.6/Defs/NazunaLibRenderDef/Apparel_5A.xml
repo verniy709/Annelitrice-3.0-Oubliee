@@ -303,7 +303,7 @@
 				<drawOffsetEast>(0, 0.731, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.731, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.731, 0)</drawOffsetWest>
-				<renderSwitch>(1, 0, 0)</renderSwitch>
+				<renderSwitch>(1, 1, 0)</renderSwitch>
 				<meshSize>(3.33,3.69)</meshSize><!-- mesh size 1.5*2(canvas size)*(1.11, 1.23)(body) -->
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
