@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_1C" ParentName="Anneli_1C" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_FrilledSocks-->
+	<ThingDef ParentName="Anneli_Oubliee_1C">
+		<defName>Anneli_Oubliee_FrilledSocks</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1C_FrilledSocks</label>
+		<graphicData>
+			<texPath>1C/Anneli_Oubliee_FrilledSocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Oubliee_FrilledSocks</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_GarterStockings-->
+	<ThingDef ParentName="Anneli_Oubliee_1C">
+		<defName>Anneli_Oubliee_GarterStockings</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1C_GarterStockings</label>
+		<graphicData>
+			<texPath>1C/Anneli_Oubliee_GarterStockings</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Oubliee_GarterStockings</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Stockings-->
+	<ThingDef ParentName="Anneli_Oubliee_1C">
+		<defName>Anneli_Oubliee_Stockings</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1C_Stockings</label>
+		<graphicData>
+			<texPath>1C/Anneli_Oubliee_Stockings</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Oubliee_Stockings</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_StripedPantyhose-->
+	<ThingDef ParentName="Anneli_Oubliee_1C">
+		<defName>Anneli_Oubliee_StripedPantyhose</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1C_StripedPantyhose</label>
+		<graphicData>
+			<texPath>1C/Anneli_Oubliee_StripedPantyhose</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Oubliee_StripedPantyhose</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_StripedStockings-->
+	<ThingDef ParentName="Anneli_Oubliee_1C">
+		<defName>Anneli_Oubliee_StripedStockings</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1C_StripedStockings</label>
+		<graphicData>
+			<texPath>1C/Anneli_Oubliee_StripedStockings</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Oubliee_StripedStockings</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_TiedSocks-->
+	<ThingDef ParentName="Anneli_Oubliee_1C">
+		<defName>Anneli_Oubliee_TiedSocks</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1C_TiedSocks</label>
+		<graphicData>
+			<texPath>1C/Anneli_Oubliee_TiedSocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Oubliee_TiedSocks</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+</Defs>

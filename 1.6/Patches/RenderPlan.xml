@@ -7,6 +7,13 @@
     <match Class="PatchOperationAdd">
       <xpath>/Defs/NareisLib.RenderPlanDef[defName="Anneli_RenderPlanBase"]/plans</xpath>         
       <value>
+        <li>Anneli_Oubliee_FrilledSocks</li>
+        <li>Anneli_Oubliee_GarterStockings</li>
+        <li>Anneli_Oubliee_Stockings</li>
+        <li>Anneli_Oubliee_StripedPantyhose</li>
+        <li>Anneli_Oubliee_StripedStockings</li>
+        <li>Anneli_Oubliee_TiedSocks</li>
+
         <li>Anneli_Oubliee_Blouse</li>
         <li>Anneli_Oubliee_CravatShirtA</li>
         <li>Anneli_Oubliee_CravatShirtB</li>
