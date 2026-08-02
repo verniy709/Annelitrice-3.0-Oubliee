@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_ClericalUnderwear</defName>
+		<originalDef>Anneli_Oubliee_ClericalUnderwear</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_ClericalUnderwear</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 1.115, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.115, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.115, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.115, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_LaceHipsterA</defName>
+		<originalDef>Anneli_Oubliee_LaceHipsterA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_LaceHipsterA</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 1.115, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.115, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.115, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.115, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_LaceHipsterB</defName>
+		<originalDef>Anneli_Oubliee_LaceHipsterB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_LaceHipsterB</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 1.115, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.115, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.115, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.115, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_LaceUnderwear</defName>
+		<originalDef>Anneli_Oubliee_LaceUnderwear</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_LaceUnderwear</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 1.115, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.115, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.115, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.115, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>	
+</Defs>

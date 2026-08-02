@@ -219,7 +219,7 @@
 		</colorGenerator>
 		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
 		<costList>
-			<Steel>360</Steel>
+			<Gold>50</Gold>
 		</costList>
 		<rotatable>false</rotatable>
 		<statBases>

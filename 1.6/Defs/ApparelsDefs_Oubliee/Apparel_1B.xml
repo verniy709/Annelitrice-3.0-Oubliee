@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_1B" ParentName="Anneli_1B" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_ClericalUnderwear-->
+	<ThingDef ParentName="Anneli_Oubliee_1B">
+		<defName>Anneli_Oubliee_ClericalUnderwear</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1B_ClericalUnderwear</label>
+		<graphicData>
+			<texPath>1B/Anneli_Oubliee_ClericalUnderwear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Oubliee_ClericalUnderwear</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_LaceHipsterA-->
+	<ThingDef ParentName="Anneli_Oubliee_1B">
+		<defName>Anneli_Oubliee_LaceHipsterA</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1B_LaceHipsterA</label>
+		<graphicData>
+			<texPath>1B/Anneli_Oubliee_LaceHipsterA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Oubliee_LaceHipsterA</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_LaceHipsterB-->
+	<ThingDef ParentName="Anneli_Oubliee_1B">
+		<defName>Anneli_Oubliee_LaceHipsterB</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1B_LaceHipsterB</label>
+		<graphicData>
+			<texPath>1B/Anneli_Oubliee_LaceHipsterB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Oubliee_LaceHipsterB</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_LaceUnderwear-->
+	<ThingDef ParentName="Anneli_Oubliee_1B">
+		<defName>Anneli_Oubliee_LaceUnderwear</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1B_LaceUnderwear</label>
+		<graphicData>
+			<texPath>1B/Anneli_Oubliee_LaceUnderwear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Oubliee_LaceUnderwear</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+</Defs>

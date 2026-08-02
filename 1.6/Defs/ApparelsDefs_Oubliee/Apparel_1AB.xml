@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_1AB" ParentName="Anneli_1AB" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_BodyTight-->
+	<ThingDef ParentName="Anneli_Oubliee_1AB">
+		<defName>Anneli_Oubliee_BodyTight</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1AB_BodyTight</label>
+		<graphicData>
+			<texPath>1AB/Anneli_Oubliee_BodyTight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Oubliee_BodyTight</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Lingerie-->
+	<ThingDef ParentName="Anneli_Oubliee_1AB">
+		<defName>Anneli_Oubliee_Lingerie</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)1AB_Lingerie</label>
+		<graphicData>
+			<texPath>1AB/Anneli_Oubliee_Lingerie</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Oubliee_Lingerie</wornGraphicPath>
+			<tags>
+				
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+</Defs>

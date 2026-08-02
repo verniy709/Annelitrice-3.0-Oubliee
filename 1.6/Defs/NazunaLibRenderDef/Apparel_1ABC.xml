@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_EroticLingerie</defName>
+		<originalDef>Anneli_Oubliee_EroticLingerie</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1ABC/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_EroticLingerie</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1ABC</textureLevelsName>
+				<drawOffsetSouth>(0, 1.192, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.192, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.192, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.192, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+
+</Defs>
