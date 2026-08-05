@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_Bandage</defName>
+		<originalDef>Anneli_Oubliee_Bandage</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6BC/Bandage/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_Bandage</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6BC</textureLevelsName>
+				<drawOffsetSouth>(0, 2.404, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.404, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.404, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.404, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>
