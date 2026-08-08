@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_Backpack</defName>
+		<originalDef>Anneli_Oubliee_Backpack</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>7/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_Backpack</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
+				<drawOffsetSouth>(0, 1.808, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.577, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.692, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.577, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_Backpack</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel7_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.192, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.192, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.192, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.192, 0)</drawOffsetWest>
+				<renderSwitch>(1, 0, 0)</renderSwitch>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_MessengerBag</defName>
+		<originalDef>Anneli_Oubliee_MessengerBag</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>7/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_MessengerBag</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
+				<drawOffsetSouth>(0, 1.808, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.808, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.808, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.808, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Low_Oubliee_MessengerBag</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel7_Low</textureLevelsName>
+				<drawOffsetSouth>(0, 1.577, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.577, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.577, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.577, 0)</drawOffsetWest>
+				<renderSwitch>(1, 0, 1)</renderSwitch>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Oubliee_MessengerBag</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel7_Back</textureLevelsName>
+				<drawOffsetSouth>(0, 0.192, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.192, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.192, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.192, 0)</drawOffsetWest>
+				<renderSwitch>(1, 0, 0)</renderSwitch>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_PicnicBasket</defName>
+		<originalDef>Anneli_Oubliee_PicnicBasket</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>7/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_PicnicBasket</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
+				<drawOffsetSouth>(0, 1.808, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.808, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.808, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.808, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+</Defs>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Oubliee_7_NonMetal" ParentName="Anneli_7_NonMetal" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Oubliee_7_Metal" ParentName="Anneli_7_Metal" Abstract="True">
+		<thingCategories>
+			<li>Anneli_Category_Oubliee</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Oubliee_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_Backpack-->
+	<ThingDef ParentName="Anneli_Oubliee_7_NonMetal">
+		<defName>Anneli_Oubliee_Backpack</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)7_Backpack</label>
+		<graphicData>
+			<texPath>7/Anneli_Oubliee_Backpack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>7/Anneli_Oubliee_Backpack</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_MessengerBag-->
+	<ThingDef ParentName="Anneli_Oubliee_7_NonMetal">
+		<defName>Anneli_Oubliee_MessengerBag</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)7_MessengerBag</label>
+		<graphicData>
+			<texPath>7/Anneli_Oubliee_MessengerBag</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>7/Anneli_Oubliee_MessengerBag</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Oubliee_PicnicBasket-->
+	<ThingDef ParentName="Anneli_Oubliee_7_NonMetal">
+		<defName>Anneli_Oubliee_PicnicBasket</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)7_PicnicBasket</label>
+		<graphicData>
+			<texPath>7/Anneli_Oubliee_PicnicBasket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>7/Anneli_Oubliee_PicnicBasket</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+</Defs>

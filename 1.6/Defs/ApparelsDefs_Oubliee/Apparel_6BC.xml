@@ -49,4 +49,29 @@
 		</colorGenerator>
 	</ThingDef>
 
+	<!--Anneli_Oubliee_BloodyBandage-->
+	<ThingDef ParentName="Anneli_Oubliee_6BC_NonMetal">
+		<defName>Anneli_Oubliee_BloodyBandage</defName>
+		<description>Not dyeable.</description>
+		<label>(Oubliee)6BC_BloodyBandage</label>
+		<graphicData>
+			<texPath>6BC/BloodyBandage/Anneli_Oubliee_BloodyBandageC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6BC/BloodyBandage/Anneli_Oubliee_BloodyBandageC</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
 </Defs>

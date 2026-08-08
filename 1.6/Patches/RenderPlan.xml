@@ -126,8 +126,13 @@
 
         <li>Anneli_Oubliee_LaceBlindfold</li>
         <li>Anneli_Oubliee_Bandage</li>
+        <li>Anneli_Oubliee_BloodyBandage</li>
         <li>Anneli_Oubliee_FakeBeard</li>
         <li>Anneli_Oubliee_FakeMoustache</li>
+
+        <li>Anneli_Oubliee_Backpack</li>
+        <li>Anneli_Oubliee_MessengerBag</li>
+        <li>Anneli_Oubliee_PicnicBasket</li>
 
       </value>
     </match>
