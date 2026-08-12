@@ -7,7 +7,132 @@
     <match Class="PatchOperationAdd">
       <xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="Anneli_BasePawn"]/alienRace/raceRestriction/apparelList</xpath>        
       <value>
-        
+        <li>Anneli_Oubliee_ClericalBra</li>
+        <li>Anneli_Oubliee_LaceBra</li>
+        <li>Anneli_Oubliee_LaceCurtainA</li>
+        <li>Anneli_Oubliee_LaceCurtainB</li>
+
+        <li>Anneli_Oubliee_ClericalUnderwear</li>
+        <li>Anneli_Oubliee_LaceHipsterA</li>
+        <li>Anneli_Oubliee_LaceHipsterB</li>
+        <li>Anneli_Oubliee_LaceUnderwear</li>
+
+        <li>Anneli_Oubliee_FrilledSocks</li>
+        <li>Anneli_Oubliee_GarterStockings</li>
+        <li>Anneli_Oubliee_Stockings</li>
+        <li>Anneli_Oubliee_StripedPantyhose</li>
+        <li>Anneli_Oubliee_StripedStockings</li>
+        <li>Anneli_Oubliee_TiedSocks</li>
+
+        <li>Anneli_Oubliee_BodyTight</li>
+        <li>Anneli_Oubliee_Lingerie</li>
+        <li>Anneli_Oubliee_EroticLingerie</li>
+
+        <li>Anneli_Oubliee_Blouse</li>
+        <li>Anneli_Oubliee_CravatShirtA</li>
+        <li>Anneli_Oubliee_CravatShirtB</li>
+        <li>Anneli_Oubliee_Shirt</li>
+        <li>Anneli_Oubliee_ShortChemise</li>
+
+        <li>Anneli_Oubliee_Breeches</li>
+        <li>Anneli_Oubliee_SkirtA</li>
+        <li>Anneli_Oubliee_SkirtB</li>
+        <li>Anneli_Oubliee_Trousers</li>
+
+        <li>Anneli_Oubliee_DressA</li>
+        <li>Anneli_Oubliee_DressB</li>
+        <li>Anneli_Oubliee_DressC</li>
+        <li>Anneli_Oubliee_LongDressA</li>
+        <li>Anneli_Oubliee_LongDressB</li>
+        <li>Anneli_Oubliee_LongDressC</li>
+        <li>Anneli_Oubliee_NunDressA</li>
+        <li>Anneli_Oubliee_NunDressB</li>
+
+        <li>Anneli_Oubliee_Boots</li>
+        <li>Anneli_Oubliee_BuckleShoesA</li>
+        <li>Anneli_Oubliee_BuckleShoesB</li>
+        <li>Anneli_Oubliee_HeelsA</li>
+        <li>Anneli_Oubliee_HeelsB</li>
+        <li>Anneli_Oubliee_LeatherShoes</li>
+        <li>Anneli_Oubliee_LongBoots</li>
+        <li>Anneli_Oubliee_LongSollerets</li>
+        <li>Anneli_Oubliee_RidingBootsA</li>
+        <li>Anneli_Oubliee_RidingBootsB</li>
+        <li>Anneli_Oubliee_RidingBootsC</li>
+        <li>Anneli_Oubliee_Sollerets</li>
+
+        <li>Anneli_Oubliee_Apron</li>
+        <li>Anneli_Oubliee_Dolman</li>
+        <li>Anneli_Oubliee_GreatCoat</li>
+        <li>Anneli_Oubliee_HabitCourt</li>
+        <li>Anneli_Oubliee_HabitLongeA</li>
+        <li>Anneli_Oubliee_HabitLongeB</li>
+        <li>Anneli_Oubliee_HabitLongeC</li>
+        <li>Anneli_Oubliee_HabitLongeD</li>
+        <li>Anneli_Oubliee_HabitVesteA</li>
+        <li>Anneli_Oubliee_HabitVesteB</li>
+        <li>Anneli_Oubliee_OverdressA</li>
+        <li>Anneli_Oubliee_OverdressB</li>
+        <li>Anneli_Oubliee_SpencerA</li>
+        <li>Anneli_Oubliee_SpencerB</li>
+        <li>Anneli_Oubliee_SpencerC</li>
+        <li>Anneli_Oubliee_Vest</li>
+
+        <li>Anneli_Oubliee_CorsetA</li>
+        <li>Anneli_Oubliee_CorsetB</li>
+        <li>Anneli_Oubliee_CorsetC</li>
+        <li>Anneli_Oubliee_CorsetD</li>
+        <li>Anneli_Oubliee_CuirassA</li>
+        <li>Anneli_Oubliee_CuirassB</li>
+
+        <li>Anneli_Oubliee_ArmorA</li>
+        <li>Anneli_Oubliee_ArmorB</li>
+
+        <li>Anneli_Oubliee_CrossBelt</li>
+        <li>Anneli_Oubliee_GeneralSash</li>
+        <li>Anneli_Oubliee_ShoulderBelt</li>
+        <li>Anneli_Oubliee_Cloak</li>
+        <li>Anneli_Oubliee_NunShawl</li>
+        <li>Anneli_Oubliee_Pelisse</li>
+        <li>Anneli_Oubliee_RoyalCloak</li>
+        <li>Anneli_Oubliee_BustleA</li>
+        <li>Anneli_Oubliee_BustleB</li>
+        <li>Anneli_Oubliee_BustleC</li>
+
+        <li>Anneli_Oubliee_Gaiters</li>
+        <li>Anneli_Oubliee_LongGaiters</li>
+
+        <li>Anneli_Oubliee_Bearskin</li>
+        <li>Anneli_Oubliee_BicorneA</li>
+        <li>Anneli_Oubliee_BicorneB</li>
+        <li>Anneli_Oubliee_BicorneC</li>
+        <li>Anneli_Oubliee_Bonnet</li>
+        <li>Anneli_Oubliee_CarabinierHelmet</li>
+        <li>Anneli_Oubliee_CuirassierHelmet</li>
+        <li>Anneli_Oubliee_Flower</li>
+        <li>Anneli_Oubliee_Kerchief</li>
+        <li>Anneli_Oubliee_LaceVeil</li>
+        <li>Anneli_Oubliee_NunVeil</li>
+        <li>Anneli_Oubliee_PictureHat</li>
+        <li>Anneli_Oubliee_ShakoA</li>
+        <li>Anneli_Oubliee_ShakoB</li>
+        <li>Anneli_Oubliee_StrawBonnet</li>
+        <li>Anneli_Oubliee_TiaraA</li>
+        <li>Anneli_Oubliee_TiaraB</li>
+        <li>Anneli_Oubliee_TopHat</li>
+        <li>Anneli_Oubliee_Tricorne</li>
+        <li>Anneli_Oubliee_ValkyrieHeadpieceA</li>
+        <li>Anneli_Oubliee_ValkyrieHeadpieceB</li>
+
+        <li>Anneli_Oubliee_LaceBlindfold</li>
+        <li>Anneli_Oubliee_Bandage</li>
+        <li>Anneli_Oubliee_BloodyBandage</li>
+        <li>Anneli_Oubliee_FakeBeard</li>
+        <li>Anneli_Oubliee_FakeMoustache</li>
+
+        <li>Anneli_Oubliee_Backpack</li>
+        <li>Anneli_Oubliee_MessengerBag</li>
+        <li>Anneli_Oubliee_PicnicBasket</li>
       </value>
     </match>
   </Operation>

@@ -35,7 +35,8 @@
 		<apparel>
 			<wornGraphicPath>5B/Anneli_Oubliee_Gaiters</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Private</li>
+				<li>Anneli_Oubliee_Militia</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -43,7 +44,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -61,7 +62,8 @@
 		<apparel>
 			<wornGraphicPath>5B/Anneli_Oubliee_LongGaiters</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Guard</li>
+				<li>Anneli_Oubliee_Drummer</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -69,7 +71,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>

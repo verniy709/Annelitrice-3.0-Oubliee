@@ -24,7 +24,9 @@
 		<apparel>
 			<wornGraphicPath>1ABC/Anneli_Oubliee_EroticLingerie</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenB</li>
+				<li>Anneli_Oubliee_Sergeant</li>
+				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -32,7 +34,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>

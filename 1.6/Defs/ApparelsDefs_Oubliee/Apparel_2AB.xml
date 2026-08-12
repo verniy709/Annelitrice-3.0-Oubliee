@@ -24,7 +24,7 @@
 		<apparel>
 			<wornGraphicPath>2AB/Anneli_Oubliee_DressA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Sergeant</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -32,7 +32,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(60,80,130,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -50,7 +50,7 @@
 		<apparel>
 			<wornGraphicPath>2AB/Anneli_Oubliee_DressB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -76,7 +76,7 @@
 		<apparel>
 			<wornGraphicPath>2AB/Anneli_Oubliee_DressC</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -102,7 +102,7 @@
 		<apparel>
 			<wornGraphicPath>2AB/Anneli_Oubliee_LongDressA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_AristocratA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -128,7 +128,7 @@
 		<apparel>
 			<wornGraphicPath>2AB/Anneli_Oubliee_LongDressB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_AristocratB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -154,7 +154,8 @@
 		<apparel>
 			<wornGraphicPath>2AB/Anneli_Oubliee_LongDressC</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenA</li>
+				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -180,7 +181,7 @@
 		<apparel>
 			<wornGraphicPath>2AB/Anneli_Oubliee_NunDressA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_NunA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -188,7 +189,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(140,0,20,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -206,7 +207,7 @@
 		<apparel>
 			<wornGraphicPath>2AB/Anneli_Oubliee_NunDressB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_NunB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -214,7 +215,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(50,45,50,255)</only>
 				</li>
 			</options>
 		</colorGenerator>

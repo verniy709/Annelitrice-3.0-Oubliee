@@ -35,7 +35,10 @@
 		<apparel>
 			<wornGraphicPath>6B/Anneli_Oubliee_LaceBlindfold</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenB</li>
+				<li>Anneli_Oubliee_NunA</li>
+				<li>Anneli_Oubliee_NunB</li>
+				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -43,9 +46,10 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 </Defs>

@@ -17,10 +17,11 @@
 			</li>
 		</backstoryFiltersOverride>
 		<weaponMoney>3000</weaponMoney>
-		<techHediffsChance>1.0</techHediffsChance>
+		<techHediffsChance>0.01</techHediffsChance>
 		<techHediffsMoney>1000</techHediffsMoney>
 		<techHediffsTags>
-			<li>Advanced</li>
+			<li>Poor</li>
+			<li>Simple</li>
 		</techHediffsTags>
 		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 		<gearHealthRange>
@@ -44,18 +45,18 @@
 			<xenotypeChances>
 				<!-- ToDo -->
 				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1.5</Anneli_Xenotype>
-				<Anneli_Xenotype_Abomination MayRequire="Ludeon.RimWorld.Biotech">0.15</Anneli_Xenotype_Abomination>
-				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Dragonkin>
-				<Anneli_Xenotype_Elf MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Elf>
+				<Anneli_Xenotype_Abomination MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Abomination>
+				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Dragonkin>
+				<Anneli_Xenotype_Elf MayRequire="Ludeon.RimWorld.Biotech">0.3</Anneli_Xenotype_Elf>
 				<Anneli_Xenotype_Fairy MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Fairy>
-				<Anneli_Xenotype_Hellion MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Hellion>
-				<Anneli_Xenotype_Kitsune MayRequire="Ludeon.RimWorld.Biotech">0.15</Anneli_Xenotype_Kitsune>
-				<Anneli_Xenotype_Loong MayRequire="Ludeon.RimWorld.Biotech">0.15</Anneli_Xenotype_Loong>
-				<Anneli_Xenotype_Messenger MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Messenger>
-				<Anneli_Xenotype_Nekojin MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Nekojin>
-				<Anneli_Xenotype_Oni MayRequire="Ludeon.RimWorld.Biotech">0.2</Anneli_Xenotype_Oni>
+				<Anneli_Xenotype_Hellion MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Hellion>
+				<Anneli_Xenotype_Kitsune MayRequire="Ludeon.RimWorld.Biotech">0.3</Anneli_Xenotype_Kitsune>
+				<Anneli_Xenotype_Loong MayRequire="Ludeon.RimWorld.Biotech">0.2</Anneli_Xenotype_Loong>
+				<Anneli_Xenotype_Messenger MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Messenger>
+				<Anneli_Xenotype_Nekojin MayRequire="Ludeon.RimWorld.Biotech">0.2</Anneli_Xenotype_Nekojin>
+				<Anneli_Xenotype_Oni MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Oni>
 				<Anneli_Xenotype_Succubus MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Succubus>
-				<Anneli_Xenotype_Usagi MayRequire="Ludeon.RimWorld.Biotech">0.15</Anneli_Xenotype_Usagi>
+				<Anneli_Xenotype_Usagi MayRequire="Ludeon.RimWorld.Biotech">0.3</Anneli_Xenotype_Usagi>
 			</xenotypeChances>
 		</xenotypeSet>
 	</PawnKindDef>
@@ -69,13 +70,20 @@
 		<trader>true</trader>
 		<factionLeader>true</factionLeader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_CravatShirtB</li>
+			<li>Anneli_Oubliee_Breeches</li>
+			<li>Anneli_Oubliee_HabitCourt</li>
+			<li>Anneli_Oubliee_BicorneA</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_General</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -89,13 +97,20 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_CravatShirtB</li>
+			<li>Anneli_Oubliee_Breeches</li>
+			<li>Anneli_Oubliee_HabitCourt</li>
+			<li>Anneli_Oubliee_BicorneA</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_General</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -109,13 +124,21 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_CravatShirtA</li>
+			<li>Anneli_Oubliee_Trousers</li>
+			<li>Anneli_Oubliee_HabitLongeD</li>
+			<li>Anneli_Oubliee_BicorneB</li>
+			<li>Anneli_Oubliee_ShoulderBelt</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_Officer</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Officer</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -129,13 +152,12 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_LongDressC</li>
+			<li>Anneli_Oubliee_LongSollerets</li>
+			<li>Anneli_Oubliee_ArmorA</li>
 		</apparelRequired>
-		<specificApparelRequirements>
-
-		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_MaidenA</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -149,13 +171,25 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_DressB</li>
+			<li>Anneli_Oubliee_Sollerets</li>
+			<li>Anneli_Oubliee_OverdressB</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<apparelLayer>Anneli_Tactical</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(60,80,130,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_MaidenB</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -169,13 +203,19 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_DressA</li>
+			<li>Anneli_Oubliee_SpencerA</li>
+			<li>Anneli_Oubliee_BicorneC</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_Sergeant</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Sergeant</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -189,13 +229,30 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_Shirt</li>
+			<li>Anneli_Oubliee_Trousers</li>
+			<li>Anneli_Oubliee_LeatherShoes</li>
+			<li>Anneli_Oubliee_HabitLongeA</li>
+			<li>Anneli_Oubliee_CrossBelt</li>
+			<li>Anneli_Oubliee_LongGaiters</li>
+			<li>Anneli_Oubliee_Bearskin</li>
+			<li>Anneli_Oubliee_Backpack</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<apparelLayer>Anneli_Bag</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(205,200,205,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Guard</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -209,13 +266,52 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_Shirt</li>
+			<li>Anneli_Oubliee_Trousers</li>
+			<li>Anneli_Oubliee_LeatherShoes</li>
+			<li>Anneli_Oubliee_HabitVesteA</li>
+			<li>Anneli_Oubliee_CrossBelt</li>
+			<li>Anneli_Oubliee_Gaiters</li>
+			<li>Anneli_Oubliee_ShakoA</li>
+			<li>Anneli_Oubliee_Backpack</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Anneli_Knee</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Anneli_Bag</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(75,80,100,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Private</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -229,13 +325,28 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_Shirt</li>
+			<li>Anneli_Oubliee_Trousers</li>
+			<li>Anneli_Oubliee_LeatherShoes</li>
+			<li>Anneli_Oubliee_HabitLongeC</li>
+			<li>Anneli_Oubliee_CrossBelt</li>
+			<li>Anneli_Oubliee_ShakoB</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Drummer</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -249,13 +360,40 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_Shirt</li>
+			<li>Anneli_Oubliee_Trousers</li>
+			<li>Anneli_Oubliee_LeatherShoes</li>
+			<li>Anneli_Oubliee_GreatCoat</li>
+			<li>Anneli_Oubliee_Gaiters</li>
+			<li>Anneli_Oubliee_CrossBelt</li>
+			<li>Anneli_Oubliee_Tricorne</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Anneli_Knee</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Militia</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -269,13 +407,49 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_Shirt</li>
+			<li>Anneli_Oubliee_Trousers</li>
+			<li>Anneli_Oubliee_RidingBootsC</li>
+			<li>Anneli_Oubliee_Dolman</li>
+			<li>Anneli_Oubliee_ShakoB</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_Trousers</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(80,90,65,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_ShakoB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Hussar</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -289,13 +463,29 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_Shirt</li>
+			<li>Anneli_Oubliee_Breeches</li>
+			<li>Anneli_Oubliee_RidingBootsB</li>
+			<li>Anneli_Oubliee_HabitVesteB</li>
+			<li>Anneli_Oubliee_CuirassA</li>
+			<li>Anneli_Oubliee_ShoulderBelt</li>
+			<li>Anneli_Oubliee_CuirassierHelmet</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Cuirassier</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -309,13 +499,40 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_Shirt</li>
+			<li>Anneli_Oubliee_Breeches</li>
+			<li>Anneli_Oubliee_RidingBootsA</li>
+			<li>Anneli_Oubliee_HabitLongeB</li>
+			<li>Anneli_Oubliee_CuirassB</li>
+			<li>Anneli_Oubliee_ShoulderBelt</li>
+			<li>Anneli_Oubliee_CarabinierHelmet</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_ShoulderBelt</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(250,220,120,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_Carabinier</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -329,13 +546,19 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_CravatShirtA</li>
+			<li>Anneli_Oubliee_Breeches</li>
+			<li>Anneli_Oubliee_Vest</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_FollowerA</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_FollowerA</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -343,24 +566,112 @@
 		</weaponTags>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
-		<defName>Anneli_Oubliee_FollowerB</defName>
+	<PawnKindDef Name="Anneli_Oubliee_FollowerB_KindBase" ParentName="Anneli_Oubliee_KindBase" Abstract="True">
 		<label>Camp Follower</label>
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_ShortChemise</li>
+			<li>Anneli_Oubliee_SkirtB</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_FollowerB</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_FollowerB</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
 
 		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_FollowerB_KindBase">
+		<defName>Anneli_Oubliee_FollowerB_Red</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelDef>Anneli_Oubliee_SkirtB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(140,0,20,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_StrawBonnet</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(140,0,20,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_FollowerB_KindBase">
+		<defName>Anneli_Oubliee_FollowerB_Green</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelDef>Anneli_Oubliee_SkirtB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(160,210,175,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_StrawBonnet</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(160,210,175,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_FollowerB_KindBase">
+		<defName>Anneli_Oubliee_FollowerB_Blue</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelDef>Anneli_Oubliee_SkirtB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(180,225,250,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_StrawBonnet</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(180,225,250,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
@@ -369,13 +680,39 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_DressC</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_FollowerC</requiredTag>
+			</li>
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Anneli_Knee</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_FollowerC</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -389,13 +726,18 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_Blouse</li>
+			<li>Anneli_Oubliee_SkirtA</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_FollowerD</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_FollowerD</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -409,13 +751,56 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_NunDressA</li>
+			<li>Anneli_Oubliee_BustleA</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_NunA</requiredTag>
+			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<requiredTag>Anneli_Oubliee_NunA</requiredTag>
+			</li>
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Anneli_Tactical</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(140,0,20,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(140,0,20,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_NunA</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -429,13 +814,41 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_NunDressB</li>
+			<li>Anneli_Oubliee_NunShawl</li>
+			<li>Anneli_Oubliee_NunVeil</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_NunB</requiredTag>
+			</li>
+			<li>
+				<apparelLayer>OnSkin</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_NunB</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -443,19 +856,25 @@
 		</weaponTags>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
-		<defName>Anneli_Oubliee_AristocratA</defName>
+	<PawnKindDef Name="Anneli_Oubliee_AristocratA_KindBase" ParentName="Anneli_Oubliee_KindBase" Abstract="True">
 		<label>Aristocrat</label>
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_LongDressA</li>
+			<li>Anneli_Oubliee_OverdressA</li>
+			<li>Anneli_Oubliee_BustleB</li>
+			<li>Anneli_Oubliee_PictureHat</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_AristocratA</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_AristocratA</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -463,24 +882,197 @@
 		</weaponTags>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
-		<defName>Anneli_Oubliee_AristocratB</defName>
+	<PawnKindDef ParentName="Anneli_Oubliee_AristocratA_KindBase">
+		<defName>Anneli_Oubliee_AristocratA_Red</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Shell</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(200,60,60,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Anneli_Tactical</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(200,60,60,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_AristocratA_KindBase">
+		<defName>Anneli_Oubliee_AristocratA_Green</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Shell</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(220,250,210,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Anneli_Tactical</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(220,250,210,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_AristocratA_KindBase">
+		<defName>Anneli_Oubliee_AristocratA_Blue</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelLayer>Shell</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(180,225,250,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelLayer>Anneli_Tactical</apparelLayer>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(180,225,250,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef Name="Anneli_Oubliee_AristocratB_KindBase" ParentName="Anneli_Oubliee_KindBase" Abstract="True">
 		<label>Aristocrat</label>
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_LongDressB</li>
+			<li>Anneli_Oubliee_TiaraB</li>
+			<li>Anneli_Oubliee_RoyalCloak</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_AristocratB</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_AristocratB</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
 
 		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_AristocratB_KindBase">
+		<defName>Anneli_Oubliee_AristocratB_White</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelDef>Anneli_Oubliee_LongDressB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(255,245,245,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_TiaraB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(255,245,245,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_AristocratB_KindBase">
+		<defName>Anneli_Oubliee_AristocratB_Red</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelDef>Anneli_Oubliee_LongDressB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(200,80,100,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_TiaraB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(200,80,100,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_AristocratB_KindBase">
+		<defName>Anneli_Oubliee_AristocratB_Blue</defName>
+		<specificApparelRequirements>
+			<li>
+				<apparelDef>Anneli_Oubliee_LongDressB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(60,80,130,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_TiaraB</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(60,80,130,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
@@ -489,13 +1081,19 @@
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
-
+			<li>Anneli_Oubliee_LongDressC</li>
+			<li>Anneli_Oubliee_ArmorB</li>
+			<li>Anneli_Oubliee_BustleC</li>
 		</apparelRequired>
 		<specificApparelRequirements>
-
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_AristocratC</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
-
+			<li>Anneli_Oubliee_AristocratC</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>

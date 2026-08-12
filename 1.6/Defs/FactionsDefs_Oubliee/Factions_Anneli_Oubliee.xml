@@ -75,26 +75,32 @@
 				<commonality>50</commonality>
 				<options>
 					<Anneli_Oubliee_Leader>1</Anneli_Oubliee_Leader>
-					<Anneli_Oubliee_General>2</Anneli_Oubliee_General>
-					<Anneli_Oubliee_Officer>2</Anneli_Oubliee_Officer>
-					<Anneli_Oubliee_MaidenA>2</Anneli_Oubliee_MaidenA>
-					<Anneli_Oubliee_MaidenB>2</Anneli_Oubliee_MaidenB>
-					<Anneli_Oubliee_Sergeant>2</Anneli_Oubliee_Sergeant>
-					<Anneli_Oubliee_Guard>3</Anneli_Oubliee_Guard>
-					<Anneli_Oubliee_Private>5</Anneli_Oubliee_Private>
-					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
-					<Anneli_Oubliee_Militia>2</Anneli_Oubliee_Militia>
-					<Anneli_Oubliee_Hussar>2</Anneli_Oubliee_Hussar>
-					<Anneli_Oubliee_Cuirassier>2</Anneli_Oubliee_Cuirassier>
-					<Anneli_Oubliee_Carabinier>2</Anneli_Oubliee_Carabinier>
-					<Anneli_Oubliee_FollowerA>2</Anneli_Oubliee_FollowerA>
-					<Anneli_Oubliee_FollowerB>2</Anneli_Oubliee_FollowerB>
-					<Anneli_Oubliee_FollowerC>2</Anneli_Oubliee_FollowerC>
-					<Anneli_Oubliee_FollowerD>2</Anneli_Oubliee_FollowerD>
-					<Anneli_Oubliee_NunA>2</Anneli_Oubliee_NunA>
-					<Anneli_Oubliee_NunB>2</Anneli_Oubliee_NunB>
-					<Anneli_Oubliee_AristocratA>2</Anneli_Oubliee_AristocratA>
-					<Anneli_Oubliee_AristocratB>2</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_General>3</Anneli_Oubliee_General>
+					<Anneli_Oubliee_Officer>3</Anneli_Oubliee_Officer>
+					<Anneli_Oubliee_MaidenA>3</Anneli_Oubliee_MaidenA>
+					<Anneli_Oubliee_MaidenB>3</Anneli_Oubliee_MaidenB>
+					<Anneli_Oubliee_Sergeant>5</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>5</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>8</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Drummer>2</Anneli_Oubliee_Drummer>
+					<Anneli_Oubliee_Militia>5</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Hussar>3</Anneli_Oubliee_Hussar>
+					<Anneli_Oubliee_Cuirassier>3</Anneli_Oubliee_Cuirassier>
+					<Anneli_Oubliee_Carabinier>3</Anneli_Oubliee_Carabinier>
+					<Anneli_Oubliee_FollowerA>3</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
+					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
+					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
+					<Anneli_Oubliee_FollowerC>3</Anneli_Oubliee_FollowerC>
+					<Anneli_Oubliee_FollowerD>3</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_NunA>4</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>4</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>1</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>1</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>1</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>1</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>1</Anneli_Oubliee_AristocratB_Blue>
 					<Anneli_Oubliee_AristocratC>2</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
@@ -126,6 +132,22 @@
 					<Anneli_Oubliee_Carabinier>5</Anneli_Oubliee_Carabinier>
 				</options>
 			</li>
+			<!-- Nobel Revolt -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<Anneli_Oubliee_NunA>3</Anneli_Oubliee_NunA>
+					<Anneli_Oubliee_NunB>3</Anneli_Oubliee_NunB>
+					<Anneli_Oubliee_AristocratA_Red>2</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>2</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>2</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>2</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>2</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>2</Anneli_Oubliee_AristocratB_Blue>
+					<Anneli_Oubliee_AristocratC>3</Anneli_Oubliee_AristocratC>
+				</options>
+			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
@@ -142,13 +164,19 @@
 					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
 					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
 					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
-					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
+					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
+					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
-					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
-					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>1</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>1</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>1</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>1</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>1</Anneli_Oubliee_AristocratB_Blue>
 					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
@@ -156,9 +184,12 @@
 				<kindDef>Trader</kindDef>
 				<traders>
 					<Anneli_Oubliee_General>1</Anneli_Oubliee_General>
-					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
-					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
-					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
+					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>1</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>1</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>1</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>1</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>1</Anneli_Oubliee_AristocratB_Blue>
 				</traders>
 				<carriers>
 					<Muffalo>3</Muffalo>
@@ -179,7 +210,9 @@
 					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
 					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
 					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
-					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
+					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
+					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
@@ -194,22 +227,28 @@
 					<Anneli_Oubliee_Officer>1</Anneli_Oubliee_Officer>
 					<Anneli_Oubliee_MaidenA>1</Anneli_Oubliee_MaidenA>
 					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
-					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
-					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
-					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Sergeant>2</Anneli_Oubliee_Sergeant>
+					<Anneli_Oubliee_Guard>2</Anneli_Oubliee_Guard>
+					<Anneli_Oubliee_Private>5</Anneli_Oubliee_Private>
 					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
-					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Militia>3</Anneli_Oubliee_Militia>
 					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
 					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
 					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
 					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
-					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
+					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
+					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
-					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
-					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>1</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>1</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>1</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>1</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>1</Anneli_Oubliee_AristocratB_Blue>
 					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
@@ -223,20 +262,26 @@
 					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
 					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
 					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
-					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Private>5</Anneli_Oubliee_Private>
 					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
-					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Militia>3</Anneli_Oubliee_Militia>
 					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
 					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
 					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
 					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
-					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
+					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
+					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
-					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
-					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>1</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>1</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>1</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>1</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>1</Anneli_Oubliee_AristocratB_Blue>
 					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
@@ -250,20 +295,26 @@
 					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
 					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
 					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
-					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Private>5</Anneli_Oubliee_Private>
 					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
-					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Militia>3</Anneli_Oubliee_Militia>
 					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
 					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
 					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
 					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
-					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
+					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
+					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
-					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
-					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>1</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>1</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>1</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>1</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>1</Anneli_Oubliee_AristocratB_Blue>
 					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
@@ -277,20 +328,26 @@
 					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
 					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
 					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
-					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Private>5</Anneli_Oubliee_Private>
 					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
-					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Militia>3</Anneli_Oubliee_Militia>
 					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
 					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
 					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
 					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
-					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
+					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
+					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
-					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
-					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>1</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>1</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>1</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>1</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>1</Anneli_Oubliee_AristocratB_Blue>
 					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>
@@ -304,20 +361,26 @@
 					<Anneli_Oubliee_MaidenB>1</Anneli_Oubliee_MaidenB>
 					<Anneli_Oubliee_Sergeant>1</Anneli_Oubliee_Sergeant>
 					<Anneli_Oubliee_Guard>1</Anneli_Oubliee_Guard>
-					<Anneli_Oubliee_Private>1</Anneli_Oubliee_Private>
+					<Anneli_Oubliee_Private>5</Anneli_Oubliee_Private>
 					<Anneli_Oubliee_Drummer>1</Anneli_Oubliee_Drummer>
-					<Anneli_Oubliee_Militia>1</Anneli_Oubliee_Militia>
+					<Anneli_Oubliee_Militia>3</Anneli_Oubliee_Militia>
 					<Anneli_Oubliee_Hussar>1</Anneli_Oubliee_Hussar>
 					<Anneli_Oubliee_Cuirassier>1</Anneli_Oubliee_Cuirassier>
 					<Anneli_Oubliee_Carabinier>1</Anneli_Oubliee_Carabinier>
 					<Anneli_Oubliee_FollowerA>1</Anneli_Oubliee_FollowerA>
-					<Anneli_Oubliee_FollowerB>1</Anneli_Oubliee_FollowerB>
+					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
+					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
+					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
-					<Anneli_Oubliee_AristocratA>1</Anneli_Oubliee_AristocratA>
-					<Anneli_Oubliee_AristocratB>1</Anneli_Oubliee_AristocratB>
+					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
+					<Anneli_Oubliee_AristocratA_Green>1</Anneli_Oubliee_AristocratA_Green>
+					<Anneli_Oubliee_AristocratA_Blue>1</Anneli_Oubliee_AristocratA_Blue>
+					<Anneli_Oubliee_AristocratB_White>1</Anneli_Oubliee_AristocratB_White>
+					<Anneli_Oubliee_AristocratB_Red>1</Anneli_Oubliee_AristocratB_Red>
+					<Anneli_Oubliee_AristocratB_Blue>1</Anneli_Oubliee_AristocratB_Blue>
 					<Anneli_Oubliee_AristocratC>1</Anneli_Oubliee_AristocratC>
 				</options>
 			</li>

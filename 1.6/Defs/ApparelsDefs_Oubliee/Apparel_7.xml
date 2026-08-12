@@ -35,7 +35,9 @@
 		<apparel>
 			<wornGraphicPath>7/Anneli_Oubliee_Backpack</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Guard</li>
+				<li>Anneli_Oubliee_Private</li>
+				<li>Anneli_Oubliee_Militia</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -43,7 +45,15 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(205,200,205,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(75,80,100,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(105,115,155,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -61,7 +71,9 @@
 		<apparel>
 			<wornGraphicPath>7/Anneli_Oubliee_MessengerBag</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Officer</li>
+				<li>Anneli_Oubliee_FollowerA</li>
+				<li>Anneli_Oubliee_FollowerD</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -69,10 +81,11 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(110,65,60,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 	<!--Anneli_Oubliee_PicnicBasket-->
@@ -87,7 +100,8 @@
 		<apparel>
 			<wornGraphicPath>7/Anneli_Oubliee_PicnicBasket</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerB</li>
+				<li>Anneli_Oubliee_FollowerC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -95,9 +109,19 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(140,0,20,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,120,180,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,220,200,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
+
 </Defs>

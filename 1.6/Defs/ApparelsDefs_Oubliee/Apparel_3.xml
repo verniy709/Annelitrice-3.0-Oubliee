@@ -24,7 +24,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_Apron</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -53,7 +53,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_Dolman</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Hussar</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -64,7 +64,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(80,90,65,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -82,7 +82,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_GreatCoat</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Militia</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -93,7 +93,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(120,120,130,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -111,7 +111,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_HabitCourt</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_General</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -122,7 +122,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(45,60,95,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -140,7 +140,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_HabitLongeA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Guard</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -151,7 +151,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(45,60,95,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -169,7 +169,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_HabitLongeB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Carabinier</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -180,7 +180,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(45,60,95,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -198,7 +198,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_HabitLongeC</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Drummer</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -209,7 +209,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(45,60,95,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -227,7 +227,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_HabitLongeD</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Officer</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -238,7 +238,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(45,60,95,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -256,7 +256,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_HabitVesteA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Private</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -267,7 +267,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(45,60,95,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -285,7 +285,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_HabitVesteB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Cuirassier</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -296,7 +296,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(45,60,95,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -314,7 +314,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_OverdressA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_AristocratA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -343,7 +343,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_OverdressB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -354,7 +354,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(60,80,130,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -372,7 +372,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_SpencerA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Sergeant</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -383,7 +383,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(60,80,130,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -401,7 +401,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_SpencerB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerD</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -412,7 +412,15 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(110,65,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(60,80,130,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(80,90,65,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -430,7 +438,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_SpencerC</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -441,7 +449,19 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(205,200,205,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(95,80,70,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(45,60,95,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(110,115,100,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -451,7 +471,7 @@
 	<ThingDef ParentName="Anneli_Oubliee_3">
 		<defName>Anneli_Oubliee_Vest</defName>
 		<description>Dyeable.</description>
-		<label>(Oubliee)3_VestA</label>
+		<label>(Oubliee)3_Vest</label>
 		<graphicData>
 			<texPath>3/Anneli_Oubliee_Vest</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -459,7 +479,7 @@
 		<apparel>
 			<wornGraphicPath>3/Anneli_Oubliee_Vest</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
@@ -470,7 +490,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(255,245,245,255)</only>
+					<only>(50,45,50,255)</only>
 				</li>
 			</options>
 		</colorGenerator>

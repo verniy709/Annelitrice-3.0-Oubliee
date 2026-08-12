@@ -24,7 +24,7 @@
 		<apparel>
 			<wornGraphicPath>2A/Anneli_Oubliee_Blouse</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerD</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -50,7 +50,8 @@
 		<apparel>
 			<wornGraphicPath>2A/Anneli_Oubliee_ShirtB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Officer</li>
+				<li>Anneli_Oubliee_FollowerA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -76,7 +77,7 @@
 		<apparel>
 			<wornGraphicPath>2A/Anneli_Oubliee_ShirtB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_General</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -102,7 +103,12 @@
 		<apparel>
 			<wornGraphicPath>2A/Anneli_Oubliee_ShirtA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Private</li>
+				<li>Anneli_Oubliee_Drummer</li>
+				<li>Anneli_Oubliee_Militia</li>
+				<li>Anneli_Oubliee_Hussar</li>
+				<li>Anneli_Oubliee_Cuirassier</li>
+				<li>Anneli_Oubliee_Carabinier</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -128,7 +134,7 @@
 		<apparel>
 			<wornGraphicPath>2A/Anneli_Oubliee_ShortChemise</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>

@@ -24,7 +24,11 @@
 		<apparel>
 			<wornGraphicPath>1C/Anneli_Oubliee_FrilledSocks</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerB</li>
+				<li>Anneli_Oubliee_FollowerD</li>
+				<li>Anneli_Oubliee_AristocratA</li>
+				<li>Anneli_Oubliee_AristocratB</li>
+				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -32,7 +36,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -50,7 +54,13 @@
 		<apparel>
 			<wornGraphicPath>1C/Anneli_Oubliee_GarterStockings</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_General</li>
+				<li>Anneli_Oubliee_Officer</li>
+				<li>Anneli_Oubliee_Guard</li>
+				<li>Anneli_Oubliee_FollowerB</li>
+				<li>Anneli_Oubliee_FollowerC</li>
+				<li>Anneli_Oubliee_NunA</li>
+				<li>Anneli_Oubliee_NunB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -58,7 +68,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -76,7 +86,13 @@
 		<apparel>
 			<wornGraphicPath>1C/Anneli_Oubliee_Stockings</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_General</li>
+				<li>Anneli_Oubliee_Officer</li>
+				<li>Anneli_Oubliee_Guard</li>
+				<li>Anneli_Oubliee_FollowerB</li>
+				<li>Anneli_Oubliee_FollowerC</li>
+				<li>Anneli_Oubliee_NunA</li>
+				<li>Anneli_Oubliee_NunB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -84,7 +100,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -102,7 +118,16 @@
 		<apparel>
 			<wornGraphicPath>1C/Anneli_Oubliee_StripedPantyhose</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenA</li>
+				<li>Anneli_Oubliee_MaidenB</li>
+				<li>Anneli_Oubliee_Sergeant</li>
+				<li>Anneli_Oubliee_FollowerC</li>
+				<li>Anneli_Oubliee_FollowerD</li>
+				<li>Anneli_Oubliee_NunA</li>
+				<li>Anneli_Oubliee_NunB</li>
+				<li>Anneli_Oubliee_AristocratA</li>
+				<li>Anneli_Oubliee_AristocratB</li>
+				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -110,7 +135,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -128,7 +153,16 @@
 		<apparel>
 			<wornGraphicPath>1C/Anneli_Oubliee_StripedStockings</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenA</li>
+				<li>Anneli_Oubliee_MaidenB</li>
+				<li>Anneli_Oubliee_Sergeant</li>
+				<li>Anneli_Oubliee_FollowerC</li>
+				<li>Anneli_Oubliee_FollowerD</li>
+				<li>Anneli_Oubliee_NunA</li>
+				<li>Anneli_Oubliee_NunB</li>
+				<li>Anneli_Oubliee_AristocratA</li>
+				<li>Anneli_Oubliee_AristocratB</li>
+				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -136,7 +170,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -154,7 +188,13 @@
 		<apparel>
 			<wornGraphicPath>1C/Anneli_Oubliee_TiedSocks</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Private</li>
+				<li>Anneli_Oubliee_Drummer</li>
+				<li>Anneli_Oubliee_Militia</li>
+				<li>Anneli_Oubliee_Hussar</li>
+				<li>Anneli_Oubliee_Cuirassier</li>
+				<li>Anneli_Oubliee_Carabinier</li>
+				<li>Anneli_Oubliee_FollowerA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -162,7 +202,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>

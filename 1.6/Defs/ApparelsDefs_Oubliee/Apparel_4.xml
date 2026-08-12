@@ -24,12 +24,11 @@
 		<apparel>
 			<wornGraphicPath>4/Anneli_Oubliee_CorsetA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_AristocratA</li>
+				<li>Anneli_Oubliee_AristocratB</li>
+				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -53,12 +52,12 @@
 		<apparel>
 			<wornGraphicPath>4/Anneli_Oubliee_CorsetB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_FollowerB</li>
+				<li>Anneli_Oubliee_FollowerC</li>
+				<li>Anneli_Oubliee_NunA</li>
+				<li>Anneli_Oubliee_NunB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -82,18 +81,17 @@
 		<apparel>
 			<wornGraphicPath>4/Anneli_Oubliee_CorsetC</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_General</li>
+				<li>Anneli_Oubliee_Officer</li>
+				<li>Anneli_Oubliee_FollowerD</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(255,245,245,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -111,18 +109,16 @@
 		<apparel>
 			<wornGraphicPath>4/Anneli_Oubliee_CorsetD</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenB</li>
+				<li>Anneli_Oubliee_Sergeant</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(60,80,130,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -140,18 +136,15 @@
 		<apparel>
 			<wornGraphicPath>4/Anneli_Oubliee_CuirassA</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Cuirassier</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(120,120,130,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -169,20 +162,49 @@
 		<apparel>
 			<wornGraphicPath>4/Anneli_Oubliee_CuirassB</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Carabinier</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(50,45,50,255)</only>
+					<only>(210,170,60,255)</only>
 				</li>
 			</options>
 		</colorGenerator>
 	</ThingDef>
+
+	<!--Anneli_Oubliee_VestLiner-->
+	<ThingDef ParentName="Anneli_Oubliee_4">
+		<defName>Anneli_Oubliee_VestLiner</defName>
+		<description>Dyeable.</description>
+		<label>(Oubliee)4_VestLiner</label>
+		<graphicData>
+			<texPath>4/Anneli_Oubliee_VestLiner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Oubliee_VestLiner</wornGraphicPath>
+			<tags>
+				<li>Anneli_Oubliee_Guard</li>
+				<li>Anneli_Oubliee_Private</li>
+				<li>Anneli_Oubliee_Drummer</li>
+				<li>Anneli_Oubliee_Militia</li>
+				<li>Anneli_Oubliee_Hussar</li>
+				<li>Anneli_Oubliee_FollowerA</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
 </Defs>
