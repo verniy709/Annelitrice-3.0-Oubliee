@@ -80,6 +80,11 @@
 				<apparelLayer>Middle</apparelLayer>
 				<requiredTag>Anneli_Oubliee_General</requiredTag>
 			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
 			<li>Anneli_Oubliee_General</li>
@@ -105,6 +110,11 @@
 			<li>
 				<bodyPartGroup>Feet</bodyPartGroup>
 				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
 				<requiredTag>Anneli_Oubliee_General</requiredTag>
 			</li>
 		</specificApparelRequirements>
@@ -154,6 +164,7 @@
 			<li>Anneli_Oubliee_LongDressC</li>
 			<li>Anneli_Oubliee_LongSollerets</li>
 			<li>Anneli_Oubliee_ArmorA</li>
+			<li>Anneli_Oubliee_BustleC</li>
 		</apparelRequired>
 		<apparelTags>
 			<li>Anneli_Oubliee_MaidenA</li>
@@ -210,6 +221,11 @@
 			<li>
 				<bodyPartGroup>Feet</bodyPartGroup>
 				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_Sergeant</requiredTag>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
 				<requiredTag>Anneli_Oubliee_Sergeant</requiredTag>
 			</li>
 		</specificApparelRequirements>
@@ -727,6 +743,7 @@
 		<apparelRequired>
 			<li>Anneli_Oubliee_Blouse</li>
 			<li>Anneli_Oubliee_SkirtA</li>
+			<li>Anneli_Oubliee_SpencerB</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
