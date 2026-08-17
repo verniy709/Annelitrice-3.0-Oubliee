@@ -36,10 +36,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_Bearskin</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_Guard</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -65,10 +67,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_BicorneA</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_General</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -94,10 +98,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_BicorneB</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_Officer</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -126,7 +132,7 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -153,10 +159,12 @@
 			<tags>
 				<li>Anneli_Oubliee_FollowerC</li>
 				<li>Anneli_Oubliee_FollowerD</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -182,10 +190,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_CarabinierHelmet</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_Carabinier</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -211,10 +221,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_CuirassierHelmet</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_Cuirassier</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -243,9 +255,6 @@
 				<li>Anneli_Oubliee_FollowerD</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -281,7 +290,9 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
+				<li>Anneli_SkipOverhead</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -311,7 +322,9 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
+				<li>Anneli_SkipOverhead</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -338,10 +351,12 @@
 			<tags>
 				<li>Anneli_Oubliee_NunA</li>
 				<li>Anneli_Oubliee_NunB</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -367,10 +382,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_PictureHat</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_AristocratA</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -396,10 +413,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_ShakoA</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_Private</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -426,10 +445,12 @@
 			<tags>
 				<li>Anneli_Oubliee_Drummer</li>
 				<li>Anneli_Oubliee_Hussar</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -455,10 +476,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_StrawBonnet</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_FollowerB</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -486,9 +509,6 @@
 				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -515,9 +535,6 @@
 				<li>Anneli_Oubliee_AristocratB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -543,10 +560,12 @@
 			<tags>
 				<li>Anneli_Oubliee_FollowerA</li>
 				<li>Anneli_Oubliee_FollowerD</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -573,10 +592,12 @@
 			<tags>
 				<li>Anneli_Oubliee_Militia</li>
 				<li>Anneli_Oubliee_FollowerA</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-				
+				<li>Anneli_Ahoge</li>
+				<li>Anneli_BackHair</li>	
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">

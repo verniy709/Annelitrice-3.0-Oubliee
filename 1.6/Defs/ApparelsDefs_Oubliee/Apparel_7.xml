@@ -26,7 +26,7 @@
 	<!--Anneli_Oubliee_Backpack-->
 	<ThingDef ParentName="Anneli_Oubliee_7_NonMetal">
 		<defName>Anneli_Oubliee_Backpack</defName>
-		<description>Dyeable.</description>
+		<description>Bedroll dyeable.</description>
 		<label>(Oubliee)7_Backpack</label>
 		<graphicData>
 			<texPath>7/Anneli_Oubliee_Backpack</texPath>

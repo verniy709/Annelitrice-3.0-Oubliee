@@ -77,6 +77,11 @@
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
 				<apparelLayer>Middle</apparelLayer>
 				<requiredTag>Anneli_Oubliee_General</requiredTag>
 			</li>
@@ -107,6 +112,11 @@
 			<li>Anneli_Oubliee_BicorneA</li>
 		</apparelRequired>
 		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
+			</li>
 			<li>
 				<bodyPartGroup>Feet</bodyPartGroup>
 				<apparelLayer>Middle</apparelLayer>
@@ -144,6 +154,11 @@
 				<bodyPartGroup>Feet</bodyPartGroup>
 				<apparelLayer>Middle</apparelLayer>
 				<requiredTag>Anneli_Oubliee_Officer</requiredTag>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
 			</li>
 		</specificApparelRequirements>
 		<apparelTags>
@@ -255,6 +270,11 @@
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
+			</li>
+			<li>
 				<apparelLayer>Anneli_Bag</apparelLayer>
 				<colorGenerator Class="ColorGenerator_Options">
 					<options>
@@ -301,6 +321,11 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
 			</li>
 			<li>
 				<apparelLayer>Anneli_Knee</apparelLayer>
@@ -359,6 +384,11 @@
 					</options>
 				</colorGenerator>
 			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
 			<li>Anneli_Oubliee_Drummer</li>
@@ -394,6 +424,11 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
 			</li>
 			<li>
 				<apparelLayer>Anneli_Knee</apparelLayer>
@@ -450,6 +485,11 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Anneli_Armor</apparelLayer>
+				<requiredTag>Anneli_Oubliee_General</requiredTag>
 			</li>
 			<li>
 				<apparelDef>Anneli_Oubliee_ShakoB</apparelDef>
@@ -699,11 +739,6 @@
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
-				<bodyPartGroup>Feet</bodyPartGroup>
-				<apparelLayer>Middle</apparelLayer>
-				<requiredTag>Anneli_Oubliee_FollowerC</requiredTag>
-			</li>
-			<li>
 				<apparelLayer>OnSkin</apparelLayer>
 				<colorGenerator Class="ColorGenerator_Options">
 					<options>
@@ -713,6 +748,11 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_FollowerC</requiredTag>
 			</li>
 			<li>
 				<apparelLayer>Anneli_Knee</apparelLayer>
@@ -772,16 +812,6 @@
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
-				<bodyPartGroup>Feet</bodyPartGroup>
-				<apparelLayer>Middle</apparelLayer>
-				<requiredTag>Anneli_Oubliee_NunA</requiredTag>
-			</li>
-			<li>
-				<bodyPartGroup>UpperHead</bodyPartGroup>
-				<apparelLayer>Overhead</apparelLayer>
-				<requiredTag>Anneli_Oubliee_NunA</requiredTag>
-			</li>
-			<li>
 				<apparelLayer>OnSkin</apparelLayer>
 				<colorGenerator Class="ColorGenerator_Options">
 					<options>
@@ -793,6 +823,11 @@
 				</colorGenerator>
 			</li>
 			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_NunA</requiredTag>
+			</li>
+			<li>
 				<apparelLayer>Anneli_Tactical</apparelLayer>
 				<colorGenerator Class="ColorGenerator_Options">
 					<options>
@@ -802,6 +837,11 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<requiredTag>Anneli_Oubliee_NunA</requiredTag>
 			</li>
 			<li>
 				<apparelLayer>Overhead</apparelLayer>
@@ -836,11 +876,6 @@
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
-				<bodyPartGroup>Feet</bodyPartGroup>
-				<apparelLayer>Middle</apparelLayer>
-				<requiredTag>Anneli_Oubliee_NunB</requiredTag>
-			</li>
-			<li>
 				<apparelLayer>OnSkin</apparelLayer>
 				<colorGenerator Class="ColorGenerator_Options">
 					<options>
@@ -850,6 +885,11 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_NunB</requiredTag>
 			</li>
 			<li>
 				<apparelLayer>Overhead</apparelLayer>
@@ -1116,4 +1156,5 @@
 
 		</weaponTags>
 	</PawnKindDef>
+
 </Defs>
