@@ -287,12 +287,12 @@
 			<wornGraphicPath>6A/Anneli_Oubliee_Kerchief</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_FollowerC</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
 				<li>Anneli_Ahoge</li>
 				<li>Anneli_BackHair</li>
-				<li>Anneli_SkipOverhead</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -319,12 +319,12 @@
 			<tags>
 				<li>Anneli_Oubliee_NunA</li>
 				<li>Anneli_Oubliee_AristocratC</li>
+				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
 				<li>Anneli_Ahoge</li>
 				<li>Anneli_BackHair</li>
-				<li>Anneli_SkipOverhead</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
