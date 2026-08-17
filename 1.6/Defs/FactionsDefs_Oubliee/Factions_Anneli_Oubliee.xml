@@ -13,9 +13,9 @@
 		<fixedName>Forged Legion</fixedName>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
 		</requiredMemes>
 		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<naturalEnemy>false</naturalEnemy>
