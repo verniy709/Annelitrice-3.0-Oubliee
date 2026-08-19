@@ -24,7 +24,7 @@
 		<apparel>
 			<wornGraphicPath>6C/Anneli_Oubliee_FakeBeard</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Guard</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -50,7 +50,7 @@
 		<apparel>
 			<wornGraphicPath>6C/Anneli_Oubliee_FakeMoustache</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_Hussar</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>

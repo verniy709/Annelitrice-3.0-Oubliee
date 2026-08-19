@@ -43,25 +43,24 @@
 		</inventoryOptions>
 		<xenotypeSet>
 			<xenotypeChances>
-				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">5.0</Anneli_Xenotype>
+				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">10.0</Anneli_Xenotype>
 				<Anneli_Xenotype_Abomination MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Abomination>
-				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Dragonkin>
+				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Dragonkin>
 				<Anneli_Xenotype_Elf MayRequire="Ludeon.RimWorld.Biotech">0.3</Anneli_Xenotype_Elf>
-				<Anneli_Xenotype_Fairy MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Fairy>
+				<Anneli_Xenotype_Fairy MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Fairy>
 				<Anneli_Xenotype_Hellion MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Hellion>
 				<Anneli_Xenotype_Kitsune MayRequire="Ludeon.RimWorld.Biotech">0.2</Anneli_Xenotype_Kitsune>
 				<Anneli_Xenotype_Loong MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Loong>
 				<Anneli_Xenotype_Messenger MayRequire="Ludeon.RimWorld.Biotech">0.3</Anneli_Xenotype_Messenger>
 				<Anneli_Xenotype_Nekojin MayRequire="Ludeon.RimWorld.Biotech">0.2</Anneli_Xenotype_Nekojin>
 				<Anneli_Xenotype_Oni MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Oni>
-				<Anneli_Xenotype_Succubus MayRequire="Ludeon.RimWorld.Biotech">0.1</Anneli_Xenotype_Succubus>
+				<Anneli_Xenotype_Succubus MayRequire="Ludeon.RimWorld.Biotech">0.2</Anneli_Xenotype_Succubus>
 				<Anneli_Xenotype_Usagi MayRequire="Ludeon.RimWorld.Biotech">0.3</Anneli_Xenotype_Usagi>
 			</xenotypeChances>
 		</xenotypeSet>
 	</PawnKindDef>
 
 	<!-- PawnKindList -->
-	<!-- ToDo -->
 	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
 		<defName>Anneli_Oubliee_Leader</defName>
 		<label>Marechale</label>
@@ -158,7 +157,7 @@
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Anneli_Armor</apparelLayer>
-				<requiredTag>Anneli_Oubliee_General</requiredTag>
+				<requiredTag>Anneli_Oubliee_Officer</requiredTag>
 			</li>
 		</specificApparelRequirements>
 		<apparelTags>
@@ -215,6 +214,7 @@
 		</specificApparelRequirements>
 		<apparelTags>
 			<li>Anneli_Oubliee_MaidenB</li>
+			<li>Anneli_Oubliee_RegimentalFlag</li>
 		</apparelTags>
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
@@ -266,13 +266,14 @@
 			<li>Anneli_Oubliee_CrossBelt</li>
 			<li>Anneli_Oubliee_LongGaiters</li>
 			<li>Anneli_Oubliee_Bearskin</li>
+			<li>Anneli_Oubliee_FakeBeard</li>
 			<li>Anneli_Oubliee_Backpack</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Anneli_Armor</apparelLayer>
-				<requiredTag>Anneli_Oubliee_General</requiredTag>
+				<requiredTag>Anneli_Oubliee_Guard</requiredTag>
 			</li>
 			<li>
 				<apparelLayer>Anneli_Bag</apparelLayer>
@@ -325,7 +326,7 @@
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Anneli_Armor</apparelLayer>
-				<requiredTag>Anneli_Oubliee_General</requiredTag>
+				<requiredTag>Anneli_Oubliee_Private</requiredTag>
 			</li>
 			<li>
 				<apparelLayer>Anneli_Knee</apparelLayer>
@@ -371,6 +372,7 @@
 			<li>Anneli_Oubliee_HabitLongeC</li>
 			<li>Anneli_Oubliee_CrossBelt</li>
 			<li>Anneli_Oubliee_ShakoB</li>
+			<li>Anneli_Oubliee_Drum</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -387,7 +389,7 @@
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Anneli_Armor</apparelLayer>
-				<requiredTag>Anneli_Oubliee_General</requiredTag>
+				<requiredTag>Anneli_Oubliee_Drummer</requiredTag>
 			</li>
 		</specificApparelRequirements>
 		<apparelTags>
@@ -428,7 +430,7 @@
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Anneli_Armor</apparelLayer>
-				<requiredTag>Anneli_Oubliee_General</requiredTag>
+				<requiredTag>Anneli_Oubliee_Militia</requiredTag>
 			</li>
 			<li>
 				<apparelLayer>Anneli_Knee</apparelLayer>
@@ -462,6 +464,7 @@
 			<li>Anneli_Oubliee_RidingBootsC</li>
 			<li>Anneli_Oubliee_Dolman</li>
 			<li>Anneli_Oubliee_ShakoB</li>
+			<li>Anneli_Oubliee_FakeMoustache</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -489,7 +492,7 @@
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Anneli_Armor</apparelLayer>
-				<requiredTag>Anneli_Oubliee_General</requiredTag>
+				<requiredTag>Anneli_Oubliee_Hussar</requiredTag>
 			</li>
 			<li>
 				<apparelDef>Anneli_Oubliee_ShakoB</apparelDef>

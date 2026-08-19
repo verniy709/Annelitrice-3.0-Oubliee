@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Shield Base for VFE-->
+    <ThingDef Name="Anneli_8A_VFEShieldOublieeBase" ParentName="BaseWeapon" Abstract="True">
+        <techLevel>Medieval</techLevel>
+        <smeltable>true</smeltable>
+        <burnableByRecipe>true</burnableByRecipe>
+        <tradeNeverStack>true</tradeNeverStack>
+        <tradeability>Sellable</tradeability>
+        <weaponClasses>
+            <li>Melee</li>
+        </weaponClasses>
+        <thingClass>VEF.Apparels.Apparel_Shield</thingClass>
+        <costStuffCount>20</costStuffCount>
+        <stuffCategories>
+            <li>Leathery</li>
+            <li>Fabric</li>
+        </stuffCategories>
+        <tickerType>Normal</tickerType>
+        <statBases>
+            <WorkToMake>200</WorkToMake>
+            <Mass>3</Mass>
+            <StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.01</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1</EquipDelay>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <tools>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <recipeMaker>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+        </recipeMaker>
+        <apparel>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Anneli_Misc</li>
+            </layers>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <careIfDamaged>false</careIfDamaged>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <inspectorTabs>
+            <li>ITab_Art</li>
+        </inspectorTabs>
+        <tradeTags>
+            <li>BasicClothing</li>
+            <li>Clothing</li>
+        </tradeTags>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_Art">
+                <nameMaker>NamerArtWeaponMelee</nameMaker>
+                <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+                <minQualityForArtistic>Excellent</minQualityForArtistic>
+            </li>
+            <li>
+                <compClass>CompColorable</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef Name="Anneli_Oubliee_8A_BaseVFEShield" ParentName="Anneli_8A_VFEShieldOublieeBase" Abstract="True">
+        <thingCategories>
+            <li>Anneli_Category_Oubliee</li>
+        </thingCategories>
+        <recipeMaker>
+            <recipeUsers>
+                <li>Anneli_Oubliee_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+
+    <!--Anneli_Oubliee_RegimentalFlag-->
+    <ThingDef ParentName="Anneli_Oubliee_8A_BaseVFEShield">
+        <defName>Anneli_Oubliee_RegimentalFlag</defName>
+        <label>(Oubliee)8A_RegimentalFlag</label>
+        <description>Not dyeable.</description>
+        <graphicData>
+            <texPath>8A/Anneli_Oubliee_RegimentalFlag</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.1</drawSize>
+        </graphicData>
+        <apparel>
+            <tags>
+                <li>Anneli_Oubliee_RegimentalFlag</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_Shield">
+                <shieldTags>
+                    <li>Oubliee_RegimentalFlag</li>
+                </shieldTags>
+                <useDeflectMetalEffect>false</useDeflectMetalEffect>
+                <coveredBodyPartGroups>
+                    <li>Neck</li>
+                    <li>Torso</li>
+                    <li>Arms</li>
+                    <li>Hands</li>
+                    <li>Legs</li>
+                </coveredBodyPartGroups>
+                <offHandGraphicData>
+                    <texPath>8A/Anneli_Oubliee_RegimentalFlag</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
+                    <drawSize>2.70</drawSize>
+                </offHandGraphicData>
+                <offHandHoldOffset>
+                    <northDefault>
+                        <offset>(0.42, 0, 0.65)</offset>
+                        <behind>true</behind>
+                    </northDefault>
+                    <east>
+                        <offset>(0.05, 0, 0.66)</offset>
+                    </east>
+                    <south>
+                        <offset>(-0.42, 0, 0.65)</offset>
+                        <behind>true</behind>
+                    </south>
+                    <west>
+                        <offset>(-0.05, 0, 0.66)</offset>
+                        <behind>true</behind>
+                    </west>
+                </offHandHoldOffset>
+            </li>
+            <li Class="Annelitrice.CompProperties_ApparelCauseHediff_AoE">
+                <hediff>Anneli_Aura_Honor</hediff>
+                <range>21.9</range>
+                <canTargetSelf>true</canTargetSelf>
+                <drawLines>false</drawLines>
+                <ignoreMechs>true</ignoreMechs>
+                <checkInterval>500</checkInterval>
+            </li>
+        </comps>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>10</weight>
+                    <only>(255,255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+        <generateAllowChance>0.3</generateAllowChance><!--Less Spawn-->
+    </ThingDef>
+
+</Defs>
