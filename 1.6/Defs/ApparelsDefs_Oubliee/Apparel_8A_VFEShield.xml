@@ -127,7 +127,6 @@
                 <offHandHoldOffset>
                     <northDefault>
                         <offset>(0.42, 0, 0.65)</offset>
-                        <behind>true</behind>
                     </northDefault>
                     <east>
                         <offset>(0.05, 0, 0.66)</offset>
