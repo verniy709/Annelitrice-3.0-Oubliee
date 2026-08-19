@@ -109,6 +109,7 @@
 			<tags>
 				<li>Anneli_Oubliee_MaidenB</li>
 				<li>Anneli_Oubliee_Sergeant</li>
+				<li>Anneli_SkipTail</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -187,6 +188,7 @@
 			<wornGraphicPath>5A/Anneli_Oubliee_RoyalCloak</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_AristocratB</li>
+				<li>Anneli_SkipTail</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -214,6 +216,7 @@
 			<tags>
 				<li>Anneli_Oubliee_NunA</li>
 				<li>Anneli_Oubliee_MaidenB</li>
+				<li>Anneli_SkipTail</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -240,6 +243,7 @@
 			<wornGraphicPath>5A/Anneli_Oubliee_BustleB</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_AristocratA</li>
+				<li>Anneli_SkipTail</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -267,6 +271,7 @@
 			<tags>
 				<li>Anneli_Oubliee_MaidenA</li>
 				<li>Anneli_Oubliee_AristocratC</li>
+				<li>Anneli_SkipTail</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
