@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_LaceGloves</defName>
+		<originalDef>Anneli_Oubliee_LaceGloves</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_LaceGloves</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Glove1_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.712, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.712, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.712, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<useBodyType>true</useBodyType>
+				<!-- <isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Oubliee_LaceGloves_Left</def>
+				</actionManager> -->
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_LaceGloves</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Glove1_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.712, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.712, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.712, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.596, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<useBodyType>true</useBodyType>
+				<!-- <isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Oubliee_LaceGloves_Right</def>
+				</actionManager> -->
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_RiderGloves</defName>
+		<originalDef>Anneli_Oubliee_RiderGloves</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_RiderGloves</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Glove2_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.750, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.577, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.750, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.750, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<useBodyType>true</useBodyType>
+				<!-- <isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Oubliee_RiderGloves_Left</def>
+				</actionManager> -->
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_RiderGloves</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Glove2_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.750, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.750, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.750, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.577, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<useBodyType>true</useBodyType>
+				<!-- <isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Oubliee_RiderGloves_Right</def>
+				</actionManager> -->
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>
