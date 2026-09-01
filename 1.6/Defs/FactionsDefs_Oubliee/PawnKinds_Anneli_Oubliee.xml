@@ -868,6 +868,17 @@
 					</options>
 				</colorGenerator>
 			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_LaceBlindfold</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
 			<li>Anneli_Oubliee_NunA</li>
