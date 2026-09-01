@@ -57,7 +57,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -86,7 +89,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -115,7 +121,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -144,7 +153,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -173,7 +185,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -202,7 +217,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -231,7 +249,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -260,7 +281,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -289,7 +313,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -318,7 +345,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -347,7 +377,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -376,7 +409,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -405,7 +441,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -442,7 +481,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -483,7 +525,10 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-
+				<li>Anneli_Sleeve2_Left</li>
+				<li>Anneli_Sleeve2_Right</li>
+				<li>Anneli_Sleeve3_Left</li>
+				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
