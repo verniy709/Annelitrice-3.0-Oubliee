@@ -35,7 +35,13 @@
 		<apparel>
 			<wornGraphicPath>5C/Anneli_Oubliee_LaceGloves</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_MaidenA</li>
+				<li>Anneli_Oubliee_MaidenB</li>
+				<li>Anneli_Oubliee_NunA</li>
+				<li>Anneli_Oubliee_NunB</li>
+				<li>Anneli_Oubliee_AristocratA</li>
+				<li>Anneli_Oubliee_AristocratB</li>
+				<li>Anneli_Oubliee_AristocratC</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -61,7 +67,13 @@
 		<apparel>
 			<wornGraphicPath>5C/Anneli_Oubliee_RiderGloves</wornGraphicPath>
 			<tags>
-
+				<li>Anneli_Oubliee_General</li>
+				<li>Anneli_Oubliee_Officer</li>
+				<li>Anneli_Oubliee_Sergeant</li>
+				<li>Anneli_Oubliee_Hussar</li>
+				<li>Anneli_Oubliee_Cuirassier</li>
+				<li>Anneli_Oubliee_Carabinier</li>
+				<li>Anneli_Oubliee_FollowerD</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>

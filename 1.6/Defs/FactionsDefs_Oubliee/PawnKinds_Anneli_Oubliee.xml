@@ -793,6 +793,17 @@
 				<apparelLayer>Middle</apparelLayer>
 				<requiredTag>Anneli_Oubliee_FollowerD</requiredTag>
 			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_RiderGloves</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
 			<li>Anneli_Oubliee_FollowerD</li>
@@ -830,12 +841,23 @@
 				<requiredTag>Anneli_Oubliee_NunA</requiredTag>
 			</li>
 			<li>
-				<apparelLayer>Anneli_Tactical</apparelLayer>
+				<apparelDef>Anneli_Oubliee_BustleA</apparelDef>
 				<colorGenerator Class="ColorGenerator_Options">
 					<options>
 						<li>
 							<weight>10</weight>
 							<only>(140,0,20,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_LaceGloves</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
 						</li>
 					</options>
 				</colorGenerator>
@@ -892,6 +914,17 @@
 				<bodyPartGroup>Feet</bodyPartGroup>
 				<apparelLayer>Middle</apparelLayer>
 				<requiredTag>Anneli_Oubliee_NunB</requiredTag>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_LaceGloves</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
 			</li>
 			<li>
 				<apparelLayer>Overhead</apparelLayer>
