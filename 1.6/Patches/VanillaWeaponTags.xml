@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--If Guns Galore - American Civil War is NOT installed, add the tags to the vanilla weapons.-->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Guns Galore - American Civil War</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Bolt-action rifle -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_Rifle</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_Rifle</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- Revolver -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="Gun_Revolver"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_Revolver"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_Pistol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Gun_Revolver"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_Pistol</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- Longsword -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_LongSword</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_LongSword</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>

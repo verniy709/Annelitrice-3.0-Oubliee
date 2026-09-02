@@ -12,6 +12,8 @@
 		</recipeMaker>
 	</ThingDef>
 
+<!-- Anneli_Oubliee_SpyglassA-->
+<!-- ToDo-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_SpyglassA</defName>
 		<description>"Sir, you have crushed us utterly. We lay down our arms and beg your mercy."</description>
@@ -27,9 +29,6 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-
-		</colorGenerator>
 		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
 		<costList>
 			<Gold>50</Gold>
@@ -84,6 +83,8 @@
 		</comps>
 	</ThingDef>
 
+<!-- Anneli_Oubliee_SpyglassB-->
+<!-- ToDo-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_SpyglassB</defName>
 		<description>"The couriers report our left wing is retreating… but sir, we are the left wing."</description>
@@ -99,9 +100,6 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-
-		</colorGenerator>
 		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
 		<costList>
 			<Gold>50</Gold>
@@ -194,6 +192,8 @@
 		</graphicData>
 	</ThingDef>
 
+<!-- Anneli_Oubliee_SpyglassC-->
+<!-- ToDo-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_SpyglassC</defName>
 		<description>"Nothing remains but wreckage and smoke."</description>
@@ -209,14 +209,6 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(145,165,110,255)</only>
-				</li>
-			</options>
-		</colorGenerator>
 		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
 		<costList>
 			<Gold>50</Gold>

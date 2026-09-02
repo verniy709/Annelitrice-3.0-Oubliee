@@ -35,7 +35,7 @@
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
 				<useStaticColor>true</useStaticColor>
-				<color>RGBA(0.999,0.999,0.999,1)</color>
+				<color>RGBA(255,255,254,255)</color>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
