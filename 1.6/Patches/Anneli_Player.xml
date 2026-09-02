@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>
+      /Defs/PawnKindDef[defName="Anneli_Player"]/*[
+      self::apparelRequired
+      or self::specificApparelRequirements
+      or self::apparelTags
+      or self::weaponTags
+      ]
+    </xpath>
+
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>
+            /Defs/PawnKindDef[defName="Anneli_Player"]/*[
+            self::apparelRequired
+            or self::specificApparelRequirements
+            or self::apparelTags
+            or self::weaponTags
+            ]
+          </xpath>
+        </li>
+        
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/PawnKindDef[defName="Anneli_Player"]</xpath>
+          <value>
+            <apparelRequired>
+              <li>Anneli_Oubliee_Shirt</li>
+              <li>Anneli_Oubliee_Trousers</li>
+              <li>Anneli_Oubliee_LeatherShoes</li>
+              <li>Anneli_Oubliee_HabitVesteA</li>
+              <li>Anneli_Oubliee_CrossBelt</li>
+              <li>Anneli_Oubliee_Gaiters</li>
+              <li>Anneli_Oubliee_ShakoA</li>
+              <li>Anneli_Oubliee_Backpack</li>
+            </apparelRequired>
+            <specificApparelRequirements>
+              <li>
+                <apparelLayer>OnSkin</apparelLayer>
+                <colorGenerator Class="ColorGenerator_Options">
+                  <options>
+                    <li>
+                      <weight>10</weight>
+                      <only>(50,45,50,255)</only>
+                    </li>
+                  </options>
+                </colorGenerator>
+              </li>
+              <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <apparelLayer>Anneli_Armor</apparelLayer>
+                <requiredTag>Anneli_Oubliee_Private</requiredTag>
+              </li>
+              <li>
+                <apparelLayer>Anneli_Knee</apparelLayer>
+                <colorGenerator Class="ColorGenerator_Options">
+                  <options>
+                    <li>
+                      <weight>10</weight>
+                      <only>(50,45,50,255)</only>
+                    </li>
+                  </options>
+                </colorGenerator>
+              </li>
+              <li>
+                <apparelLayer>Anneli_Bag</apparelLayer>
+                <colorGenerator Class="ColorGenerator_Options">
+                  <options>
+                    <li>
+                      <weight>10</weight>
+                      <only>(75,80,100,255)</only>
+                    </li>
+                  </options>
+                </colorGenerator>
+              </li>
+            </specificApparelRequirements>
+            <apparelTags>
+              <li>Anneli_Oubliee_Private</li>
+            </apparelTags>
+            <weaponTags>
+              <li>Anneli_Oubliee_Rifle</li>
+            </weaponTags>
+          </value>
+        </li>
+      </operations>
+    </match>
+
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/PawnKindDef[defName="Anneli_Player"]</xpath>
+      <value>
+        <apparelRequired>
+          <li>Anneli_Oubliee_Shirt</li>
+          <li>Anneli_Oubliee_Trousers</li>
+          <li>Anneli_Oubliee_LeatherShoes</li>
+          <li>Anneli_Oubliee_HabitVesteA</li>
+          <li>Anneli_Oubliee_CrossBelt</li>
+          <li>Anneli_Oubliee_Gaiters</li>
+          <li>Anneli_Oubliee_ShakoA</li>
+          <li>Anneli_Oubliee_Backpack</li>
+        </apparelRequired>
+        <specificApparelRequirements>
+          <li>
+            <apparelLayer>OnSkin</apparelLayer>
+            <colorGenerator Class="ColorGenerator_Options">
+              <options>
+                <li>
+                  <weight>10</weight>
+                  <only>(50,45,50,255)</only>
+                </li>
+              </options>
+            </colorGenerator>
+          </li>
+          <li>
+            <bodyPartGroup>Torso</bodyPartGroup>
+            <apparelLayer>Anneli_Armor</apparelLayer>
+            <requiredTag>Anneli_Oubliee_Private</requiredTag>
+          </li>
+          <li>
+            <apparelLayer>Anneli_Knee</apparelLayer>
+            <colorGenerator Class="ColorGenerator_Options">
+              <options>
+                <li>
+                  <weight>10</weight>
+                  <only>(50,45,50,255)</only>
+                </li>
+              </options>
+            </colorGenerator>
+          </li>
+          <li>
+            <apparelLayer>Anneli_Bag</apparelLayer>
+            <colorGenerator Class="ColorGenerator_Options">
+              <options>
+                <li>
+                  <weight>10</weight>
+                  <only>(75,80,100,255)</only>
+                </li>
+              </options>
+            </colorGenerator>
+          </li>
+        </specificApparelRequirements>
+        <apparelTags>
+          <li>Anneli_Oubliee_Private</li>
+        </apparelTags>
+        <weaponTags>
+          <li>Anneli_Oubliee_Rifle</li>
+        </weaponTags>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>
