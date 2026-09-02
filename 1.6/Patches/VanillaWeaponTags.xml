@@ -25,8 +25,8 @@
             <value>
               <weaponTags>
                 <li>Anneli_Oubliee_Rifle</li>
-              <li>Anneli_Oubliee_EliteRifle</li>
-              <li>Anneli_Oubliee_Carbine</li>
+                <li>Anneli_Oubliee_EliteRifle</li>
+                <li>Anneli_Oubliee_Carbine</li>
               </weaponTags>
             </value>
           </nomatch>
@@ -39,6 +39,7 @@
             <xpath>Defs/ThingDef[defName="Gun_Revolver"]/weaponTags</xpath>
             <value>
               <li>Anneli_Oubliee_Pistol</li>
+              <li>Anneli_Oubliee_DecoratedPistol</li>
             </value>
           </match>
           <nomatch Class="PatchOperationAdd">
@@ -59,6 +60,8 @@
             <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/weaponTags</xpath>
             <value>
               <li>Anneli_Oubliee_LongSword</li>
+              <li>Anneli_Oubliee_DecoratedSword</li>
+              <li>Anneli_Oubliee_Saber</li>
             </value>
           </match>
           <nomatch Class="PatchOperationAdd">

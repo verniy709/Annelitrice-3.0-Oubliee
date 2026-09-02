@@ -72,7 +72,7 @@
           <match Class="PatchOperationAdd">
             <xpath>Defs/ThingDef[defName="CGF1_MWP_SimeonNorth_M1826_"]/weaponTags</xpath>
             <value>
-              <li>Anneli_Oubliee_Carbine</li>
+              <li>Anneli_Oubliee_Pistol</li>
             </value>
           </match>
           <nomatch Class="PatchOperationAdd">
