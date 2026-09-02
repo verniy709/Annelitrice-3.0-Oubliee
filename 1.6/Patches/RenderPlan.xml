@@ -140,7 +140,9 @@
         <li>Anneli_Oubliee_Drum</li>
         <li>Anneli_Oubliee_Saber</li>
         <li>Anneli_Oubliee_RegimentalFlag</li>
-
+        <li>Anneli_Oubliee_DemandSurrender</li>
+        <li>Anneli_Oubliee_ImperialCoins</li>
+        <li>Anneli_Oubliee_Spyglass</li>
       </value>
     </match>
   </Operation>

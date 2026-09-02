@@ -12,14 +12,14 @@
 		</recipeMaker>
 	</ThingDef>
 
-<!-- Anneli_Oubliee_SpyglassA-->
+<!-- Anneli_Oubliee_DemandSurrender-->
 <!-- ToDo-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
-		<defName>Anneli_Oubliee_SpyglassA</defName>
-		<description>"Sir, you have crushed us utterly. We lay down our arms and beg your mercy."</description>
-		<label>(Oubliee)8B_SpyglassA</label>
+		<defName>Anneli_Oubliee_DemandSurrender</defName>
+		<description>Not dyeable. Apply psychic shock to all enemies in an area.\n\n"Sir, you have crushed us utterly. We lay down our arms and beg your mercy."</description>
+		<label>(Oubliee)8B_DemandSurrender</label>
 		<graphicData>
-			<texPath>8B/Anneli_Oubliee_SpyglassA</texPath>
+			<texPath>8B/Anneli_Oubliee_DemandSurrender</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -62,7 +62,7 @@
 		</verbs>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">
-				<maxCharges>2</maxCharges>
+				<maxCharges>1</maxCharges>
 				<destroyOnEmpty>true</destroyOnEmpty>
 				<hotKey>Misc4</hotKey>
 				<chargeNoun>charge</chargeNoun>
@@ -83,14 +83,14 @@
 		</comps>
 	</ThingDef>
 
-<!-- Anneli_Oubliee_SpyglassB-->
+<!-- Anneli_Oubliee_ImperialCoins-->
 <!-- ToDo-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
-		<defName>Anneli_Oubliee_SpyglassB</defName>
-		<description>"The couriers report our left wing is retreating… but sir, we are the left wing."</description>
-		<label>(Oubliee)8B_SpyglassB</label>
+		<defName>Anneli_Oubliee_ImperialCoins</defName>
+		<description>Not dyeable. Apply psychic berserk to all enemies in an area.\n\n"The couriers report our left wing is retreating… but sir, we are the left wing."</description>
+		<label>(Oubliee)8B_ImperialCoins</label>
 		<graphicData>
-			<texPath>8B/Anneli_Oubliee_SpyglassB</texPath>
+			<texPath>8B/Anneli_Oubliee_ImperialCoins</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -133,7 +133,7 @@
 		</verbs>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">
-				<maxCharges>2</maxCharges>
+				<maxCharges>1</maxCharges>
 				<destroyOnEmpty>true</destroyOnEmpty>
 				<hotKey>Misc4</hotKey>
 				<chargeNoun>charge</chargeNoun>
@@ -155,7 +155,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="MoteBase">
-		<defName>Mote_Anneli_Oubliee_SpyglassC_Aim</defName>
+		<defName>Mote_Anneli_Oubliee_Spyglass_Aim</defName>
 		<thingClass>MoteDualAttached</thingClass>
 		<altitudeLayer>MoteLow</altitudeLayer>
 		<mote>
@@ -168,14 +168,14 @@
 			<fadeOutUnmaintained>True</fadeOutUnmaintained>
 		</mote>
 		<graphicData>
-			<texPath>Effects/Mote_Anneli_Oubliee_SpyglassC_Aim</texPath>
+			<texPath>Effects/Mote_Anneli_Oubliee_Spyglass_Aim</texPath>
 			<shaderType>MoteGlow</shaderType>
 			<drawSize>(1, 1)</drawSize>
 		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="MoteBase">
-		<defName>Mote_Anneli_Oubliee_SpyglassC_Target</defName>
+		<defName>Mote_Anneli_Oubliee_Spyglass_Target</defName>
 		<thingClass>MoteAttached</thingClass>
 		<altitudeLayer>MoteLow</altitudeLayer>
 		<mote>
@@ -186,20 +186,20 @@
 			<needsMaintenance>True</needsMaintenance>
 		</mote>
 		<graphicData>
-			<texPath>Effects/Mote_Anneli_Oubliee_SpyglassC_Target</texPath>
+			<texPath>Effects/Mote_Anneli_Oubliee_Spyglass_Target</texPath>
 			<shaderType>MoteGlow</shaderType>
 			<drawSize>(6, 6)</drawSize>
 		</graphicData>
 	</ThingDef>
 
-<!-- Anneli_Oubliee_SpyglassC-->
+<!-- Anneli_Oubliee_Spyglass-->
 <!-- ToDo-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
-		<defName>Anneli_Oubliee_SpyglassC</defName>
-		<description>"Nothing remains but wreckage and smoke."</description>
-		<label>(Oubliee)8B_SpyglassC</label>
+		<defName>Anneli_Oubliee_Spyglass</defName>
+		<description>Not dyeable. Bombard an area."Nothing remains but wreckage and smoke."</description>
+		<label>(Oubliee)8B_Spyglass</label>
 		<graphicData>
-			<texPath>8B/Anneli_Oubliee_SpyglassC</texPath>
+			<texPath>8B/Anneli_Oubliee_Spyglass</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -237,8 +237,8 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<aimingLineMote>Mote_Anneli_Oubliee_SpyglassC_Aim</aimingLineMote>
-				<aimingTargetMote>Mote_Anneli_Oubliee_SpyglassC_Target</aimingTargetMote>
+				<aimingLineMote>Mote_Anneli_Oubliee_Spyglass_Aim</aimingLineMote>
+				<aimingTargetMote>Mote_Anneli_Oubliee_Spyglass_Target</aimingTargetMote>
 			</li>
 		</verbs>
 		<comps>

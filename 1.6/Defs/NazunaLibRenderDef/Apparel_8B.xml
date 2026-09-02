@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_DemandSurrender</defName>
+		<originalDef>Anneli_Oubliee_DemandSurrender</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_DemandSurrender</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel8B</textureLevelsName>
+				<drawOffsetSouth>(0, 2.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.769, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.769, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_ImperialCoins</defName>
+		<originalDef>Anneli_Oubliee_ImperialCoins</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_ImperialCoins</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel8B</textureLevelsName>
+				<drawOffsetSouth>(0, 2.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.769, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.769, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Oubliee_Spyglass</defName>
+		<originalDef>Anneli_Oubliee_Spyglass</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Oubliee_Spyglass</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel8B</textureLevelsName>
+				<drawOffsetSouth>(0, 2.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.769, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.769, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>
