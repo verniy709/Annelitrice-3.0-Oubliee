@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--If Guns Galore - American Civil War is installed, add the tags to the mod weapons.-->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Guns Galore - American Civil War</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- CGF1_MWP_Springfield_M1816_ -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1816_"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1816_"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_Rifle</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1816_"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_Rifle</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- CGF1_MWP_Springfield_M1822_ -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1822_"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1822_"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_EliteRifle</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1822_"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_EliteRifle</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- CGF1_MWP_Springfield_M1847_ -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1847_"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1847_"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_Carbine</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1847_"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_Carbine</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- CGF1_MWP_SimeonNorth_M1826_ -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="CGF1_MWP_SimeonNorth_M1826_"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_SimeonNorth_M1826_"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_Carbine</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_SimeonNorth_M1826_"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_Pistol</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- CGF1_MWP_Springfield_M1817_Pistol_ -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1817_Pistol_"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1817_Pistol_"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_DecoratedPistol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Springfield_M1817_Pistol_"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_DecoratedPistol</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

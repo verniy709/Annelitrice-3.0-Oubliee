@@ -16,6 +16,8 @@
             <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/weaponTags</xpath>
             <value>
               <li>Anneli_Oubliee_Rifle</li>
+              <li>Anneli_Oubliee_EliteRifle</li>
+              <li>Anneli_Oubliee_Carbine</li>
             </value>
           </match>
           <nomatch Class="PatchOperationAdd">
@@ -23,6 +25,8 @@
             <value>
               <weaponTags>
                 <li>Anneli_Oubliee_Rifle</li>
+              <li>Anneli_Oubliee_EliteRifle</li>
+              <li>Anneli_Oubliee_Carbine</li>
               </weaponTags>
             </value>
           </nomatch>
@@ -42,6 +46,7 @@
             <value>
               <weaponTags>
                 <li>Anneli_Oubliee_Pistol</li>
+                <li>Anneli_Oubliee_DecoratedPistol</li>
               </weaponTags>
             </value>
           </nomatch>
@@ -61,6 +66,8 @@
             <value>
               <weaponTags>
                 <li>Anneli_Oubliee_LongSword</li>
+                <li>Anneli_Oubliee_DecoratedSword</li>
+                <li>Anneli_Oubliee_Saber</li>
               </weaponTags>
             </value>
           </nomatch>

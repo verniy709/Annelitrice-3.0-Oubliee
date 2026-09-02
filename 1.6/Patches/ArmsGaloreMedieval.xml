@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--If Arms Galore - Medieval is installed, add the tags to the mod weapons.-->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Arms Galore - Medieval</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- CGF1_MWP_Sidesword -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="CGF1_MWP_Sidesword"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Sidesword"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_LongSword</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Sidesword"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_LongSword</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- CGF1_MWP_Rapier -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="CGF1_MWP_Rapier"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Rapier"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_DecoratedSword</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_Rapier"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_DecoratedSword</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+
+        <!-- CGF1_MWP_HussarSaber -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="CGF1_MWP_HussarSaber"]/weaponTags</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_HussarSaber"]/weaponTags</xpath>
+            <value>
+              <li>Anneli_Oubliee_Saber</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="CGF1_MWP_HussarSaber"]</xpath>
+            <value>
+              <weaponTags>
+                <li>Anneli_Oubliee_Saber</li>
+              </weaponTags>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
