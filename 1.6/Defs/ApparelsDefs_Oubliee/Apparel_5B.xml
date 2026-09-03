@@ -24,7 +24,7 @@
 	</ThingDef>
 
 <!--Anneli_Oubliee_Gaiters-->
-	<ThingDef ParentName="Anneli_Oubliee_5B_Metal">
+	<ThingDef ParentName="Anneli_Oubliee_5B_NonMetal">
 		<defName>Anneli_Oubliee_Gaiters</defName>
 		<description>Dyeable.</description>
 		<label>(Oubliee)5B_Gaiters</label>
@@ -51,7 +51,7 @@
 	</ThingDef>
 
 	<!--Anneli_Oubliee_LongGaiters-->
-	<ThingDef ParentName="Anneli_Oubliee_5B_Metal">
+	<ThingDef ParentName="Anneli_Oubliee_5B_NonMetal">
 		<defName>Anneli_Oubliee_LongGaiters</defName>
 		<description>Dyeable.</description>
 		<label>(Oubliee)5B_LongGaiters</label>
