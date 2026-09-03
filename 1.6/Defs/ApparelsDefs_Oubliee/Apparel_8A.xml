@@ -28,7 +28,7 @@
 						<clipPath>Anneli_MarchingSongA</clipPath>
 					</li>
 				</grains>
-				<volumeRange>50~50</volumeRange>
+				<volumeRange>60~60</volumeRange>
 			</li>
 		</subSounds>
 	</SoundDef>
@@ -49,7 +49,7 @@
 						<clipPath>Anneli_MarchingSongB</clipPath>
 					</li>
 				</grains>
-				<volumeRange>50~50</volumeRange>
+				<volumeRange>55~55</volumeRange>
 			</li>
 		</subSounds>
 	</SoundDef>

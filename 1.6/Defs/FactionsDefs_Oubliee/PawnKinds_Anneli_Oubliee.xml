@@ -8,6 +8,16 @@
 		<isFighter>true</isFighter>
 		<combatPower>160</combatPower>
 		<canBeSapper>true</canBeSapper>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~20</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>10~20</range>
+			</li>
+		</skills>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>

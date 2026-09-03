@@ -27,9 +27,6 @@
 				<li>Anneli_Oubliee_FollowerB</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -441,8 +438,6 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<renderSkipFlags>
-				<li>Anneli_Sleeve2_Left</li>
-				<li>Anneli_Sleeve2_Right</li>
 				<li>Anneli_Sleeve3_Left</li>
 				<li>Anneli_Sleeve3_Right</li>
 			</renderSkipFlags>
@@ -524,12 +519,6 @@
 				<li>Anneli_Oubliee_FollowerA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
-			<renderSkipFlags>
-				<li>Anneli_Sleeve2_Left</li>
-				<li>Anneli_Sleeve2_Right</li>
-				<li>Anneli_Sleeve3_Left</li>
-				<li>Anneli_Sleeve3_Right</li>
-			</renderSkipFlags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -540,4 +529,5 @@
 			</options>
 		</colorGenerator>
 	</ThingDef>
+	
 </Defs>
