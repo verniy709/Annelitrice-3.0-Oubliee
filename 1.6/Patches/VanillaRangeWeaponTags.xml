@@ -52,29 +52,6 @@
             </value>
           </nomatch>
         </li>
-
-        <!-- Longsword -->
-        <li Class="PatchOperationConditional">
-          <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/weaponTags</xpath>
-          <match Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/weaponTags</xpath>
-            <value>
-              <li>Anneli_Oubliee_LongSword</li>
-              <li>Anneli_Oubliee_DecoratedSword</li>
-              <li>Anneli_Oubliee_Saber</li>
-            </value>
-          </match>
-          <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]</xpath>
-            <value>
-              <weaponTags>
-                <li>Anneli_Oubliee_LongSword</li>
-                <li>Anneli_Oubliee_DecoratedSword</li>
-                <li>Anneli_Oubliee_Saber</li>
-              </weaponTags>
-            </value>
-          </nomatch>
-        </li>
       </operations>
     </nomatch>
   </Operation>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- If Giddy-Up 2 - Continued is installed, add custom mounts to anneli cavalry pawns -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Giddy-Up 2 - Continued</li>
+        </mods>
+        <match Class="PatchOperationAddModExtension">
+            <xpath>
+                Defs/PawnKindDef[
+                    defName="Anneli_Oubliee_General"
+                    or defName="Anneli_Oubliee_Officer"
+                    or defName="Anneli_Oubliee_MaidenA"
+                    or defName="Anneli_Oubliee_MaidenB"
+                    or defName="Anneli_Oubliee_Hussar"
+                    or defName="Anneli_Oubliee_Cuirassier"
+                    or defName="Anneli_Oubliee_Carabinier"
+                ]
+            </xpath>
+            <value>
+                <li Class="GiddyUp.CustomMounts">
+                    <mountChance>100</mountChance>
+                    <possibleMounts>
+                        <li>
+                            <key>Horse</key>
+                            <value>1</value>
+                        </li>
+                    </possibleMounts>
+                </li>
+            </value>
+        </match>
+    </Operation>
+</Patch>
