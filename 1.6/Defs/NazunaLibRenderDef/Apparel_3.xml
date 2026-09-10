@@ -792,7 +792,7 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Back_Oubliee_OverdressB</li>
+					<li>Anneli_Back_Oubliee_OverdressA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel3_Back</textureLevelsName>
@@ -869,7 +869,7 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Back_Oubliee_OverdressA</li>
+					<li>Anneli_Back_Oubliee_OverdressB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel3_Back</textureLevelsName>
@@ -881,6 +881,44 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_BS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve3_BS_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.769, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_BS_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm_BS</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Sleeve3_BS_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.769, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.596, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_BS_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
