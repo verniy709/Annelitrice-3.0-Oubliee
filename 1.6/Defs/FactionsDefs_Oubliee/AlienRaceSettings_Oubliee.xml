@@ -114,6 +114,12 @@
 				</li>
 				<li>
 					<kindDefs>
+						<li>Anneli_Oubliee_FollowerE</li>
+					</kindDefs>
+					<chance>1</chance>
+				</li>
+				<li>
+					<kindDefs>
 						<li>Anneli_Oubliee_NunA</li>
 					</kindDefs>
 					<chance>1</chance>
@@ -276,6 +282,12 @@
 						<li>
 							<kindDefs>
 								<li>Anneli_Oubliee_FollowerD</li>
+							</kindDefs>
+							<chance>1</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>Anneli_Oubliee_FollowerE</li>
 							</kindDefs>
 							<chance>1</chance>
 						</li>
@@ -451,6 +463,12 @@
 				</li>
 				<li>
 					<kindDefs>
+						<li>Anneli_Oubliee_FollowerE</li>
+					</kindDefs>
+					<chance>1</chance>
+				</li>
+				<li>
+					<kindDefs>
 						<li>Anneli_Oubliee_NunA</li>
 					</kindDefs>
 					<chance>1</chance>
@@ -613,6 +631,12 @@
 						<li>
 							<kindDefs>
 								<li>Anneli_Oubliee_FollowerD</li>
+							</kindDefs>
+							<chance>100</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>Anneli_Oubliee_FollowerE</li>
 							</kindDefs>
 							<chance>100</chance>
 						</li>

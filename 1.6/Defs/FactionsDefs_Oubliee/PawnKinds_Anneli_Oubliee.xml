@@ -4,20 +4,11 @@
 	<PawnKindDef Name="Anneli_Oubliee_KindBase" ParentName="Anneli_KindBase" Abstract="True">
 		<label>Anneli_Oubliee_KindBase</label>
 		<itemQuality>Masterwork</itemQuality>
+		<forceWeaponQuality>Masterwork</forceWeaponQuality>
 		<defaultFactionType>Anneli_Faction_Oubliee</defaultFactionType>
 		<isFighter>true</isFighter>
-		<combatPower>160</combatPower>
+		<combatPower>140</combatPower>
 		<canBeSapper>true</canBeSapper>
-		<skills>
-			<li>
-				<skill>Shooting</skill>
-				<range>8~20</range>
-			</li>
-			<li>
-				<skill>Melee</skill>
-				<range>10~20</range>
-			</li>
-		</skills>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -811,6 +802,59 @@
 		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
 			<li>Anneli_Oubliee_Pistol</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Oubliee_KindBase">
+		<defName>Anneli_Oubliee_FollowerE</defName>
+		<label>Oubliee Camp Follower</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelRequired>
+			<li>Anneli_Oubliee_CravatShirtB</li>
+			<li>Anneli_Oubliee_Breeches</li>
+			<li>Anneli_Oubliee_Coat</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<requiredTag>Anneli_Oubliee_FollowerE</requiredTag>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<requiredTag>Anneli_Oubliee_FollowerE</requiredTag>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_Breeches</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_VestLiner</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+		<apparelTags>
+			<li>Anneli_Oubliee_FollowerE</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>Anneli_Oubliee_Rifle</li>
 		</weaponTags>
 	</PawnKindDef>
 

@@ -27,7 +27,7 @@
 					<li>Anneli_Arm_BS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve3_BS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve3_BS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
@@ -46,7 +46,7 @@
 					<li>Anneli_Arm_BS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve3_BS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve3_BS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -105,7 +105,7 @@
 					<li>Anneli_Arm_BS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve3_BS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve3_BS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
@@ -124,7 +124,7 @@
 					<li>Anneli_Arm_BS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve3_BS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve3_BS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -183,7 +183,7 @@
 					<li>Anneli_Arm_BS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve3_BS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve3_BS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
@@ -202,7 +202,7 @@
 					<li>Anneli_Arm_BS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve3_BS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve3_BS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -247,7 +247,7 @@
 					<li>Anneli_Arm_LS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve2_LS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve2_LS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 1.731, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.558, 0)</drawOffsetEast>
@@ -266,7 +266,7 @@
 					<li>Anneli_Arm_LS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve2_LS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve2_LS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -311,7 +311,7 @@
 					<li>Anneli_Arm_LBS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve3_LBS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve3_LBS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 1.769, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
@@ -330,7 +330,7 @@
 					<li>Anneli_Arm_LBS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Sleeve3_LBS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_Sleeve3_LBS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>

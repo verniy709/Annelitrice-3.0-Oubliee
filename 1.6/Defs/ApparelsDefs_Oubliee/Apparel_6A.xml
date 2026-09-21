@@ -558,8 +558,8 @@
 		<apparel>
 			<wornGraphicPath>6A/Anneli_Oubliee_TopHat</wornGraphicPath>
 			<tags>
-				<li>Anneli_Oubliee_FollowerA</li>
 				<li>Anneli_Oubliee_FollowerD</li>
+				<li>Anneli_Oubliee_FollowerE</li>
 				<li>Anneli_SkipOverhead</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->

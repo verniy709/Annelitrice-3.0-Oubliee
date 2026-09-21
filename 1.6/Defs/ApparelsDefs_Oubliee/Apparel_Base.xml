@@ -4,7 +4,7 @@
 	<ThingCategoryDef>
 		<defName>Anneli_Category_Oubliee</defName>
 		<parent>Apparel</parent>
-		<label>Annelitrice Oubliee Apparels</label>
+		<label>Annelitrice Oubliee Apparel</label>
 	</ThingCategoryDef>
 	
 </Defs>

@@ -78,6 +78,7 @@
 			<wornGraphicPath>2A/Anneli_Oubliee_ShirtB</wornGraphicPath>
 			<tags>
 				<li>Anneli_Oubliee_General</li>
+				<li>Anneli_Oubliee_FollowerE</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>

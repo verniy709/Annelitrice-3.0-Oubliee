@@ -87,12 +87,13 @@
 					<Anneli_Oubliee_Hussar>3</Anneli_Oubliee_Hussar>
 					<Anneli_Oubliee_Cuirassier>3</Anneli_Oubliee_Cuirassier>
 					<Anneli_Oubliee_Carabinier>3</Anneli_Oubliee_Carabinier>
-					<Anneli_Oubliee_FollowerA>3</Anneli_Oubliee_FollowerA>
+					<Anneli_Oubliee_FollowerA>2</Anneli_Oubliee_FollowerA>
 					<Anneli_Oubliee_FollowerB_Red>1</Anneli_Oubliee_FollowerB_Red>
 					<Anneli_Oubliee_FollowerB_Green>1</Anneli_Oubliee_FollowerB_Green>
 					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>3</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>3</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_FollowerE>2</Anneli_Oubliee_FollowerE>
 					<Anneli_Oubliee_NunA>4</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>4</Anneli_Oubliee_NunB>
 					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
@@ -121,7 +122,7 @@
 			<!-- Calvalry Battalion -->
 			<li>
 				<kindDef>Combat</kindDef>
-				<commonality>30</commonality>
+				<commonality>50</commonality>
 				<options>
 					<Anneli_Oubliee_General>2</Anneli_Oubliee_General>
 					<Anneli_Oubliee_Officer>3</Anneli_Oubliee_Officer>
@@ -169,6 +170,7 @@
 					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_FollowerE>1</Anneli_Oubliee_FollowerE>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
 					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
@@ -215,6 +217,7 @@
 					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_FollowerE>1</Anneli_Oubliee_FollowerE>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
 				</guards>
@@ -241,6 +244,7 @@
 					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_FollowerE>1</Anneli_Oubliee_FollowerE>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
 					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
@@ -274,6 +278,7 @@
 					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_FollowerE>1</Anneli_Oubliee_FollowerE>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
 					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
@@ -307,6 +312,7 @@
 					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_FollowerE>1</Anneli_Oubliee_FollowerE>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
 					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
@@ -340,6 +346,7 @@
 					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_FollowerE>1</Anneli_Oubliee_FollowerE>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
 					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>
@@ -373,6 +380,7 @@
 					<Anneli_Oubliee_FollowerB_Blue>1</Anneli_Oubliee_FollowerB_Blue>
 					<Anneli_Oubliee_FollowerC>1</Anneli_Oubliee_FollowerC>
 					<Anneli_Oubliee_FollowerD>1</Anneli_Oubliee_FollowerD>
+					<Anneli_Oubliee_FollowerE>1</Anneli_Oubliee_FollowerE>
 					<Anneli_Oubliee_NunA>1</Anneli_Oubliee_NunA>
 					<Anneli_Oubliee_NunB>1</Anneli_Oubliee_NunB>
 					<Anneli_Oubliee_AristocratA_Red>1</Anneli_Oubliee_AristocratA_Red>

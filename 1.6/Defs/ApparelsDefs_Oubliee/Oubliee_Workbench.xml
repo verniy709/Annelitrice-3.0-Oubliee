@@ -51,7 +51,7 @@
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>Anneli_Oubliee_Apparels</li>
+      <li>Anneli_Oubliee_Apparel</li>
     </researchPrerequisites>
   </ThingDef>
 
