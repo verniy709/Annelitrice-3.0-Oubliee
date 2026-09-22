@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <StyleCategoryDef>
+    <defName>Anneli_Oubliee_Style</defName>
+    <label>Anneli_Oubliee</label>
+    <iconPath>Anneli_Factions/Anneli_Oubliee</iconPath>
+    <thingDefStyles>
+      <li>
+        <thingDef>MeleeWeapon_LongSword</thingDef>
+        <styleDef>Anneli_Oubliee_MeleeWeapon_LongSword</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_BoltActionRifle</thingDef>
+        <styleDef>Anneli_Oubliee_Gun_BoltActionRifle</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_Revolver</thingDef>
+        <styleDef>Anneli_Oubliee_Gun_Revolver</styleDef>
+      </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
+</Defs>
