@@ -29,6 +29,7 @@
 					</li>
 				</grains>
 				<volumeRange>60~60</volumeRange>
+				<distRange>20~50</distRange>
 			</li>
 		</subSounds>
 	</SoundDef>
@@ -50,6 +51,7 @@
 					</li>
 				</grains>
 				<volumeRange>55~55</volumeRange>
+				<distRange>20~50</distRange>
 			</li>
 		</subSounds>
 	</SoundDef>

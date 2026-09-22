@@ -12,8 +12,7 @@
 		</recipeMaker>
 	</ThingDef>
 
-<!-- Anneli_Oubliee_DemandSurrender-->
-<!-- ToDo-->
+	<!-- Anneli_Oubliee_DemandSurrender-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_DemandSurrender</defName>
 		<description>Not dyeable. Apply psychic shock to all enemies in an area.\n\n"Sir, you have crushed us utterly. We lay down our arms and beg your mercy."</description>
@@ -49,7 +48,7 @@
 				<targetable>true</targetable>
 				<onlyManualCast>True</onlyManualCast>
 				<range>41.9</range>
-				<warmupTime>2.2</warmupTime>
+				<warmupTime>4.0</warmupTime>
 				<invalidTargetPawn>psychic shock immune</invalidTargetPawn>
 				<targetParams>
 					<canTargetBuildings>false</canTargetBuildings>
@@ -83,8 +82,7 @@
 		</comps>
 	</ThingDef>
 
-<!-- Anneli_Oubliee_ImperialCoins-->
-<!-- ToDo-->
+	<!-- Anneli_Oubliee_ImperialCoins-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_ImperialCoins</defName>
 		<description>Not dyeable. Apply psychic berserk to all enemies in an area.\n\n"The couriers report our left wing is retreating… but sir, we are the left wing."</description>
@@ -120,7 +118,7 @@
 				<targetable>true</targetable>
 				<onlyManualCast>True</onlyManualCast>
 				<range>41.9</range>
-				<warmupTime>2.2</warmupTime>
+				<warmupTime>4.0</warmupTime>
 				<invalidTargetPawn>psychic insanity immune</invalidTargetPawn>
 				<targetParams>
 					<canTargetBuildings>false</canTargetBuildings>
@@ -192,8 +190,27 @@
 		</graphicData>
 	</ThingDef>
 
-<!-- Anneli_Oubliee_Spyglass-->
-<!-- ToDo-->
+	<!-- Anneli_Oubliee_Spyglass_Aiming_Sound-->
+	<SoundDef>
+		<defName>Anneli_Oubliee_Spyglass_Aiming_Sound</defName>
+		<context>MapOnly</context>
+		<sustain>true</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_Oubliee_Spyglass_Aiming_Sound</clipPath>
+					</li>
+				</grains>
+				<volumeRange>70~70</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!-- Anneli_Oubliee_Spyglass-->
 	<ThingDef ParentName="Anneli_Oubliee_8B">
 		<defName>Anneli_Oubliee_Spyglass</defName>
 		<description>Not dyeable. Bombard an area."Nothing remains but wreckage and smoke."</description>
@@ -211,7 +228,7 @@
 		</apparel>
 		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
 		<costList>
-			<Gold>50</Gold>
+			<Steel>1000</Steel>
 		</costList>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -231,7 +248,7 @@
 				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
 				<range>44.9</range>
 				<burstShotCount>1</burstShotCount>
-				<soundAiming>OrbitalTargeter_Aiming</soundAiming>
+				<soundAiming>Anneli_Oubliee_Spyglass_Aiming_Sound</soundAiming>
 				<soundCast>OrbitalTargeter_Fire</soundCast>
 				<onlyManualCast>true</onlyManualCast>
 				<targetParams>
