@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Bedroll dyeable. -->
+  <Anneli_Oubliee_Backpack.description>铺盖卷可染色。</Anneli_Oubliee_Backpack.description>
+  <!-- EN: (Oubliee)7_Backpack -->
+  <Anneli_Oubliee_Backpack.label>(乌布莉耶)7_行军背包</Anneli_Oubliee_Backpack.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_MessengerBag.description>可染色。</Anneli_Oubliee_MessengerBag.description>
+  <!-- EN: (Oubliee)7_MessengerBag -->
+  <Anneli_Oubliee_MessengerBag.label>(乌布莉耶)7_信使挎包</Anneli_Oubliee_MessengerBag.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_PicnicBasket.description>可染色。</Anneli_Oubliee_PicnicBasket.description>
+  <!-- EN: (Oubliee)7_PicnicBasket -->
+  <Anneli_Oubliee_PicnicBasket.label>(乌布莉耶)7_野餐篮</Anneli_Oubliee_PicnicBasket.label>
+</LanguageData>

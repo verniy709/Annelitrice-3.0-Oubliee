@@ -21,7 +21,7 @@
 		<naturalEnemy>false</naturalEnemy>
 		<techLevel>Medieval</techLevel>
 		<allowedCultures>
-			<li>Anneli_Cultures_Sophian_Oubliee</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Anneli_Cultures_Sophian_Oubliee</li>
 		</allowedCultures>
 		<settlementTexturePath>Anneli_Factions/Anneli_Oubliee</settlementTexturePath>
 		<factionIconPath>Anneli_Factions/Anneli_Oubliee</factionIconPath>

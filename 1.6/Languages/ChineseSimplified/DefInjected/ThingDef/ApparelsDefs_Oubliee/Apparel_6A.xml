@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Cords dyeable. -->
+  <Anneli_Oubliee_Bearskin.description>饰绳可染色。</Anneli_Oubliee_Bearskin.description>
+  <!-- EN: (Oubliee)6A_Bearskin -->
+  <Anneli_Oubliee_Bearskin.label>(乌布莉耶)6A_熊皮帽</Anneli_Oubliee_Bearskin.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_BicorneA.description>可染色。</Anneli_Oubliee_BicorneA.description>
+  <!-- EN: (Oubliee)6A_BicorneA -->
+  <Anneli_Oubliee_BicorneA.label>(乌布莉耶)6A_双角帽A</Anneli_Oubliee_BicorneA.label>
+  <!-- EN: Feather dyeable. -->
+  <Anneli_Oubliee_BicorneB.description>羽毛可染色。</Anneli_Oubliee_BicorneB.description>
+  <!-- EN: (Oubliee)6A_BicorneB -->
+  <Anneli_Oubliee_BicorneB.label>(乌布莉耶)6A_双角帽B</Anneli_Oubliee_BicorneB.label>
+  <!-- EN: Plumes and cords dyeable. -->
+  <Anneli_Oubliee_BicorneC.description>羽饰和饰绳可染色。</Anneli_Oubliee_BicorneC.description>
+  <!-- EN: (Oubliee)6A_BicorneC -->
+  <Anneli_Oubliee_BicorneC.label>(乌布莉耶)6A_双角帽C</Anneli_Oubliee_BicorneC.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Bonnet.description>可染色。</Anneli_Oubliee_Bonnet.description>
+  <!-- EN: (Oubliee)6A_Bonnet -->
+  <Anneli_Oubliee_Bonnet.label>(乌布莉耶)6A_女帽</Anneli_Oubliee_Bonnet.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_CarabinierHelmet.description>可染色。</Anneli_Oubliee_CarabinierHelmet.description>
+  <!-- EN: (Oubliee)6A_CarabinierHelmet -->
+  <Anneli_Oubliee_CarabinierHelmet.label>(乌布莉耶)6A_卡宾骑兵头盔</Anneli_Oubliee_CarabinierHelmet.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_CuirassierHelmet.description>可染色。</Anneli_Oubliee_CuirassierHelmet.description>
+  <!-- EN: (Oubliee)6A_CuirassierHelmet -->
+  <Anneli_Oubliee_CuirassierHelmet.label>(乌布莉耶)6A_胸甲骑兵头盔</Anneli_Oubliee_CuirassierHelmet.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Flower.description>可染色。</Anneli_Oubliee_Flower.description>
+  <!-- EN: (Oubliee)6A_Flower -->
+  <Anneli_Oubliee_Flower.label>(乌布莉耶)6A_头花</Anneli_Oubliee_Flower.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Kerchief.description>可染色。</Anneli_Oubliee_Kerchief.description>
+  <!-- EN: (Oubliee)6A_Kerchief -->
+  <Anneli_Oubliee_Kerchief.label>(乌布莉耶)6A_头巾</Anneli_Oubliee_Kerchief.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_LaceVeil.description>可染色。</Anneli_Oubliee_LaceVeil.description>
+  <!-- EN: (Oubliee)6A_LaceVeil -->
+  <Anneli_Oubliee_LaceVeil.label>(乌布莉耶)6A_蕾丝头纱</Anneli_Oubliee_LaceVeil.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_NunVeil.description>可染色。</Anneli_Oubliee_NunVeil.description>
+  <!-- EN: (Oubliee)6A_NunVeil -->
+  <Anneli_Oubliee_NunVeil.label>(乌布莉耶)6A_修女头巾</Anneli_Oubliee_NunVeil.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_PictureHat.description>可染色。</Anneli_Oubliee_PictureHat.description>
+  <!-- EN: (Oubliee)6A_PictureHat -->
+  <Anneli_Oubliee_PictureHat.label>(乌布莉耶)6A_礼帽</Anneli_Oubliee_PictureHat.label>
+  <!-- EN: Pom-poms and bands dyeable. -->
+  <Anneli_Oubliee_ShakoA.description>绒球和饰带可染色。</Anneli_Oubliee_ShakoA.description>
+  <!-- EN: (Oubliee)6A_ShakoA -->
+  <Anneli_Oubliee_ShakoA.label>(乌布莉耶)6A_高筒军帽A</Anneli_Oubliee_ShakoA.label>
+  <!-- EN: Plumes and cords dyeable. -->
+  <Anneli_Oubliee_ShakoB.description>羽饰和饰绳可染色。</Anneli_Oubliee_ShakoB.description>
+  <!-- EN: (Oubliee)6A_ShakoB -->
+  <Anneli_Oubliee_ShakoB.label>(乌布莉耶)6A_高筒军帽B</Anneli_Oubliee_ShakoB.label>
+  <!-- EN: Ribbons dyeable. -->
+  <Anneli_Oubliee_StrawBonnet.description>缎带可染色。</Anneli_Oubliee_StrawBonnet.description>
+  <!-- EN: (Oubliee)6A_StrawBonnet -->
+  <Anneli_Oubliee_StrawBonnet.label>(乌布莉耶)6A_草编女帽</Anneli_Oubliee_StrawBonnet.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_TiaraA.description>可染色。</Anneli_Oubliee_TiaraA.description>
+  <!-- EN: (Oubliee)6A_TiaraA -->
+  <Anneli_Oubliee_TiaraA.label>(乌布莉耶)6A_皇冠头饰A</Anneli_Oubliee_TiaraA.label>
+  <!-- EN: Gemstones dyeable. -->
+  <Anneli_Oubliee_TiaraB.description>宝石可染色。</Anneli_Oubliee_TiaraB.description>
+  <!-- EN: (Oubliee)6A_TiaraB -->
+  <Anneli_Oubliee_TiaraB.label>(乌布莉耶)6A_皇冠头饰B</Anneli_Oubliee_TiaraB.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_TopHat.description>可染色。</Anneli_Oubliee_TopHat.description>
+  <!-- EN: (Oubliee)6A_TopHat -->
+  <Anneli_Oubliee_TopHat.label>(乌布莉耶)6A_绅士帽</Anneli_Oubliee_TopHat.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Tricorne.description>可染色。</Anneli_Oubliee_Tricorne.description>
+  <!-- EN: (Oubliee)6A_Tricorne -->
+  <Anneli_Oubliee_Tricorne.label>(乌布莉耶)6A_三角帽</Anneli_Oubliee_Tricorne.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_ValkyrieHeadpieceA.description>可染色。</Anneli_Oubliee_ValkyrieHeadpieceA.description>
+  <!-- EN: (Oubliee)6A_ValkyrieHeadpieceA -->
+  <Anneli_Oubliee_ValkyrieHeadpieceA.label>(乌布莉耶)6A_羽翼头饰A</Anneli_Oubliee_ValkyrieHeadpieceA.label>
+  <!-- EN: Feather dyeable. -->
+  <Anneli_Oubliee_ValkyrieHeadpieceB.description>羽毛可染色。</Anneli_Oubliee_ValkyrieHeadpieceB.description>
+  <!-- EN: (Oubliee)6A_ValkyrieHeadpieceB -->
+  <Anneli_Oubliee_ValkyrieHeadpieceB.label>(乌布莉耶)6A_羽翼头饰B</Anneli_Oubliee_ValkyrieHeadpieceB.label>
+</LanguageData>

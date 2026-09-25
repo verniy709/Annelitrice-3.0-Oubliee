@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Bandage.description>可染色。</Anneli_Oubliee_Bandage.description>
+  <!-- EN: (Oubliee)6BC_Bandage -->
+  <Anneli_Oubliee_Bandage.label>(乌布莉耶)6BC_绷带</Anneli_Oubliee_Bandage.label>
+  <!-- EN: Not dyeable. -->
+  <Anneli_Oubliee_BloodyBandage.description>不可染色。</Anneli_Oubliee_BloodyBandage.description>
+  <!-- EN: (Oubliee)6BC_BloodyBandage -->
+  <Anneli_Oubliee_BloodyBandage.label>(乌布莉耶)6BC_带血绷带</Anneli_Oubliee_BloodyBandage.label>
+</LanguageData>

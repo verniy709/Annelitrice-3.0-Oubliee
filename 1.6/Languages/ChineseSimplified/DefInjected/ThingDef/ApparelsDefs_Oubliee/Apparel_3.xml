@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Apron.description>可染色。</Anneli_Oubliee_Apron.description>
+  <!-- EN: (Oubliee)3_Apron -->
+  <Anneli_Oubliee_Apron.label>(乌布莉耶)3_围裙</Anneli_Oubliee_Apron.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Coat.description>可染色。</Anneli_Oubliee_Coat.description>
+  <!-- EN: (Oubliee)3_Coat -->
+  <Anneli_Oubliee_Coat.label>(乌布莉耶)3_外套</Anneli_Oubliee_Coat.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Dolman.description>可染色。</Anneli_Oubliee_Dolman.description>
+  <!-- EN: (Oubliee)3_Dolman -->
+  <Anneli_Oubliee_Dolman.label>(乌布莉耶)3_轻骑兵夹克</Anneli_Oubliee_Dolman.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_GreatCoat.description>可染色。</Anneli_Oubliee_GreatCoat.description>
+  <!-- EN: (Oubliee)3_GreatCoat -->
+  <Anneli_Oubliee_GreatCoat.label>(乌布莉耶)3_大衣</Anneli_Oubliee_GreatCoat.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_HabitCourt.description>可染色。</Anneli_Oubliee_HabitCourt.description>
+  <!-- EN: (Oubliee)3_HabitCourt -->
+  <Anneli_Oubliee_HabitCourt.label>(乌布莉耶)3_贵族外套</Anneli_Oubliee_HabitCourt.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_HabitLongeA.description>可染色。</Anneli_Oubliee_HabitLongeA.description>
+  <!-- EN: (Oubliee)3_HabitLongeA -->
+  <Anneli_Oubliee_HabitLongeA.label>(乌布莉耶)3_燕尾长礼服A</Anneli_Oubliee_HabitLongeA.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_HabitLongeB.description>可染色。</Anneli_Oubliee_HabitLongeB.description>
+  <!-- EN: (Oubliee)3_HabitLongeB -->
+  <Anneli_Oubliee_HabitLongeB.label>(乌布莉耶)3_燕尾长礼服B</Anneli_Oubliee_HabitLongeB.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_HabitLongeC.description>可染色。</Anneli_Oubliee_HabitLongeC.description>
+  <!-- EN: (Oubliee)3_HabitLongeC -->
+  <Anneli_Oubliee_HabitLongeC.label>(乌布莉耶)3_燕尾长礼服C</Anneli_Oubliee_HabitLongeC.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_HabitLongeD.description>可染色。</Anneli_Oubliee_HabitLongeD.description>
+  <!-- EN: (Oubliee)3_HabitLongeD -->
+  <Anneli_Oubliee_HabitLongeD.label>(乌布莉耶)3_燕尾长礼服D</Anneli_Oubliee_HabitLongeD.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_HabitVesteA.description>可染色。</Anneli_Oubliee_HabitVesteA.description>
+  <!-- EN: (Oubliee)3_HabitVesteA -->
+  <Anneli_Oubliee_HabitVesteA.label>(乌布莉耶)3_燕尾服A</Anneli_Oubliee_HabitVesteA.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_HabitVesteB.description>可染色。</Anneli_Oubliee_HabitVesteB.description>
+  <!-- EN: (Oubliee)3_HabitVesteB -->
+  <Anneli_Oubliee_HabitVesteB.label>(乌布莉耶)3_燕尾服B</Anneli_Oubliee_HabitVesteB.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_OverdressA.description>可染色。</Anneli_Oubliee_OverdressA.description>
+  <!-- EN: (Oubliee)3_OverdressA -->
+  <Anneli_Oubliee_OverdressA.label>(乌布莉耶)3_外裙A</Anneli_Oubliee_OverdressA.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_OverdressB.description>可染色。</Anneli_Oubliee_OverdressB.description>
+  <!-- EN: (Oubliee)3_OverdressB -->
+  <Anneli_Oubliee_OverdressB.label>(乌布莉耶)3_外裙B</Anneli_Oubliee_OverdressB.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_SpencerA.description>可染色。</Anneli_Oubliee_SpencerA.description>
+  <!-- EN: (Oubliee)3_SpencerA -->
+  <Anneli_Oubliee_SpencerA.label>(乌布莉耶)3_短外套A</Anneli_Oubliee_SpencerA.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_SpencerB.description>可染色。</Anneli_Oubliee_SpencerB.description>
+  <!-- EN: (Oubliee)3_SpencerB -->
+  <Anneli_Oubliee_SpencerB.label>(乌布莉耶)3_短外套B</Anneli_Oubliee_SpencerB.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_SpencerC.description>可染色。</Anneli_Oubliee_SpencerC.description>
+  <!-- EN: (Oubliee)3_SpencerC -->
+  <Anneli_Oubliee_SpencerC.label>(乌布莉耶)3_短外套C</Anneli_Oubliee_SpencerC.label>
+  <!-- EN: Dyeable. -->
+  <Anneli_Oubliee_Vest.description>可染色。</Anneli_Oubliee_Vest.description>
+  <!-- EN: (Oubliee)3_Vest -->
+  <Anneli_Oubliee_Vest.label>(乌布莉耶)3_马甲</Anneli_Oubliee_Vest.label>
+</LanguageData>

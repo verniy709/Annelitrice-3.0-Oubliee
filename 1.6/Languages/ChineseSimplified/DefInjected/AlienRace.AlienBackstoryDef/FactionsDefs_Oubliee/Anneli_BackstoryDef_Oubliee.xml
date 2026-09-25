@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: [PAWN_nameDef] brags that her aunt’s servant's dog trainer’s sister’s boss is an officer in the General Staff. -->
+  <Anneli_Oubliee_Aristocrat.baseDesc>[PAWN_nameDef]逢人便吹嘘，她姨妈家的仆人的训狗师的姐姐的老板，是总参谋部的一名军官。</Anneli_Oubliee_Aristocrat.baseDesc>
+  <!-- EN: Mooching Aristocrat -->
+  <Anneli_Oubliee_Aristocrat.title>蹭吃蹭喝的贵族</Anneli_Oubliee_Aristocrat.title>
+  <!-- EN: Aristocrat -->
+  <Anneli_Oubliee_Aristocrat.titleShort>贵族</Anneli_Oubliee_Aristocrat.titleShort>
+  <!-- EN: [PAWN_nameDef] acts as an alien ecologist. What she rides is no 'horse,' but an extraterrestrial beast that happens to look like one. -->
+  <Anneli_Oubliee_Cavalrywoman.baseDesc>[PAWN_nameDef]自诩为外星生态学家。她骑的可不是什么“马”，而是一种碰巧长得像马的外星生物。</Anneli_Oubliee_Cavalrywoman.baseDesc>
+  <!-- EN: Outworld Cavalrywoman -->
+  <Anneli_Oubliee_Cavalrywoman.title>异界骑兵</Anneli_Oubliee_Cavalrywoman.title>
+  <!-- EN: Cavalrywoman -->
+  <Anneli_Oubliee_Cavalrywoman.titleShort>骑兵</Anneli_Oubliee_Cavalrywoman.titleShort>
+  <!-- EN: [PAWN_nameDef] does her utmost to scavenge anything that can be thrown into the cauldron, occasionally pushing her luck in the infirmary. Yes, it’s exactly what you’re thinking. -->
+  <Anneli_Oubliee_Chef.baseDesc>[PAWN_nameDef]竭尽全力搜罗一切能扔进大锅里的东西，偶尔还会跑去医务室碰碰运气。没错，就是你想的那样。</Anneli_Oubliee_Chef.baseDesc>
+  <!-- EN: Dutiful Chef -->
+  <Anneli_Oubliee_Chef.title>过分尽职的厨师</Anneli_Oubliee_Chef.title>
+  <!-- EN: Chef -->
+  <Anneli_Oubliee_Chef.titleShort>厨师</Anneli_Oubliee_Chef.titleShort>
+  <!-- EN: [PAWN_nameDef] is left to handle all the chores that everyone else is too lazy to bother with. After all, only the uncoolest misfits in the regiment carry an instrument instead of a rifle or a saber. -->
+  <Anneli_Oubliee_Drummer.baseDesc>[PAWN_nameDef]被留下来处理所有其他人懒得碰的杂活。毕竟，在军团里只有最不酷、最不合群的家伙才会扛着乐器，而不是步枪或佩剑。</Anneli_Oubliee_Drummer.baseDesc>
+  <!-- EN: Ostracized Drummer -->
+  <Anneli_Oubliee_Drummer.title>不受欢迎的鼓手</Anneli_Oubliee_Drummer.title>
+  <!-- EN: Drummer -->
+  <Anneli_Oubliee_Drummer.titleShort>鼓手</Anneli_Oubliee_Drummer.titleShort>
+  <!-- EN: [PAWN_nameDef] dreams of trajectories, eyes her dinner pot as potential ammunition, and plots firing positions while marching. -->
+  <Anneli_Oubliee_Gunner.baseDesc>[PAWN_nameDef]做梦都在计算弹道，看着自己的饭锅也会琢磨能不能拿来当炮弹，就连行军时都在盘算哪里适合架炮。</Anneli_Oubliee_Gunner.baseDesc>
+  <!-- EN: Obsessive Gunner -->
+  <Anneli_Oubliee_Gunner.title>沉迷的炮手</Anneli_Oubliee_Gunner.title>
+  <!-- EN: Gunner -->
+  <Anneli_Oubliee_Gunner.titleShort>炮手</Anneli_Oubliee_Gunner.titleShort>
+  <!-- EN: In an army made up of vagrants and lunatics, the gunsmith must be at least calm and honest,  if they want the cannons to cook off a few less times. -->
+  <Anneli_Oubliee_Gunsmith.baseDesc>在一支由流浪汉和疯子组成的军队里，枪匠至少得冷静又诚实——前提是她们还想让大炮少炸膛几次。</Anneli_Oubliee_Gunsmith.baseDesc>
+  <!-- EN: Dependable Gunsmith -->
+  <Anneli_Oubliee_Gunsmith.title>可靠的枪匠</Anneli_Oubliee_Gunsmith.title>
+  <!-- EN: Gunsmith -->
+  <Anneli_Oubliee_Gunsmith.titleShort>枪匠</Anneli_Oubliee_Gunsmith.titleShort>
+  <!-- EN: [PAWN_nameDef] is the most reckless soul anyone could ever imagine. She will respawn at the rally point 5 seconds after the battle begins. -->
+  <Anneli_Oubliee_Infantrywoman.baseDesc>[PAWN_nameDef]大概是所有人能想象出的最不要命的家伙。战斗开始5秒后，她就会在集结点重生。</Anneli_Oubliee_Infantrywoman.baseDesc>
+  <!-- EN: Death-Seeking Infantrywoman -->
+  <Anneli_Oubliee_Infantrywoman.title>寻死的步兵</Anneli_Oubliee_Infantrywoman.title>
+  <!-- EN: Infantrywoman -->
+  <Anneli_Oubliee_Infantrywoman.titleShort>步兵</Anneli_Oubliee_Infantrywoman.titleShort>
+  <!-- EN: [PAWN_nameDef]'s predecessor was reassigned to clean the stables after refusing to supply the frontline troops with their only viable ration. -->
+  <Anneli_Oubliee_Merchant.baseDesc>[PAWN_nameDef]的前任因为拒绝给前线士兵供应他们唯一还能下咽的口粮，被调去打扫马厩了。</Anneli_Oubliee_Merchant.baseDesc>
+  <!-- EN: Piquette Vivandière -->
+  <Anneli_Oubliee_Merchant.title>劣酒随军女商</Anneli_Oubliee_Merchant.title>
+  <!-- EN: Vivandière -->
+  <Anneli_Oubliee_Merchant.titleShort>随军女商</Anneli_Oubliee_Merchant.titleShort>
+  <!-- EN: [PAWN_nameDef] insists on providing medical aid to annelitrice who absolutely do not need it. Frontline troops would kill themselves to respawn than risk falling into her clutches. -->
+  <Anneli_Oubliee_Nun.baseDesc>[PAWN_nameDef]坚持要给那些根本不需要治疗的安妮莉特丝提供医疗援助。前线士兵宁愿当场自杀等着重生，也不愿冒险落到她手里。</Anneli_Oubliee_Nun.baseDesc>
+  <!-- EN: Benevolent Nun -->
+  <Anneli_Oubliee_Nun.title>仁慈修女</Anneli_Oubliee_Nun.title>
+  <!-- EN: Nun -->
+  <Anneli_Oubliee_Nun.titleShort>修女</Anneli_Oubliee_Nun.titleShort>
+  <!-- EN: [PAWN_nameDef] remains under the impression that this is the Ahmislan medieval fantasy theme, mistaking the firearm for a magic staff that casts fire. -->
+  <Anneli_Oubliee_Peasant.baseDesc>[PAWN_nameDef]至今仍坚信这里是阿赫米斯兰的中世纪幻想主题区，还把火器当成了能够施放火焰魔法的法杖。</Anneli_Oubliee_Peasant.baseDesc>
+  <!-- EN: Misplaced Peasant -->
+  <Anneli_Oubliee_Peasant.title>走错地方的农民</Anneli_Oubliee_Peasant.title>
+  <!-- EN: Peasant -->
+  <Anneli_Oubliee_Peasant.titleShort>农民</Anneli_Oubliee_Peasant.titleShort>
+  <!-- EN: [PAWN_nameDef] mines saltpeter, clears paths, and constructs fortifications. She does not love the labor; she does it because only sappers are allowed to wear funny fake beards. -->
+  <Anneli_Oubliee_Sapper.baseDesc>[PAWN_nameDef]负责开采硝石、清理道路和修筑工事。她并不热爱劳动，只是因为只有工兵才被允许戴那些滑稽的假胡子。</Anneli_Oubliee_Sapper.baseDesc>
+  <!-- EN: Indefatigable Sapper -->
+  <Anneli_Oubliee_Sapper.title>不知疲倦的工兵</Anneli_Oubliee_Sapper.title>
+  <!-- EN: Sapper -->
+  <Anneli_Oubliee_Sapper.titleShort>工兵</Anneli_Oubliee_Sapper.titleShort>
+  <!-- EN: [PAWN_nameDef] would dispatch her least capable subordinates to swift deaths, like tossing a piece of deadwood into a bonfire. -->
+  <Anneli_Oubliee_Sergeant.baseDesc>[PAWN_nameDef]会把最无能的下属迅速送去送死，就像把一截枯木扔进篝火。</Anneli_Oubliee_Sergeant.baseDesc>
+  <!-- EN: Ruthless Sergeant -->
+  <Anneli_Oubliee_Sergeant.title>冷酷军士</Anneli_Oubliee_Sergeant.title>
+  <!-- EN: Sergeant -->
+  <Anneli_Oubliee_Sergeant.titleShort>军士</Anneli_Oubliee_Sergeant.titleShort>
+</LanguageData>

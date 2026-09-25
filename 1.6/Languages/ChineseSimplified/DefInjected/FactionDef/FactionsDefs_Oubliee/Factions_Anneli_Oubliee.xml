@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: The Legion Oubliee trudges across the world. In their own eyes, their uniforms are splendid, their banners held high, their bayonets gleaming—they are the greatest and most glorious force upon this land. Yet to those in the civilized world who delight in recording curiosities, they are nothing more than a band of ragged vagrants, surviving on rainwater and baked flour, with a penchant for violence.\n\nThe Legion venerates a legendary figure known as Napoleon. Although a few stubborn historians remain skeptical of such claims, the oral traditions of the Legion remember Napoleon as the greatest pastry chef in the world. He won multiple “Austerlitz Culinary Championship” with original desserts bearing his name. Not only that, he was also a master of fashion, having compiled a canonical work titled Napoleon Magazine. The original text has long been lost, but surviving fragments describe fashionable epaulettes, tight trousers, and hats made of animal fur.\n\nDuring periods of rest, the marshals would often gesture toward the hazy horizon and solemnly declare: “In his later years, Napoleon retired to a place called ‘Muskou,’ where he concealed the candies, wisdom, and wealth he had amassed over a lifetime. To join the Legion is to share in this treasure one day.” While the promise of riches has indeed drawn a few recruits, most care little for it. Instead, they are captivated by the Legion’s inexplicable sense of pride and its peculiar attire, striding with heads held high along muddy paths. -->
+  <Anneli_Faction_Oubliee.description>乌布莉耶军团跋涉于世界各地。在她们自己眼中，制服华丽、旌旗高举、刺刀闪耀——她们是这片土地上最伟大、最光荣的军队。然而在文明世界那些热衷记录奇闻轶事的围观者看来，所谓的军团不过是一群衣衫褴褛、靠雨水和烤面粉度日、还格外喜欢诉诸暴力的流浪汉。\n\n军团崇拜一位名叫拿破仑的传奇人物。尽管少数顽固的历史学家至今仍对此表示怀疑，但在军团代代相传的口述历史中，拿破仑是全世界最伟大的糕点师。他曾凭借以自己名字命名的原创甜点，多次赢得“奥斯特里茨烹饪大赛”。不仅如此，他还是一位时尚大师，编纂过一部名为《拿破仑杂志》的经典著作。原书早已失传，但残存的片段仍记载着时髦的肩章、紧身长裤，以及用动物毛皮制成的帽子。\n\n休整期间，元帅们常常指向烟雾朦胧的地平线，郑重其事地宣称：“拿破仑晚年隐退到一个名叫‘摩斯尻’的地方，把他一生积攒的糖果、智慧和财富都藏在了那里。加入军团，就意味着在某天分享这份宝藏。”上司许诺的财富确实吸引了少数新兵，但大多数军团成员对此并不怎么在意。真正让她们在意的是军团那种莫名其妙的骄傲感，以及那些古怪的服饰——这些驱使着她们昂首挺胸地走在泥泞小路上。</Anneli_Faction_Oubliee.description>
+  <!-- EN: Forged Legion -->
+  <Anneli_Faction_Oubliee.fixedName>伪造的军团</Anneli_Faction_Oubliee.fixedName>
+  <!-- EN: Anneli Faction Legion Oubliee -->
+  <Anneli_Faction_Oubliee.label>安妮莉特丝乌布莉耶</Anneli_Faction_Oubliee.label>
+  <!-- EN: Marechale -->
+  <Anneli_Faction_Oubliee.leaderTitle>元帅</Anneli_Faction_Oubliee.leaderTitle>
+  <!-- EN: Annelitrice -->
+  <Anneli_Faction_Oubliee.pawnSingular>安妮莉特丝</Anneli_Faction_Oubliee.pawnSingular>
+  <!-- EN: Annelitrice -->
+  <Anneli_Faction_Oubliee.pawnsPlural>安妮莉特丝</Anneli_Faction_Oubliee.pawnsPlural>
+</LanguageData>

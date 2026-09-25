@@ -626,7 +626,6 @@
 	</PawnKindDef>
 
 	<PawnKindDef Name="Anneli_Oubliee_FollowerB_KindBase" ParentName="Anneli_Oubliee_KindBase" Abstract="True">
-		<label>Oubliee Camp Follower</label>
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
@@ -651,6 +650,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_FollowerB_KindBase">
 		<defName>Anneli_Oubliee_FollowerB_Red</defName>
+		<label>Oubliee Camp Follower</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelDef>Anneli_Oubliee_SkirtB</apparelDef>
@@ -679,6 +679,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_FollowerB_KindBase">
 		<defName>Anneli_Oubliee_FollowerB_Green</defName>
+		<label>Oubliee Camp Follower</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelDef>Anneli_Oubliee_SkirtB</apparelDef>
@@ -707,6 +708,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_FollowerB_KindBase">
 		<defName>Anneli_Oubliee_FollowerB_Blue</defName>
+		<label>Oubliee Camp Follower</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelDef>Anneli_Oubliee_SkirtB</apparelDef>
@@ -1003,7 +1005,6 @@
 	</PawnKindDef>
 
 	<PawnKindDef Name="Anneli_Oubliee_AristocratA_KindBase" ParentName="Anneli_Oubliee_KindBase" Abstract="True">
-		<label>Oubliee Aristocrat</label>
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
@@ -1030,6 +1031,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_AristocratA_KindBase">
 		<defName>Anneli_Oubliee_AristocratA_Red</defName>
+		<label>Oubliee Aristocrat</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelLayer>Shell</apparelLayer>
@@ -1058,6 +1060,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_AristocratA_KindBase">
 		<defName>Anneli_Oubliee_AristocratA_Green</defName>
+		<label>Oubliee Aristocrat</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelLayer>Shell</apparelLayer>
@@ -1086,6 +1089,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_AristocratA_KindBase">
 		<defName>Anneli_Oubliee_AristocratA_Blue</defName>
+		<label>Oubliee Aristocrat</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelLayer>Shell</apparelLayer>
@@ -1113,7 +1117,6 @@
 	</PawnKindDef>
 
 	<PawnKindDef Name="Anneli_Oubliee_AristocratB_KindBase" ParentName="Anneli_Oubliee_KindBase" Abstract="True">
-		<label>Oubliee Aristocrat</label>
 		<isFighter>True</isFighter>
 		<trader>true</trader>
 		<apparelRequired>
@@ -1139,6 +1142,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_AristocratB_KindBase">
 		<defName>Anneli_Oubliee_AristocratB_White</defName>
+		<label>Oubliee Aristocrat</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelDef>Anneli_Oubliee_LongDressB</apparelDef>
@@ -1167,6 +1171,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_AristocratB_KindBase">
 		<defName>Anneli_Oubliee_AristocratB_Red</defName>
+		<label>Oubliee Aristocrat</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelDef>Anneli_Oubliee_LongDressB</apparelDef>
@@ -1195,6 +1200,7 @@
 
 	<PawnKindDef ParentName="Anneli_Oubliee_AristocratB_KindBase">
 		<defName>Anneli_Oubliee_AristocratB_Blue</defName>
+		<label>Oubliee Aristocrat</label>
 		<specificApparelRequirements>
 			<li>
 				<apparelDef>Anneli_Oubliee_LongDressB</apparelDef>
