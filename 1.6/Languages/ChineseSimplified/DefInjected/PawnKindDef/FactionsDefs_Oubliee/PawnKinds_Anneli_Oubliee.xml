@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: Oubliee Aristocrat -->
+  <Anneli_Oubliee_AristocratA_Blue.label>乌布莉耶贵族</Anneli_Oubliee_AristocratA_Blue.label>
+  <!-- EN: Oubliee Aristocrat -->
+  <Anneli_Oubliee_AristocratA_Green.label>乌布莉耶贵族</Anneli_Oubliee_AristocratA_Green.label>
+  <!-- EN: Oubliee Aristocrat -->
+  <Anneli_Oubliee_AristocratA_Red.label>乌布莉耶贵族</Anneli_Oubliee_AristocratA_Red.label>
+  <!-- EN: Oubliee Aristocrat -->
+  <Anneli_Oubliee_AristocratB_Blue.label>乌布莉耶贵族</Anneli_Oubliee_AristocratB_Blue.label>
+  <!-- EN: Oubliee Aristocrat -->
+  <Anneli_Oubliee_AristocratB_Red.label>乌布莉耶贵族</Anneli_Oubliee_AristocratB_Red.label>
+  <!-- EN: Oubliee Aristocrat -->
+  <Anneli_Oubliee_AristocratB_White.label>乌布莉耶贵族</Anneli_Oubliee_AristocratB_White.label>
+  <!-- EN: Oubliee Aristocrat -->
   <Anneli_Oubliee_AristocratC.label>乌布莉耶贵族</Anneli_Oubliee_AristocratC.label>
   <!-- EN: Oubliee Carabinier -->
   <Anneli_Oubliee_Carabinier.label>乌布莉耶卡宾骑兵</Anneli_Oubliee_Carabinier.label>
@@ -10,6 +22,12 @@
   <Anneli_Oubliee_Drummer.label>乌布莉耶鼓手</Anneli_Oubliee_Drummer.label>
   <!-- EN: Oubliee Camp Follower -->
   <Anneli_Oubliee_FollowerA.label>乌布莉耶随军人员</Anneli_Oubliee_FollowerA.label>
+  <!-- EN: Oubliee Camp Follower -->
+  <Anneli_Oubliee_FollowerB_Blue.label>乌布莉耶随军人员</Anneli_Oubliee_FollowerB_Blue.label>
+  <!-- EN: Oubliee Camp Follower -->
+  <Anneli_Oubliee_FollowerB_Green.label>乌布莉耶随军人员</Anneli_Oubliee_FollowerB_Green.label>
+  <!-- EN: Oubliee Camp Follower -->
+  <Anneli_Oubliee_FollowerB_Red.label>乌布莉耶随军人员</Anneli_Oubliee_FollowerB_Red.label>
   <!-- EN: Oubliee Camp Follower -->
   <Anneli_Oubliee_FollowerC.label>乌布莉耶随军人员</Anneli_Oubliee_FollowerC.label>
   <!-- EN: Oubliee Camp Follower -->
