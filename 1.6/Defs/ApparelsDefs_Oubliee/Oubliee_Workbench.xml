@@ -3,15 +3,18 @@
   <ThingDef ParentName="BenchBase">
     <defName>Anneli_Oubliee_Workbench</defName>
     <label>Anneli Oubliee Bench</label>
-    <description>ToDo.</description>
+    <description>A replica of Napoleon III’s wardrobe. Although the two Napoleons differed in more than a few respects, that did little to stop the legion from storming into the town museum, knocking aside the security staff and tour guides, and venerating the replica as a sacred relic.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Anneli_Oubliee_Workbench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(1.45,1.45)</drawSize>
+      <drawSize>(2.0,2.0)</drawSize>
+      <drawOffset>(0,0,0.30)</drawOffset>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
+    <uiIconScale>0.6</uiIconScale>
     <stuffCategories>
+      <li>Woody</li>
       <li>Stony</li>
       <li>Metallic</li>
     </stuffCategories>

@@ -4,7 +4,7 @@
 	<ResearchProjectDef>
 		<defName>Anneli_Oubliee_Apparel</defName>
 		<label>Annelitrice Oubliee Apparel</label>
-		<description>Annelitrice Oubliee Apparel.</description>
+		<description>A replica of Napoleon III’s wardrobe. Although the two Napoleons differed in more than a few respects, that did little to stop the legion from storming into the town museum, knocking aside the security staff and tour guides, and venerating the replica as a sacred relic..</description>
 		<baseCost>400</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>

@@ -20,6 +20,7 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+				<skipFlag>Anneli_Knee_Puttee</skipFlag>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -44,6 +45,7 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+				<skipFlag>Anneli_Knee_Puttee</skipFlag>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
