@@ -14,10 +14,10 @@
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Glove1_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
-				<drawOffsetSouth>(0, 1.712, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.596, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.712, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1.712, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.628, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.567, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.628, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.628, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<useBodyType>true</useBodyType>
@@ -35,10 +35,10 @@
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
-				<drawOffsetSouth>(0, 1.712, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1.712, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.712, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.596, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.628, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.628, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.628, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.567, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<useBodyType>true</useBodyType>
@@ -64,10 +64,10 @@
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Glove2_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
-				<drawOffsetSouth>(0, 1.750, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.577, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.750, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1.750, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.665, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.549, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.665, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.665, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<useBodyType>true</useBodyType>
@@ -85,10 +85,10 @@
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
-				<drawOffsetSouth>(0, 1.750, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1.750, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.750, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.577, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.665, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.665, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.665, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.549, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<useBodyType>true</useBodyType>

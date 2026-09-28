@@ -7,7 +7,7 @@
 		<forceWeaponQuality>Masterwork</forceWeaponQuality>
 		<defaultFactionType>Anneli_Faction_Oubliee</defaultFactionType>
 		<isFighter>true</isFighter>
-		<combatPower>140</combatPower>
+		<combatPower>150</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<backstoryFiltersOverride>
 			<li>
