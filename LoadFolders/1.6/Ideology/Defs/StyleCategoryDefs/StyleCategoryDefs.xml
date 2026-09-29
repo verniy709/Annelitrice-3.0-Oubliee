@@ -6,16 +6,28 @@
     <iconPath>Anneli_Factions/Anneli_Oubliee</iconPath>
     <thingDefStyles>
       <li>
-        <thingDef>MeleeWeapon_LongSword</thingDef>
-        <styleDef>Anneli_Oubliee_MeleeWeapon_LongSword</styleDef>
-      </li>
-      <li>
         <thingDef>Gun_BoltActionRifle</thingDef>
         <styleDef>Anneli_Oubliee_Gun_BoltActionRifle</styleDef>
       </li>
       <li>
         <thingDef>Gun_Revolver</thingDef>
         <styleDef>Anneli_Oubliee_Gun_Revolver</styleDef>
+      </li>
+      <li>
+        <thingDef>Gun_SniperRifle</thingDef>
+        <styleDef>Anneli_Oubliee_Gun_SniperRifle</styleDef>
+      </li>
+      <li>
+        <thingDef>MeleeWeapon_Gladius</thingDef>
+        <styleDef>Anneli_Oubliee_MeleeWeapon_Gladius</styleDef>
+      </li>
+      <li>
+        <thingDef>MeleeWeapon_LongSword</thingDef>
+        <styleDef>Anneli_Oubliee_MeleeWeapon_LongSword</styleDef>
+      </li>
+      <li>
+        <thingDef>Weapon_GrenadeFrag</thingDef>
+        <styleDef>Anneli_Oubliee_Weapon_GrenadeFrag</styleDef>
       </li>
     </thingDefStyles>
   </StyleCategoryDef>

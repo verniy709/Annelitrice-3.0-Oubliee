@@ -18,6 +18,7 @@
 			</li>
 		</backstoryFiltersOverride>
 		<weaponMoney>3000</weaponMoney>
+		<apparelMoney>2000~4000</apparelMoney>
 		<techHediffsChance>0.01</techHediffsChance>
 		<techHediffsMoney>1000</techHediffsMoney>
 		<techHediffsTags>
@@ -94,9 +95,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_General</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_DecoratedPistol</li>
+			<li>Anneli_Oubliee_Gun_Revolver</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -131,9 +131,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_General</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_DecoratedPistol</li>
+			<li>Anneli_Oubliee_Gun_Revolver</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -164,9 +163,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Officer</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_DecoratedSword</li>
+			<li>Anneli_Oubliee_MeleeWeapon_LongSword</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -185,9 +183,8 @@
 			<li>Anneli_Oubliee_MaidenA</li>
 			<li>Anneli_Oubliee_RegimentalFlag</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_LongSword</li>
+			<li>Anneli_Oubliee_MeleeWeapon_LongSword</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -218,9 +215,8 @@
 			<li>Anneli_Oubliee_MaidenB</li>
 			<li>Anneli_Oubliee_RegimentalFlag</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_DecoratedSword</li>
+			<li>Anneli_Oubliee_MeleeWeapon_Gladius</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -249,9 +245,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Sergeant</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_EliteRifle</li>
+			<li>Anneli_Oubliee_Gun_SniperRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -292,9 +287,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Guard</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_EliteRifle</li>
+			<li>Anneli_Oubliee_Weapon_GrenadeFrag</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -356,9 +350,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Private</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Rifle</li>
+			<li>Anneli_Oubliee_Gun_SniperRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -396,9 +389,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Drummer</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Carbine</li>
+			<li>Anneli_Oubliee_Gun_BoltActionRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -448,9 +440,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Militia</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Rifle</li>
+			<li>Anneli_Oubliee_Gun_BoltActionRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -510,9 +501,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Hussar</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Saber</li>
+			<li>Anneli_Oubliee_MeleeWeapon_Gladius</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -546,9 +536,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Cuirassier</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_LongSword</li>
+			<li>Anneli_Oubliee_MeleeWeapon_LongSword</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -593,9 +582,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_Carabinier</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Carbine</li>
+			<li>Anneli_Oubliee_Gun_BoltActionRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -619,9 +607,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_FollowerA</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Rifle</li>
+			<li>Anneli_Oubliee_Gun_SniperRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -642,9 +629,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_FollowerB</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Pistol</li>
+			<li>Anneli_Oubliee_Gun_Revolver</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -775,9 +761,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_FollowerC</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Pistol</li>
+			<li>Anneli_Oubliee_Gun_BoltActionRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -801,7 +786,6 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_FollowerD</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
 			<li>Anneli_Oubliee_Pistol</li>
 		</weaponTags>
@@ -854,9 +838,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_FollowerE</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Rifle</li>
+			<li>Anneli_Oubliee_Gun_BoltActionRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -939,9 +922,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_NunA</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Pistol</li>
+			<li>Anneli_Oubliee_Gun_Revolver</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -998,9 +980,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_NunB</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_Pistol</li>
+			<li>Anneli_Oubliee_Gun_Revolver</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -1023,9 +1004,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_AristocratA</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_DecoratedPistol</li>
+			<li>Anneli_Oubliee_Gun_Revolver</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -1134,9 +1114,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_AristocratB</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_DecoratedPistol</li>
+			<li>Anneli_Oubliee_MeleeWeapon_Gladius</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -1247,9 +1226,8 @@
 		<apparelTags>
 			<li>Anneli_Oubliee_AristocratC</li>
 		</apparelTags>
-		<apparelMoney>2000~4000</apparelMoney>
 		<weaponTags>
-			<li>Anneli_Oubliee_DecoratedPistol</li>
+			<li>Anneli_Oubliee_MeleeWeapon_LongSword</li>
 		</weaponTags>
 	</PawnKindDef>
 
