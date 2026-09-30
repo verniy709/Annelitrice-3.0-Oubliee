@@ -3,7 +3,7 @@
 	<ThingStyleDef>
 		<defName>Anneli_Oubliee_Gun_BoltActionRifle</defName>
 		<graphicData>
-			<texPath>Anneli_Style/Weapon/Anneli_Oubliee_Gun_BoltActionRifle</texPath>
+			<texPath>Anneli_Styles/Weapons/Anneli_Oubliee_Gun_BoltActionRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -12,7 +12,7 @@
 	<ThingStyleDef>
 		<defName>Anneli_Oubliee_Gun_Revolver</defName>
 		<graphicData>
-			<texPath>Anneli_Style/Weapon/Anneli_Oubliee_Gun_Revolver</texPath>
+			<texPath>Anneli_Styles/Weapons/Anneli_Oubliee_Gun_Revolver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -21,7 +21,7 @@
 	<ThingStyleDef>
 		<defName>Anneli_Oubliee_Gun_SniperRifle</defName>
 		<graphicData>
-			<texPath>Anneli_Style/Weapon/Anneli_Oubliee_Gun_SniperRifle</texPath>
+			<texPath>Anneli_Styles/Weapons/Anneli_Oubliee_Gun_SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -30,7 +30,7 @@
 	<ThingStyleDef>
 		<defName>Anneli_Oubliee_MeleeWeapon_Gladius</defName>
 		<graphicData>
-			<texPath>Anneli_Style/Weapon/Anneli_Oubliee_MeleeWeapon_Gladius</texPath>
+			<texPath>Anneli_Styles/Weapons/Anneli_Oubliee_MeleeWeapon_Gladius</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -39,7 +39,7 @@
 	<ThingStyleDef>
 		<defName>Anneli_Oubliee_MeleeWeapon_LongSword</defName>
 		<graphicData>
-			<texPath>Anneli_Style/Weapon/Anneli_Oubliee_MeleeWeapon_LongSword</texPath>
+			<texPath>Anneli_Styles/Weapons/Anneli_Oubliee_MeleeWeapon_LongSword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -48,7 +48,7 @@
 	<ThingStyleDef>
 		<defName>Anneli_Oubliee_Weapon_GrenadeFrag</defName>
 		<graphicData>
-			<texPath>Anneli_Style/Weapon/Anneli_Oubliee_Weapon_GrenadeFrag</texPath>
+			<texPath>Anneli_Styles/Weapons/Anneli_Oubliee_Weapon_GrenadeFrag</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
