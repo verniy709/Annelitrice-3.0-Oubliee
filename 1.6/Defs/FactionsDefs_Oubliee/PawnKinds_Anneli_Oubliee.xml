@@ -351,7 +351,7 @@
 			<li>Anneli_Oubliee_Private</li>
 		</apparelTags>
 		<weaponTags>
-			<li>Anneli_Oubliee_Gun_SniperRifle</li>
+			<li>Anneli_Oubliee_Gun_BoltActionRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -390,7 +390,7 @@
 			<li>Anneli_Oubliee_Drummer</li>
 		</apparelTags>
 		<weaponTags>
-			<li>Anneli_Oubliee_Gun_BoltActionRifle</li>
+			<li>Anneli_Oubliee_Gun_SniperRifle</li>
 		</weaponTags>
 	</PawnKindDef>
 
