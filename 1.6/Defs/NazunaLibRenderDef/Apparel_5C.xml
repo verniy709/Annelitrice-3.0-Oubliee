@@ -21,10 +21,10 @@
 				<meshType>Body</meshType>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<useBodyType>true</useBodyType>
-				<!-- <isSleeve>true</isSleeve>
+				<isSleeve>true</isSleeve>
 				<actionManager>
 					<def>Anneli_Oubliee_LaceGloves_Left</def>
-				</actionManager> -->
+				</actionManager>
 			</li>
 			<li>
 				<prefix>
@@ -42,10 +42,10 @@
 				<meshType>Body</meshType>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<useBodyType>true</useBodyType>
-				<!-- <isSleeve>true</isSleeve>
+				<isSleeve>true</isSleeve>
 				<actionManager>
 					<def>Anneli_Oubliee_LaceGloves_Right</def>
-				</actionManager> -->
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -71,10 +71,10 @@
 				<meshType>Body</meshType>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<useBodyType>true</useBodyType>
-				<!-- <isSleeve>true</isSleeve>
+				<isSleeve>true</isSleeve>
 				<actionManager>
 					<def>Anneli_Oubliee_RiderGloves_Left</def>
-				</actionManager> -->
+				</actionManager>
 			</li>
 			<li>
 				<prefix>
@@ -92,10 +92,10 @@
 				<meshType>Body</meshType>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<useBodyType>true</useBodyType>
-				<!-- <isSleeve>true</isSleeve>
+				<isSleeve>true</isSleeve>
 				<actionManager>
 					<def>Anneli_Oubliee_RiderGloves_Right</def>
-				</actionManager> -->
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
