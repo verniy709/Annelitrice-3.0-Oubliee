@@ -603,6 +603,17 @@
 				<apparelLayer>Middle</apparelLayer>
 				<requiredTag>Anneli_Oubliee_FollowerA</requiredTag>
 			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_RiderGloves</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
 			<li>Anneli_Oubliee_FollowerA</li>
@@ -757,6 +768,17 @@
 					</options>
 				</colorGenerator>
 			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_RiderGloves</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
 		</specificApparelRequirements>
 		<apparelTags>
 			<li>Anneli_Oubliee_FollowerC</li>
@@ -825,6 +847,17 @@
 			</li>
 			<li>
 				<apparelDef>Anneli_Oubliee_VestLiner</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(50,45,50,255)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<apparelDef>Anneli_Oubliee_RiderGloves</apparelDef>
 				<colorGenerator Class="ColorGenerator_Options">
 					<options>
 						<li>
