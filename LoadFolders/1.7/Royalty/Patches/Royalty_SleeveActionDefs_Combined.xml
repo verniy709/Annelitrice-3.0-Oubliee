@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Keep this file in its conditional load folder. The sequence completes each new behavior before defs are loaded. -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!-- Job list: add new empty values to all listed sleeves and gloves. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Oubliee_LaceGloves_Left" or defName="Anneli_Oubliee_LaceGloves_Right" or defName="Anneli_Oubliee_RiderGloves_Left" or defName="Anneli_Oubliee_RiderGloves_Right"]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>Reign</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>LinkPsylinkable</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BestowingCeremony</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <!-- Common link settings: only the new empty values. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Oubliee_LaceGloves_Left" or defName="Anneli_Oubliee_LaceGloves_Right" or defName="Anneli_Oubliee_RiderGloves_Left" or defName="Anneli_Oubliee_RiderGloves_Right"]/behaviors/li/value[not(*)]</xpath>
+                <value>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Oubliee_LaceGloves, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Oubliee_LaceGloves_Left" or defName="Anneli_Oubliee_LaceGloves_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Gloves/LaceGloves/</exPath>
+                    <textures>
+                        <li>Anneli_Oubliee_LaceGloves</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Oubliee_RiderGloves, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Oubliee_RiderGloves_Left" or defName="Anneli_Oubliee_RiderGloves_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Gloves/RiderGloves/</exPath>
+                    <textures>
+                        <li>Anneli_Oubliee_RiderGloves</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Arm link: Left. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Oubliee_LaceGloves_Left" or defName="Anneli_Oubliee_RiderGloves_Left"]/behaviors/li/value[not(textureLevelsName)]</xpath>
+                <value>
+                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+                </value>
+            </li>
+            <!-- Arm link: Right. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Oubliee_LaceGloves_Right" or defName="Anneli_Oubliee_RiderGloves_Right"]/behaviors/li/value[not(textureLevelsName)]</xpath>
+                <value>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
