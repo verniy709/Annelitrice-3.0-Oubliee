@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[defName="Entities"]/pawnGroupMakers</xpath>
+		<value>
+			<li>
+				<!-- Anneli_Oubliee_Shambler -->
+				<kindDef>Shamblers</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<Anneli_Oubliee_Shambler_Leader>1</Anneli_Oubliee_Shambler_Leader>
+					<Anneli_Oubliee_Shambler_General>3</Anneli_Oubliee_Shambler_General>
+					<Anneli_Oubliee_Shambler_Officer>3</Anneli_Oubliee_Shambler_Officer>
+					<Anneli_Oubliee_Shambler_MaidenA>3</Anneli_Oubliee_Shambler_MaidenA>
+					<Anneli_Oubliee_Shambler_MaidenB>3</Anneli_Oubliee_Shambler_MaidenB>
+					<Anneli_Oubliee_Shambler_Sergeant>5</Anneli_Oubliee_Shambler_Sergeant>
+					<Anneli_Oubliee_Shambler_Guard>5</Anneli_Oubliee_Shambler_Guard>
+					<Anneli_Oubliee_Shambler_Private>8</Anneli_Oubliee_Shambler_Private>
+					<Anneli_Oubliee_Shambler_Drummer>2</Anneli_Oubliee_Shambler_Drummer>
+					<Anneli_Oubliee_Shambler_Militia>5</Anneli_Oubliee_Shambler_Militia>
+					<Anneli_Oubliee_Shambler_Hussar>3</Anneli_Oubliee_Shambler_Hussar>
+					<Anneli_Oubliee_Shambler_Cuirassier>3</Anneli_Oubliee_Shambler_Cuirassier>
+					<Anneli_Oubliee_Shambler_Carabinier>3</Anneli_Oubliee_Shambler_Carabinier>
+					<Anneli_Oubliee_Shambler_FollowerA>2</Anneli_Oubliee_Shambler_FollowerA>
+					<Anneli_Oubliee_Shambler_FollowerB_Red>1</Anneli_Oubliee_Shambler_FollowerB_Red>
+					<Anneli_Oubliee_Shambler_FollowerB_Green>1</Anneli_Oubliee_Shambler_FollowerB_Green>
+					<Anneli_Oubliee_Shambler_FollowerB_Blue>1</Anneli_Oubliee_Shambler_FollowerB_Blue>
+					<Anneli_Oubliee_Shambler_FollowerC>3</Anneli_Oubliee_Shambler_FollowerC>
+					<Anneli_Oubliee_Shambler_FollowerD>3</Anneli_Oubliee_Shambler_FollowerD>
+					<Anneli_Oubliee_Shambler_FollowerE>2</Anneli_Oubliee_Shambler_FollowerE>
+					<Anneli_Oubliee_Shambler_NunA>4</Anneli_Oubliee_Shambler_NunA>
+					<Anneli_Oubliee_Shambler_NunB>4</Anneli_Oubliee_Shambler_NunB>
+					<Anneli_Oubliee_Shambler_AristocratA_Red>1</Anneli_Oubliee_Shambler_AristocratA_Red>
+					<Anneli_Oubliee_Shambler_AristocratA_Green>1</Anneli_Oubliee_Shambler_AristocratA_Green>
+					<Anneli_Oubliee_Shambler_AristocratA_Blue>1</Anneli_Oubliee_Shambler_AristocratA_Blue>
+					<Anneli_Oubliee_Shambler_AristocratB_White>1</Anneli_Oubliee_Shambler_AristocratB_White>
+					<Anneli_Oubliee_Shambler_AristocratB_Red>1</Anneli_Oubliee_Shambler_AristocratB_Red>
+					<Anneli_Oubliee_Shambler_AristocratB_Blue>1</Anneli_Oubliee_Shambler_AristocratB_Blue>
+					<Anneli_Oubliee_Shambler_AristocratC>2</Anneli_Oubliee_Shambler_AristocratC>
+				</options>
+			</li>
+		</value>
+	</Operation>
+</Patch>
